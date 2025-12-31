@@ -1,0 +1,135 @@
+<svg width="800" height="1400" viewBox="0 0 800 1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500;700;900&amp;display=swap');
+      .title { font-family: 'Noto Sans SC', sans-serif; font-size: 42px; font-weight: 900; fill: #ffffff; text-anchor: middle; }
+      .subtitle { font-family: 'Noto Sans SC', sans-serif; font-size: 20px; font-weight: 300; fill: #a0a0a0; text-anchor: middle; }
+      
+      .name { font-family: 'Noto Sans SC', sans-serif; font-size: 28px; font-weight: 900; fill: #fff; }
+      .role { font-family: 'Noto Sans SC', sans-serif; font-size: 16px; font-weight: 500; fill: #ccc; }
+      
+      .bubble-title { font-family: 'Noto Sans SC', sans-serif; font-size: 22px; font-weight: 700; }
+      .content { font-family: 'Noto Sans SC', sans-serif; font-size: 18px; font-weight: 400; fill: #e0e0e0; line-height: 1.6; }
+      .quote { font-family: 'Noto Sans SC', sans-serif; font-size: 16px; font-style: italic; fill: #888; }
+      
+      .card-bg { fill: #181825; rx: 15; ry: 15; stroke-width: 0; }
+      
+      /* Accents */
+      .accent-wang { fill: #00d2ff; }
+      .accent-liu { fill: #be29ec; }
+      .accent-chen { fill: #32e0c4; }
+      
+      .line-separator { stroke: #333; stroke-width: 1; stroke-dasharray: 5,5; }
+    </style>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect x="0" y="0" width="800" height="1400" fill="url(#bgGrad)"/>
+
+  <!-- Main Header -->
+  <text x="400" y="80" class="title">2025 AI 进化论：观点碰撞</text>
+  <text x="400" y="115" class="subtitle">深度解读架构创新、密度法则与商业突围</text>
+  
+  <!-- ===============================
+       Speaker 1: Wang Zhongyuan (Blue)
+       =============================== -->
+  <g transform="translate(50, 160)">
+    <!-- Decoration Line -->
+    <rect x="0" y="20" width="5" height="300" class="accent-wang" rx="2"/>
+    
+    <!-- Header Info -->
+    <text x="30" y="40" class="name">王仲远 Wang Zhongyuan</text>
+    <text x="30" y="65" class="role">北京智源人工智能研究院院长 | 维度突破者</text>
+    
+    <!-- Bubble/Box -->
+    <rect x="30" y="90" width="670" height="230" fill="#202030" rx="10"/>
+    
+    <!-- Key Concept -->
+    <text x="50" y="130" class="bubble-title" fill="#00d2ff">核心观点：物理世界的觉醒</text>
+    
+    <!-- Detailed Points -->
+    <text x="50" y="170" class="content">
+      <tspan x="50" dy="0">● <tspan font-weight="700">演进方向：</tspan> Learning from Text ➔ Learning from Video。</tspan>
+      <tspan x="50" dy="35">● <tspan font-weight="700">具身智能：</tspan> AI 从数字世界迈向物理世界的关键桥梁。</tspan>
+      <tspan x="50" dy="35">● <tspan font-weight="700">世界模型：</tspan> 视频含有时空因果，是构建世界模型的底座。</tspan>
+    </text>
+    
+    <!-- Quote -->
+    <text x="50" y="290" class="quote">“视频数据蕴含丰富的时空信息，是AI理解物理世界的关键。”</text>
+  </g>
+
+  <!-- Connector Line -->
+  <line x1="400" y1="490" x2="400" y2="530" stroke="#444" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- ===============================
+       Speaker 2: Liu Zhiyuan (Purple)
+       =============================== -->
+  <g transform="translate(50, 530)">
+    <!-- Decoration Line -->
+    <rect x="695" y="20" width="5" height="300" class="accent-liu" rx="2"/>
+    
+    <!-- Header Info (Right Aligned visually, keeping text left for readability but layout shifted) -->
+    <text x="30" y="40" class="name">刘知远 Liu Zhiyuan</text>
+    <text x="30" y="65" class="role">面壁智能联合创始人 | 密度法则提出者</text>
+    
+    <!-- Bubble/Box -->
+    <rect x="0" y="90" width="670" height="230" fill="#252030" rx="10"/>
+    
+    <!-- Key Concept -->
+    <text x="20" y="130" class="bubble-title" fill="#be29ec">核心观点：密度法则 (Densing Law)</text>
+    
+    <!-- Detailed Points -->
+    <text x="20" y="170" class="content">
+      <tspan x="20" dy="0">● <tspan font-weight="700">智能密度：</tspan> AI 的摩尔定律，不断提升单位参数的智能。</tspan>
+      <tspan x="20" dy="35">● <tspan font-weight="700">端云分工：</tspan> 云负责“大脑”规划，端负责“手脚”执行。</tspan>
+      <tspan x="20" dy="35">● <tspan font-weight="700">2030预言：</tspan> 端侧设备将能承载 GPT-5 级别的能力。</tspan>
+    </text>
+    
+    <!-- Quote -->
+    <text x="20" y="290" class="quote">“我们不需要每个人身边都有个AI杨振宁，但端云一定会分工。”</text>
+  </g>
+
+  <!-- Connector Line -->
+  <line x1="400" y1="860" x2="400" y2="900" stroke="#444" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- ===============================
+       Speaker 3: Chen Shi (Green)
+       =============================== -->
+  <g transform="translate(50, 900)">
+    <!-- Decoration Line -->
+    <rect x="0" y="20" width="5" height="320" class="accent-chen" rx="2"/>
+    
+    <!-- Header Info -->
+    <text x="30" y="40" class="name">陈石 Chen Shi</text>
+    <text x="30" y="65" class="role">峰瑞资本投资合伙人 | 商业化破局者</text>
+    
+    <!-- Bubble/Box -->
+    <rect x="30" y="90" width="670" height="250" fill="#203025" rx="10"/>
+    
+    <!-- Key Concept -->
+    <text x="50" y="130" class="bubble-title" fill="#32e0c4">核心观点：ToP (To Professional) 破局</text>
+    
+    <!-- Detailed Points -->
+    <text x="50" y="170" class="content">
+      <tspan x="50" dy="0">● <tspan font-weight="700">新护城河：</tspan> 算力(基础) ➔ 能力(SOTA) ➔ 生态(闭环)。</tspan>
+      <tspan x="50" dy="35">● <tspan font-weight="700">商业模式：</tspan> ToC尚远，ToB难攻，ToP(专家型用户)率先买单。</tspan>
+      <tspan x="50" dy="35">● <tspan font-weight="700">双核驱动：</tspan> 中美双核、开源闭源并进是定局。</tspan>
+      <tspan x="50" dy="35">● <tspan font-weight="700">建议：</tspan> 在大模型触不到的深处，建立跨周期的壁垒。</tspan>
+    </text>
+    
+    <!-- Quote -->
+    <text x="50" y="320" class="quote">“真正贡献商业价值的不是打酱油的用户，是付费的专业人士。”</text>
+  </g>
+
+  <!-- Footer -->
+  <rect x="50" y="1280" width="700" height="80" rx="10" fill="#333" fill-opacity="0.3"/>
+  <text x="400" y="1310" font-family="'Noto Sans SC', sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">关键词总结</text>
+  <text x="400" y="1340" font-family="'Noto Sans SC', sans-serif" font-size="16" fill="#aaa" text-anchor="middle">
+    视频学习 · 密度法则 · 具身智能 · ToP模式 · 端云协同
+  </text>
+</svg>

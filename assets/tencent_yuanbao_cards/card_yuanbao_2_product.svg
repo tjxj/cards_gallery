@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4338ca;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- Decorative -->
+  <circle cx="850" cy="200" r="180" fill="#a855f7" opacity="0.06"/>
+  <circle cx="50" cy="1000" r="150" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad2)" filter="url(#shadow2)"/>
+  <text x="70" y="95" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#fff">元宝产品战略</text>
+  <text x="70" y="140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#c4b5fd" opacity="0.9">生态整合 · 人才建设 · 产品定位</text>
+  
+  <!-- Card 1: 生态整合 -->
+  <rect x="40" y="210" width="820" height="220" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="220" rx="3" fill="url(#accentGrad2)"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#a855f7">🔗 全腾讯生态支持</text>
+  <foreignObject x="70" y="275" width="760" height="145">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; word-wrap:break-word;">
+      <div style="display:flex; flex-wrap:wrap; gap:12px;">
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">微信公众号</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">视频号</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">搜一搜</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">腾讯新闻</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">QQ</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">浏览器</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">输入法</span>
+        <span style="background:#2a2a45; padding:6px 14px; border-radius:8px; color:#c4b5fd;">游戏</span>
+      </div>
+      <div style="margin-top:15px; color:#888; font-size:18px;">微信支持元宝的力度是"前所未有"的大</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Card 2: 团队建设 -->
+  <rect x="40" y="450" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="450" width="6" height="200" rx="3" fill="#22d3ee"/>
+  <text x="70" y="495" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#22d3ee">👥 人才招募</text>
+  <foreignObject x="70" y="515" width="760" height="125">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; word-wrap:break-word;">
+      <div style="margin-bottom:10px;">• 大量招聘<span style="color:#22d3ee; font-weight:600;">懂大模型的产品经理</span>、搜索专家</div>
+      <div style="margin-bottom:10px;">• 招募模型后训练研究人员</div>
+      <div>• 由吴祖榕（Lori）带领，曾从0到1打造腾讯会议</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Card 3: 产品定位 -->
+  <rect x="40" y="670" width="400" height="240" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="670" width="6" height="240" rx="3" fill="#fb923c"/>
+  <text x="70" y="715" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#fb923c">📱 App端</text>
+  <foreignObject x="70" y="735" width="350" height="165">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.65; color:#b8b8cc; word-wrap:break-word;">
+      <div style="color:#fb923c; margin-bottom:10px;">定位：专业助手</div>
+      <div>• 更正式的回答风格</div>
+      <div>• 针对性解决问题</div>
+      <div>• 较多高知用户</div>
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="670" width="400" height="240" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="670" width="6" height="240" rx="3" fill="#4ade80"/>
+  <text x="490" y="715" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#4ade80">💬 微信端</text>
+  <foreignObject x="490" y="735" width="350" height="165">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.65; color:#b8b8cc; word-wrap:break-word;">
+      <div style="color:#4ade80; margin-bottom:10px;">定位：拟人交互</div>
+      <div>• 更风趣、轻松的语气</div>
+      <div>• 更符合社交场景</div>
+      <div>• 正在尝试个性化</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Quote Box -->
+  <rect x="40" y="930" width="820" height="150" rx="16" fill="#232340"/>
+  <rect x="40" y="930" width="6" height="150" rx="3" fill="#fbbf24"/>
+  <text x="70" y="975" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="40" fill="#fbbf24" opacity="0.6">"</text>
+  <foreignObject x="95" y="960" width="730" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#e0e0e0; font-style:italic; word-wrap:break-word;">
+      元宝要服务好年轻用户。在关键窗口期，建立起用户心智，找到符合腾讯生态的场景——这是未来两年关键任务。
+    </div>
+  </foreignObject>
+  <text x="760" y="1055" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#888">— 汤道生</text>
+  
+  <!-- Footer -->
+  <rect x="40" y="1100" width="820" height="60" rx="12" fill="#15152a"/>
+  <text x="70" y="1140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666">来源：张小珺对话汤道生访谈 · 2025</text>
+  <text x="780" y="1140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666" text-anchor="end">2/3</text>
+</svg>

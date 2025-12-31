@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="850" cy="150" r="100" fill="#9b59b6" opacity="0.08"/>
+  <circle cx="50" cy="1050" r="150" fill="#8e44ad" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">小红书商业化</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">2/9</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffffff" font-weight="700">内容设计：给广告留空间</text>
+  
+  <!-- 副标题 -->
+  <foreignObject x="40" y="145" width="820" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#888888;">
+      接不到广告，不是粉丝少，是内容没给广告留空间
+    </div>
+  </foreignObject>
+  
+  <!-- 要点1：场景有商品 -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#9b59b6"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#9b59b6" font-weight="600">🏠 场景里必须有商品</text>
+  <foreignObject x="70" y="270" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      家居账号最容易接广告，因为画面天然有场景。学习类账号：桌子上放台灯、笔记本、咖啡杯、降噪耳机。<span style="color:#9b59b6; font-weight:600;">哪怕这条内容不是广告，也要把商品放进去</span>。让粉丝习惯你会推荐东西，让内容流程习惯往里插商品。
+    </div>
+  </foreignObject>
+  
+  <!-- 要点2：日常=广告 -->
+  <rect x="40" y="430" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="430" width="6" height="200" rx="3" fill="#e74c3c"/>
+  <text x="70" y="475" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#e74c3c" font-weight="600">🔄 日常内容和广告内容不能割裂</text>
+  <foreignObject x="70" y="490" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      最失败的账号：日常更新是一种内容，接广告是另一种内容。粉丝想看你不接广告时的内容，换成另一种，粉丝不买账，数据差。<span style="color:#e74c3c; font-weight:600;">让推荐商品变成内容的一部分，不是突兀的插入</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 要点3：内容形式 -->
+  <rect x="40" y="650" width="820" height="170" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="650" width="6" height="170" rx="3" fill="#f39c12"/>
+  <text x="70" y="695" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#f39c12" font-weight="600">⚠️ 有些内容天生不适合接广告</text>
+  <foreignObject x="70" y="710" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      例如：AI生成的权力的游戏片场视频，流量很好，但很难接广告。画面全是AI场景，<span style="color:#f39c12; font-weight:600;">没法自然地插入商品</span>。做账号之前，想清楚：内容形式适不适合接广告？
+    </div>
+  </foreignObject>
+  
+  <!-- 实操案例 -->
+  <rect x="40" y="840" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="840" width="6" height="120" rx="3" fill="#3498db"/>
+  <text x="70" y="880" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#3498db" font-weight="600">💡 实操案例</text>
+  <foreignObject x="70" y="895" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#b8b8cc;">
+      特斯拉账号：用广角镜头，讲解屏幕功能时切换到广角，把手机支架、杯托、配件都拍进去。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1080" width="900" height="120" fill="#15152a"/>
+  <text x="40" y="1120" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：向阳乔木 | 小红书接广告完全指南</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">分享嘉宾：陈言（Linkc_Chen）| 10万粉AI博主</text>
+  <text x="40" y="1170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="13" fill="#555">zhangAI 知识卡片 · 2025-12-31</text>
+</svg>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>腾讯元宝战略变阵 - 汤道生访谈知识卡片</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #0a0a12 0%, #1a1a2e 50%, #0a0a12 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #00b4d8, #1a73e8, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #888;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .header .meta {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .header .meta span {
+            margin: 0 10px;
+        }
+
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .card-wrapper {
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-wrapper:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 30px 80px rgba(26, 115, 232, 0.2);
+        }
+
+        .card-wrapper img {
+            display: block;
+            height: 600px;
+            width: auto;
+        }
+
+        .card-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card-wrapper:hover .card-label {
+            opacity: 1;
+        }
+
+        .summary-section {
+            max-width: 1000px;
+            margin: 60px auto 0;
+            padding: 40px;
+            background: rgba(28, 28, 46, 0.6);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .summary-section h2 {
+            color: #fff;
+            font-size: 28px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #1a73e8;
+        }
+
+        .summary-section h3 {
+            color: #00b4d8;
+            font-size: 20px;
+            margin: 25px 0 15px;
+        }
+
+        .summary-section p,
+        .summary-section li {
+            color: #b8b8cc;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        .summary-section ul {
+            padding-left: 25px;
+        }
+
+        .summary-section li {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #ffd166;
+            font-weight: 600;
+        }
+
+        .quote-box {
+            margin: 30px 0;
+            padding: 25px 30px;
+            background: rgba(35, 35, 64, 0.8);
+            border-left: 4px solid #ffd166;
+            border-radius: 0 12px 12px 0;
+        }
+
+        .quote-box p {
+            font-style: italic;
+            color: #e0e0e0;
+        }
+
+        .quote-box .author {
+            margin-top: 12px;
+            text-align: right;
+            color: #888;
+            font-style: normal;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card-wrapper img {
+                height: auto;
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>腾讯元宝战略变阵</h1>
+        <p>2025年春节前夕，腾讯在人工智能战略上做了两个极为关键的决策：元宝从TEG划归CSIG，并接入DeepSeek满血版。这是一场集全集团的、继移动互联网后的关键战役。</p>
+        <div class="meta">
+            <span>📅 2025年</span>
+            <span>·</span>
+            <span>👤 汤道生访谈</span>
+            <span>·</span>
+            <span>✍️ 张小珺</span>
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <div class="card-wrapper">
+            <img src="card_yuanbao_1_decision.svg" alt="腾讯元宝战略变阵">
+            <div class="card-label">第一章：战略变阵与关键决策</div>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_yuanbao_2_product.svg" alt="元宝产品战略">
+            <div class="card-label">第二章：产品战略与生态整合</div>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_yuanbao_3_future.svg" alt="AI时代的思考">
+            <div class="card-label">第三章：AI时代的思考与危机感</div>
+        </div>
+    </div>
+
+    <div class="summary-section">
+        <h2>📝 访谈核心摘要</h2>
+
+        <h3>一、背景与关键决策</h3>
+        <p>2024年12月底，腾讯高级执行副总裁汤道生在休假期间主动请缨，建议由CSIG接手元宝产品。2025年春节前，腾讯做出两个重大决策：</p>
+        <ul>
+            <li><span class="highlight">元宝从TEG划归CSIG</span>：从技术驱动转向产品驱动</li>
+            <li><span class="highlight">接入DeepSeek满血版</span>：从自研模型策略转向多模型策略</li>
+        </ul>
+
+        <h3>二、元宝的产品战略</h3>
+        <ul>
+            <li><strong>定位：</strong>C端搜索信息的新入口，争夺AI时代的"船票"</li>
+            <li><strong>整合：</strong>微信、QQ、浏览器、输入法等多场景联动</li>
+            <li><strong>人才：</strong>大量招聘懂大模型的产品经理、搜索专家</li>
+            <li><strong>模格：</strong>不同场景可以有不同"人格"，App更正式，微信更拟人</li>
+        </ul>
+
+        <h3>三、AI时代的思考</h3>
+        <ul>
+            <li><strong>Chatbot终局：</strong>不会像微信一样一家独大，会是分散市场</li>
+            <li><strong>产品范式：</strong>AI提高了效率，但还没创造新的人与人连接</li>
+            <li><strong>危机感：</strong>"危机来自于未知，最好的应对方式就是积极拥抱"</li>
+        </ul>
+
+        <div class="quote-box">
+            <p>"这是集全集团的、继移动互联网后，一场非常关键的战役。就像当年Pony说要拿到移动互联网的船票——我们也希望拿到AI时代的船票。"</p>
+            <p class="author">— 汤道生</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>基于张小珺对话汤道生访谈内容整理 · 2025</p>
+    </footer>
+</body>
+
+</html>

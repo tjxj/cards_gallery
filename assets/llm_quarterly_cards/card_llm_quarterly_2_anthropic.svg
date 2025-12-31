@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="130" fill="#a855f7" opacity="0.08"/>
+  <circle cx="100" cy="1050" r="180" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="120" rx="16" fill="url(#headerGrad2)" filter="url(#shadow2)"/>
+  <text x="70" y="90" font-size="16" fill="#ffffff" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">全球大模型季报 · 第7集</text>
+  <text x="70" y="130" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">Anthropic：All-in Coding</text>
+  
+  <!-- 发言人标签 -->
+  <rect x="40" y="180" width="120" height="36" rx="18" fill="#a855f7" opacity="0.2"/>
+  <text x="100" y="205" font-size="16" fill="#a855f7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">李广密</text>
+  
+  <!-- 增长数据区块 -->
+  <rect x="40" y="235" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="235" width="6" height="200" rx="3" fill="#22c55e"/>
+  <text x="70" y="280" font-size="24" font-weight="600" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">📈 惊人增长</text>
+  
+  <foreignObject x="70" y="295" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      Anthropic 2023年底 ARR 不到 <span style="color:#ffd166; font-weight:600;">1亿美金</span>，2024年底就到了 <span style="color:#22c55e; font-weight:600;">9.5亿美金</span>，2025年年化收入可能超过 <span style="color:#22c55e; font-weight:600;">120亿美金</span>。每个月营收和 tokens 消耗的复合环比增速有 <span style="color:#ef4444; font-weight:600;">20-30%</span>，之前有这种增速的就是抖音和拼多多。
+    </div>
+  </foreignObject>
+  
+  <!-- Claude Code区块 -->
+  <rect x="40" y="455" width="820" height="220" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="455" width="6" height="220" rx="3" fill="#a855f7"/>
+  <text x="70" y="500" font-size="24" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">🚀 Claude Code 的崛起</text>
+  
+  <foreignObject x="70" y="515" width="760" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      Claude Code 比 Cursor 晚了 <span style="color:#ffd166; font-weight:600;">8-9个月</span>，但仅用 <span style="color:#a855f7; font-weight:600;">3-4个月</span> ARR 就反超 Cursor。年底可能达到 <span style="color:#22c55e; font-weight:600;">15-20亿美金</span>，独立估值可能 <span style="color:#22c55e; font-weight:600;">200-300亿美金</span>。这个产品的 ARR 增速可能比 ChatGPT 还要快！
+    </div>
+  </foreignObject>
+  
+  <!-- 战略选择区块 -->
+  <rect x="40" y="695" width="820" height="170" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="695" width="6" height="170" rx="3" fill="#fb923c"/>
+  <text x="70" y="740" font-size="24" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">⚡ 战略非共识</text>
+  
+  <foreignObject x="70" y="755" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      Anthropic 几乎<span style="color:#ef4444; font-weight:600;">放弃了多模态</span>，放弃了 ToC，也没做独立的推理模型。如果撒胡椒面做全家桶，战略就非常危险。集中才有效！
+    </div>
+  </foreignObject>
+  
+  <!-- 引用区块 -->
+  <rect x="40" y="885" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="885" width="6" height="120" rx="3" fill="#ffd166"/>
+  <text x="70" y="930" font-size="40" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="915" width="730" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      Anthropic 可能就是下一代 Windows，Coding 提供 API，让应用无限扩展。
+    </div>
+  </foreignObject>
+  <text x="780" y="985" font-size="16" fill="#888" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">— 李广密</text>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1025" width="820" height="135" rx="16" fill="#15152a"/>
+  <text x="70" y="1070" font-size="18" font-weight="600" fill="#888888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">关键词</text>
+  <rect x="70" y="1085" width="100" height="32" rx="16" fill="#a855f7" opacity="0.2"/>
+  <text x="120" y="1107" font-size="14" fill="#a855f7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">Claude Code</text>
+  <rect x="180" y="1085" width="70" height="32" rx="16" fill="#22c55e" opacity="0.2"/>
+  <text x="215" y="1107" font-size="14" fill="#22c55e" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">增长</text>
+  <rect x="260" y="1085" width="100" height="32" rx="16" fill="#fb923c" opacity="0.2"/>
+  <text x="310" y="1107" font-size="14" fill="#fb923c" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">All-in战略</text>
+  
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">2/6</text>
+</svg>

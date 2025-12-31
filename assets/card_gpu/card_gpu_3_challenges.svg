@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="750" cy="120" r="160" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="150" cy="1050" r="190" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- 顶部渐变条 -->
+  <rect x="0" y="0" width="900" height="8" fill="url(#headerGrad3)"/>
+  
+  <!-- 主标题区 -->
+  <foreignObject x="40" y="50" width="820" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;">
+      <div style="font-size:42px; line-height:1.2; color:#ffffff; font-weight:700; margin-bottom:12px;">
+        中国英伟达的绊脚石
+      </div>
+      <div style="font-size:20px; line-height:1.4; color:#14b8a6; font-weight:500;">
+        生态 × 成本 × 大厂自研的三重挑战
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 性能对比 -->
+  <rect x="40" y="210" width="820" height="155" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="155" rx="3" fill="#22c55e"/>
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#22c55e">✅ 性能不输</text>
+  <foreignObject x="70" y="260" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      摩尔线程"华山"GPU算力已介于英伟达<span style="color:#22c55e; font-weight:600;">Hopper与Blackwell架构</span>之间,部分指标超越H20,但价格仅为<span style="color:#ffd166; font-weight:600;">H20的一半</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 成本压力 -->
+  <rect x="40" y="385" width="820" height="180" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="385" width="6" height="180" rx="3" fill="#ef4444"/>
+  <text x="70" y="420" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ef4444">⚠️ 成本困境</text>
+  <foreignObject x="70" y="435" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">HBM内存危机:</strong> 占成本近一半,供应链受限,价格疯涨。美光CEO称<span style="color:#ef4444; font-weight:600;">2026年产能已被抢完</span>,仅能满足关键客户需求的<span style="color:#ffd166; font-weight:600;">1/2到2/3</span>,小客户理都不理
+    </div>
+  </foreignObject>
+  
+  <!-- CUDA生态 -->
+  <rect x="40" y="585" width="820" height="235" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="585" width="6" height="235" rx="3" fill="#14b8a6"/>
+  <text x="70" y="620" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#14b8a6">🏰 生态鸿沟(最大挑战)</text>
+  <foreignObject x="70" y="635" width="760" height="175">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      H20价格是国产2倍,多出的钱是<span style="color:#ffd166; font-weight:600;">"CUDA税"</span>。AMD投几百亿美金性能更好,仍干不过英伟达<br/>
+      <strong style="color:#ffffff;">英伟达近20年投入:</strong> <span style="color:#14b8a6; font-weight:600;">300亿美元</span>,年均15亿美元建设CUDA生态<br/>
+      <strong style="color:#ffffff;">国产困境:</strong> 每卖一套都要"搓算子"手动调试,需工程团队现场支持。寒武纪最新定增<span style="color:#ffd166; font-weight:600;">39.85亿元</span>才开始单独列出生态建设
+    </div>
+  </foreignObject>
+  
+  <!-- 大厂自研 -->
+  <rect x="40" y="840" width="820" height="180" rx="16" fill="#232340"/>
+  <rect x="40" y="840" width="6" height="180" rx="3" fill="#fb923c"/>
+  <text x="70" y="875" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#fb923c">🎯 大厂威胁</text>
+  <foreignObject x="70" y="890" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">阿里平头哥PPU:</strong> 96GB HBM2e显存,700GB/s带宽,400W功耗,<span style="color:#fb923c; font-weight:600;">无限接近H20规格</span><br/>
+      <strong style="color:#ffffff;">字节自研:</strong> 传闻明年流片,大厂自研压缩外部芯片需求
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1060" width="900" height="140" fill="#15152a"/>
+  <rect x="0" y="1060" width="900" height="2" fill="#14b8a6" opacity="0.3"/>
+  <text x="40" y="1105" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666">国产GPU企业深度观察</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666666">2025年12月</text>
+  <text x="780" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666" text-anchor="end">3/4</text>
+</svg>

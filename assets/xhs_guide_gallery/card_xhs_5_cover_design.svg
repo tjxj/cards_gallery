@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#3498db" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#2980b9" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">小红书商业化</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">5/9</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffffff" font-weight="700">封面设计：转化率翻倍</text>
+  
+  <!-- 副标题 -->
+  <foreignObject x="40" y="145" width="820" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#888888;">
+      用AI做封面，点击转化率从5%翻到10%
+    </div>
+  </foreignObject>
+  
+  <!-- 核心原则 -->
+  <rect x="40" y="210" width="820" height="150" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="150" rx="3" fill="#3498db"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#3498db" font-weight="600">🎨 核心原则：夸张但真实</text>
+  <foreignObject x="70" y="270" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      学习MrBeast封面逻辑：在<span style="color:#3498db; font-weight:600;">真实的前提下，做夸张的题材</span>。每个人都可以做自己的MrBeast！
+    </div>
+  </foreignObject>
+  
+  <!-- 案例展示 -->
+  <rect x="40" y="380" width="820" height="240" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="380" width="6" height="240" rx="3" fill="#9b59b6"/>
+  <text x="70" y="425" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#9b59b6" font-weight="600">📸 封面案例</text>
+  <foreignObject x="70" y="440" width="760" height="170">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc;">
+      <span style="color:#1abc9c;">• 旅行规划AI：</span>穿探险服，在热带雨林里看地图<br/>
+      <span style="color:#1abc9c;">• 视频生成模型：</span>Escher风格空间，塔罗牌沿曲线飞舞<br/>
+      <span style="color:#1abc9c;">• 设计Agent：</span>手拿机器人提线木偶，背景是画室<br/>
+      <span style="color:#e74c3c;">关键：</span>既有奇幻感，又有真实感
+    </div>
+  </foreignObject>
+  
+  <!-- 双标题策略 -->
+  <rect x="40" y="640" width="820" height="180" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="640" width="6" height="180" rx="3" fill="#e67e22"/>
+  <text x="70" y="685" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#e67e22" font-weight="600">📝 封面文字 vs 标题</text>
+  <foreignObject x="70" y="700" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc;">
+      • <span style="color:#e67e22; font-weight:600;">封面上的大字：</span>给人看的，抛出夸张问题，不给答案<br/>
+      • <span style="color:#e67e22; font-weight:600;">底部小标题：</span>给算法看的，权重可能最高，给答案<br/>
+      • 例：封面"40岁牛马，心脏不舒服，0.5天年假请不请？"<br/>
+      　　标题"我用XX承包了自己的健康"
+    </div>
+  </foreignObject>
+  
+  <!-- 工具推荐 -->
+  <rect x="40" y="840" width="820" height="170" rx="16" fill="#232340"/>
+  <rect x="40" y="840" width="6" height="170" rx="3" fill="#27ae60"/>
+  <text x="70" y="880" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#27ae60" font-weight="600">🛠️ AI封面制作流程（15分钟）</text>
+  <foreignObject x="70" y="895" width="760" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.6; color:#b8b8cc;">
+      1. 准备5-6张不同动作的形象照片<br/>
+      2. 用<span style="color:#27ae60; font-weight:600;"> Gemini纳米Pro / 豆包 / 即梦</span>生成封面<br/>
+      3. 用即梦生成手写体文字（免费，随便抽）<br/>
+      4. 在PS或Sketch里拼接（2-3个图层）
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1080" width="900" height="120" fill="#15152a"/>
+  <text x="40" y="1120" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：向阳乔木 | 小红书接广告完全指南</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">分享嘉宾：陈言（Linkc_Chen）| 10万粉AI博主</text>
+  <text x="40" y="1170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="13" fill="#555">zhangAI 知识卡片 · 2025-12-31</text>
+</svg>

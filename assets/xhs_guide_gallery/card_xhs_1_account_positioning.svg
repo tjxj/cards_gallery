@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#e74c3c" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#c0392b" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">小红书商业化</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">1/9</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffffff" font-weight="700">账号定位的四个硬指标</text>
+  
+  <!-- 副标题 -->
+  <foreignObject x="40" y="145" width="820" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#888888;">
+      做账号之前，想清楚谁会投广告
+    </div>
+  </foreignObject>
+  
+  <!-- 指标1：可转化 -->
+  <rect x="40" y="210" width="820" height="170" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="170" rx="3" fill="#e74c3c"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#e74c3c" font-weight="600">1️⃣ 优势必须可转化</text>
+  <foreignObject x="70" y="270" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      做特斯拉账号的优势是懂智驾、早期买特斯拉股票。但如何转化？发现车主痛点：<span style="color:#e74c3c; font-weight:600;">不会用车、不知道怎么验车</span>。于是做用车攻略、验车清单PDF，把优势转化成用户需要的东西。
+    </div>
+  </foreignObject>
+  
+  <!-- 指标2：有空间 -->
+  <rect x="40" y="400" width="820" height="150" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="400" width="6" height="150" rx="3" fill="#e67e22"/>
+  <text x="70" y="445" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#e67e22" font-weight="600">2️⃣ 选题空间决定寿命</text>
+  <foreignObject x="70" y="460" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      判断标准：你选的主题，能不能至少做<span style="color:#e67e22; font-weight:600;">50期内容</span>？如果做10期就没东西可讲了，那就是死胡同。
+    </div>
+  </foreignObject>
+  
+  <!-- 指标3：双满足 -->
+  <rect x="40" y="570" width="820" height="170" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="570" width="6" height="170" rx="3" fill="#27ae60"/>
+  <text x="70" y="615" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#27ae60" font-weight="600">3️⃣ 必须同时满足用户和商家</text>
+  <foreignObject x="70" y="630" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      很多人做内容只想用户喜欢什么，不想商家需要什么。<span style="color:#27ae60; font-weight:600;">结果账号做起来了，接不到广告</span>。用户觉得有用，商家觉得有效，账号才有商业价值。
+    </div>
+  </foreignObject>
+  
+  <!-- 指标4：抓时机 -->
+  <rect x="40" y="760" width="820" height="150" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="760" width="6" height="150" rx="3" fill="#3498db"/>
+  <text x="70" y="805" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#3498db" font-weight="600">4️⃣ 时机比努力更重要</text>
+  <foreignObject x="70" y="820" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <span style="color:#3498db; font-weight:600;">就算完全复制方法，也不一定能做起来</span>，因为时机变了。做账号之前，要判断：这个领域现在是红海还是蓝海？
+    </div>
+  </foreignObject>
+  
+  <!-- 金句引用 -->
+  <rect x="40" y="930" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="930" width="6" height="120" rx="3" fill="#ffd166"/>
+  <text x="70" y="975" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="40" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="960" width="730" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      做账号，从第一天开始就要想：谁会给我钱？
+    </div>
+  </foreignObject>
+  <text x="760" y="1030" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="end">— 陈言</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1080" width="900" height="120" fill="#15152a"/>
+  <text x="40" y="1120" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：向阳乔木 | 小红书接广告完全指南</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">分享嘉宾：陈言（Linkc_Chen）| 10万粉AI博主</text>
+  <text x="40" y="1170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="13" fill="#555">zhangAI 知识卡片 · 2025-12-31</text>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="80" r="120" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="80" cy="1100" r="150" fill="#00b4d8" opacity="0.05"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="120" rx="16" fill="url(#headerGrad1)" filter="url(#shadow1)"/>
+  <text x="70" y="90" font-size="16" fill="#ffffff" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">全球大模型季报 · 第7集</text>
+  <text x="70" y="130" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">2025：模型开始分化</text>
+  
+  <!-- 发言人标签 -->
+  <rect x="40" y="180" width="120" height="36" rx="18" fill="#1a73e8" opacity="0.2"/>
+  <text x="100" y="205" font-size="16" fill="#1a73e8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">李广密</text>
+  
+  <!-- 核心观点区块 -->
+  <rect x="40" y="235" width="820" height="280" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="235" width="6" height="280" rx="3" fill="#1a73e8"/>
+  <text x="70" y="280" font-size="24" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">🎯 核心判断</text>
+  
+  <foreignObject x="70" y="295" width="760" height="210">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      未来真正的<span style="color:#00b4d8; font-weight:600;">通用模型</span>可能就是 <span style="color:#00b4d8; font-weight:600;">Google Gemini</span> 和 <span style="color:#00b4d8; font-weight:600;">OpenAI</span>。这两个模型会拥有各项能力，从多模态、推理模型、Coding，到 Agentic、ToC。其他模型公司都开始<span style="color:#ffd166; font-weight:600;">分化到各个领域</span>：Anthropic 分化到 <span style="color:#a855f7; font-weight:600;">Coding 和 Agentic</span>；Mira 的 Thinking Machines Lab 想做<span style="color:#14b8a6; font-weight:600;">多模态和下一代交互</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 分化格局区块 -->
+  <rect x="40" y="535" width="820" height="320" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="535" width="6" height="320" rx="3" fill="#a855f7"/>
+  <text x="70" y="580" font-size="24" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">📊 各家战略定位</text>
+  
+  <foreignObject x="70" y="595" width="760" height="250">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#b8b8cc; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:12px;"><span style="color:#1a73e8; font-weight:600;">OpenAI/Gemini</span> → 通用全家桶，各项能力都做</div>
+      <div style="margin-bottom:12px;"><span style="color:#a855f7; font-weight:600;">Anthropic</span> → All-in Coding + Agentic，放弃多模态和ToC</div>
+      <div style="margin-bottom:12px;"><span style="color:#14b8a6; font-weight:600;">Thinking Machines Lab</span> → 多模态原生、下一代交互</div>
+      <div style="margin-bottom:12px;"><span style="color:#fb923c; font-weight:600;">xAI Grok</span> → 超大集群算力bet，但还在摸索生态位</div>
+      <div><span style="color:#ef4444; font-weight:600;">Meta SI</span> → 短期进入全球前三很难</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用区块 -->
+  <rect x="40" y="875" width="820" height="130" rx="16" fill="#232340"/>
+  <rect x="40" y="875" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="920" font-size="40" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="905" width="730" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      Coding 也是"虚拟子宫"。世界模型和 Coding 有可能本质上是一件事，只是实现路径不同。
+    </div>
+  </foreignObject>
+  <text x="780" y="985" font-size="16" fill="#888" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">— 李广密</text>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1025" width="820" height="135" rx="16" fill="#15152a"/>
+  <text x="70" y="1070" font-size="18" font-weight="600" fill="#888888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">关键词</text>
+  <rect x="70" y="1085" width="90" height="32" rx="16" fill="#1a73e8" opacity="0.2"/>
+  <text x="115" y="1107" font-size="14" fill="#1a73e8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">模型分化</text>
+  <rect x="170" y="1085" width="90" height="32" rx="16" fill="#a855f7" opacity="0.2"/>
+  <text x="215" y="1107" font-size="14" fill="#a855f7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">战略定位</text>
+  <rect x="270" y="1085" width="90" height="32" rx="16" fill="#14b8a6" opacity="0.2"/>
+  <text x="315" y="1107" font-size="14" fill="#14b8a6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">通用模型</text>
+  
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">1/6</text>
+</svg>

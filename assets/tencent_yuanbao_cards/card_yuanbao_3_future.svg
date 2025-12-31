@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- Decorative -->
+  <circle cx="800" cy="150" r="160" fill="#14b8a6" opacity="0.06"/>
+  <circle cx="80" cy="1050" r="180" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad3)" filter="url(#shadow3)"/>
+  <text x="70" y="95" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#fff">AI时代的思考</text>
+  <text x="70" y="140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#a5f3fc" opacity="0.9">危机与机遇 · 终局判断 · 战略定位</text>
+  
+  <!-- Card 1: Chatbot终局 -->
+  <rect x="40" y="210" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="180" rx="3" fill="url(#accentGrad3)"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#14b8a6">🎯 Chatbot终局判断</text>
+  <foreignObject x="70" y="275" width="760" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:22px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <span style="color:#ff6b6b;">不会像微信一样一家独大</span>。微信有社交网络效应，但AI Chatbot以服务个人为主，每个人可以有不同选择——会是一个<span style="color:#14b8a6; font-weight:600;">更分散的市场</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- Card 2: AI范式 -->
+  <rect x="40" y="410" width="820" height="210" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="410" width="6" height="210" rx="3" fill="#f472b6"/>
+  <text x="70" y="455" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#f472b6">🔄 AI时代的变与不变</text>
+  <foreignObject x="70" y="475" width="760" height="135">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; word-wrap:break-word;">
+      <div style="margin-bottom:12px;"><span style="color:#4ade80;">✓</span> AI提高了效率，让使用服务更省力</div>
+      <div style="margin-bottom:12px;"><span style="color:#4ade80;">✓</span> Agent与Agent之间有新的连接方式</div>
+      <div><span style="color:#ff6b6b;">✗</span> 还没有创造新的人与人连接（不同于移动互联网）</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Card 3: 战略定位 -->
+  <rect x="40" y="640" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="640" width="6" height="180" rx="3" fill="#fbbf24"/>
+  <text x="70" y="685" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#fbbf24">🚀 这场仗的定位</text>
+  <foreignObject x="70" y="705" width="760" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:22px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      这是<span style="color:#fbbf24; font-weight:700;">集全集团的、继移动互联网后</span>，一场非常关键的战役。就像当年Pony说要拿到移动互联网的船票——我们也希望拿到<span style="color:#fbbf24; font-weight:700;">AI时代的船票</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- Card 4: 危机感 -->
+  <rect x="40" y="840" width="820" height="150" rx="16" fill="#2a1a1a"/>
+  <rect x="40" y="840" width="820" height="4" rx="2" fill="#ef4444"/>
+  <text x="70" y="890" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">⚠️ 危机感</text>
+  <foreignObject x="70" y="910" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.6; color:#fca5a5; word-wrap:break-word;">
+      "危机来自于<span style="color:#fff; font-weight:600;">未知</span>——你也不知道这一波会怎么改变用户习惯。最好的应对方式就是：<span style="color:#fff; font-weight:600;">积极拥抱</span>。"
+    </div>
+  </foreignObject>
+  
+  <!-- Quote Box -->
+  <rect x="40" y="1010" width="820" height="80" rx="16" fill="#232340"/>
+  <foreignObject x="60" y="1025" width="780" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#a0a0b0; text-align:center; word-wrap:break-word;">
+      "这是一场长跑，比赛才刚刚开始。大家在身位上还没有拉开差距。"
+    </div>
+  </foreignObject>
+  
+  <!-- Footer -->
+  <rect x="40" y="1110" width="820" height="60" rx="12" fill="#15152a"/>
+  <text x="70" y="1150" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666">来源：张小珺对话汤道生访谈 · 2025</text>
+  <text x="780" y="1150" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666" text-anchor="end">3/3</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style> text, tspan { font-family: "Hiragino Sans GB", "Heiti SC", sans-serif; } .text-div, .quote-div { font-family: "Early Summer Serif", serif; } 
+      .bg { fill: #0f0f12; }
+      .card-bg { fill: #1a1a24; stroke: #333; stroke-width: 2; rx: 30; }
+      
+      .header-role { font-size: 22px; font-weight: 400; fill: #00e676; letter-spacing: 1px; }
+      .header-name { font-size: 56px; font-weight: 900; fill: #fff; }
+      
+      .section-box { fill: #202a24; rx: 15; stroke: #333; stroke-width: 1; }
+      .section-title { font-size: 26px; font-weight: 700; fill: #fff; }
+      
+      .highlight { color: #00e676; font-weight: 700; }
+      .text-div { font-size: 24px; font-weight: 400; color: #ccc; line-height: 1.6; text-align: justify; word-wrap: break-word; }
+      
+      .quote-bar { fill: #00e676; }
+      .quote-div { font-size: 26px; font-style: italic; color: #eee; line-height: 1.5; }
+      
+      .sub-label { font-size: 18px; fill: #666; font-weight: 700; text-transform: uppercase; }
+      .footer { font-size: 18px; fill: #444; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1200" class="bg"/>
+  <rect x="40" y="40" width="820" height="1120" class="card-bg"/>
+
+  <!-- Header -->
+  <g transform="translate(80, 100)">
+    <text x="0" y="0" class="header-role">SILICONFLOW CO-FOUNDER</text>
+    <text x="0" y="60" class="header-name">胡健</text>
+    <text x="140" y="60" font-size="30" fill="#666" font-weight="400">开源与博弈</text>
+    <line x1="0" y1="90" x2="740" y2="90" stroke="#00e676" stroke-width="4"/>
+  </g>
+
+  <!-- Section 1 -->
+  <g transform="translate(80, 230)">
+    <text x="0" y="-15" class="sub-label">01 生存法则</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">老二老三的博弈</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        开源是挑战者的生存博弈。DeepSeek 即使开源，也能通过引发市场跟进（低竞争倒逼）来逆转格局，正如安卓对抗 iOS。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 2 -->
+  <g transform="translate(80, 480)">
+    <text x="0" y="-15" class="sub-label">02 需求倒逼</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">拒绝巨头垄断</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        如果模型不开源，智能将由少数巨头垄断。客户为了避免更高成本与隐私风险，会自然倒逼<span class="highlight">开源生态</span>持续存在。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 3 -->
+  <g transform="translate(80, 730)">
+    <text x="0" y="-15" class="sub-label">03 INFRA 进化</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">基础设施标准化</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        70% 的 Infrastructure 工作已标准化（如 FP8 量化）。核心是帮助国产芯片如沐曦等，实现与英伟达的“端到端对标”。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote -->
+  <g transform="translate(80, 990)">
+    <rect x="0" y="0" width="10" height="100" class="quote-bar"/>
+    <foreignObject x="35" y="10" width="680" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="quote-div">
+        “模型不开源，智能只掌握在少数企业手里，客户不得不依赖这些巨头，并为此承担更高的成本与代价。”
+      </div>
+    </foreignObject>
+  </g>
+
+  <text x="450" y="1120" class="footer">AI 基础设施圆桌 · 2025</text>
+</svg>

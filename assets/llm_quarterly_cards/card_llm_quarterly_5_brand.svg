@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="810" cy="90" r="120" fill="#ef4444" opacity="0.08"/>
+  <circle cx="90" cy="1100" r="160" fill="#f472b6" opacity="0.05"/>
+  
+  <rect x="40" y="40" width="820" height="120" rx="16" fill="url(#headerGrad5)"/>
+  <text x="70" y="90" font-size="16" fill="#ffffff" opacity="0.8" font-family="-apple-system, 'PingFang SC', sans-serif">全球大模型季报 · 第7集</text>
+  <text x="70" y="130" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, 'PingFang SC', sans-serif">产品与品牌的非技术壁垒</text>
+  
+  <rect x="40" y="180" width="120" height="36" rx="18" fill="#ef4444" opacity="0.2"/>
+  <text x="100" y="205" font-size="16" fill="#ef4444" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">李广密</text>
+  
+  <rect x="40" y="235" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="235" width="6" height="200" rx="3" fill="#22c55e"/>
+  <text x="70" y="280" font-size="24" font-weight="600" fill="#22c55e" font-family="-apple-system, 'PingFang SC', sans-serif">🏆 ChatGPT 的护城河</text>
+  <foreignObject x="70" y="295" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      品牌大众化下沉：大众用户会把 ChatGPT 当做首选 AI 工具。<span style="color:#ffd166; font-weight:600;">大众用户基本不对比</span>，ChatGPT 就是默认 AI 首选，就像 Google 是默认搜索首选。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="455" width="820" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="455" width="6" height="160" rx="3" fill="#ef4444"/>
+  <text x="70" y="500" font-size="24" font-weight="600" fill="#ef4444" font-family="-apple-system, 'PingFang SC', sans-serif">🥤 可口可乐效应</text>
+  <foreignObject x="70" y="515" width="760" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      ChatGPT 最大的壁垒<span style="color:#ef4444; font-weight:600;">并不是技术壁垒</span>，而是<span style="color:#ffd166; font-weight:600;">品牌壁垒</span>。就像即使配出差不多的饮料，很多人还是首选可口可乐。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="635" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="635" width="6" height="200" rx="3" fill="#fb923c"/>
+  <text x="70" y="680" font-size="24" font-weight="600" fill="#fb923c" font-family="-apple-system, 'PingFang SC', sans-serif">⏰ 保鲜窗口在缩短</text>
+  <foreignObject x="70" y="695" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:8px;">• <span style="color:#1a73e8;">Perplexity</span>：窗口近 <span style="color:#ffd166;">2年</span></div>
+      <div style="margin-bottom:8px;">• <span style="color:#a855f7;">Cursor</span>：窗口 <span style="color:#ffd166;">9个月</span></div>
+      <div>• <span style="color:#14b8a6;">Manus</span>：窗口仅 <span style="color:#ef4444;">3个多月</span></div>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="855" width="820" height="100" rx="16" fill="#232340"/>
+  <rect x="40" y="855" width="6" height="100" rx="3" fill="#ffd166"/>
+  <text x="70" y="895" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="880" width="730" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#e0e0e0; font-style:italic; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      第一个做出让用户惊叹体验的产品，等于至少得到5-10亿美金的营销费用。
+    </div>
+  </foreignObject>
+  <text x="780" y="935" font-size="16" fill="#888" text-anchor="end" font-family="-apple-system, 'PingFang SC', sans-serif">— 李广密</text>
+  
+  <rect x="40" y="975" width="820" height="185" rx="16" fill="#15152a"/>
+  <text x="70" y="1020" font-size="18" font-weight="600" fill="#888888" font-family="-apple-system, 'PingFang SC', sans-serif">关键词</text>
+  <rect x="70" y="1035" width="90" height="32" rx="16" fill="#22c55e" opacity="0.2"/>
+  <text x="115" y="1057" font-size="14" fill="#22c55e" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">品牌壁垒</text>
+  <rect x="170" y="1035" width="90" height="32" rx="16" fill="#fb923c" opacity="0.2"/>
+  <text x="215" y="1057" font-size="14" fill="#fb923c" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">保鲜窗口</text>
+  <rect x="270" y="1035" width="100" height="32" rx="16" fill="#ef4444" opacity="0.2"/>
+  <text x="320" y="1057" font-size="14" fill="#ef4444" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">Magic时刻</text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, 'PingFang SC', sans-serif">5/6</text>
+</svg>

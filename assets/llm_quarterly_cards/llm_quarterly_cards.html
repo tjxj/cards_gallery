@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球大模型季报 · 第7集 - 知识卡片</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #0a0a15 0%, #1a1a2e 50%, #0f0f1a 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #1a73e8, #a855f7, #14b8a6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+
+        .header .subtitle {
+            font-size: 20px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .header .desc {
+            font-size: 16px;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .keywords {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+            flex-wrap: wrap;
+        }
+
+        .keyword {
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .keyword.blue {
+            background: rgba(26, 115, 232, 0.2);
+            color: #1a73e8;
+        }
+
+        .keyword.purple {
+            background: rgba(168, 85, 247, 0.2);
+            color: #a855f7;
+        }
+
+        .keyword.teal {
+            background: rgba(20, 184, 166, 0.2);
+            color: #14b8a6;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .card-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-wrapper img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 16px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card-wrapper img:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 60px rgba(26, 115, 232, 0.3);
+        }
+
+        .card-title {
+            margin-top: 18px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            text-align: center;
+        }
+
+        .card-desc {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #888;
+            text-align: center;
+            max-width: 320px;
+        }
+
+        .summary {
+            max-width: 900px;
+            margin: 60px auto 0;
+            background: #1c1c2e;
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        .summary h2 {
+            font-size: 26px;
+            color: #fff;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .summary-list {
+            list-style: none;
+        }
+
+        .summary-list li {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: #b8b8cc;
+            font-size: 16px;
+            line-height: 1.7;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .summary-list li:last-child {
+            border-bottom: none;
+        }
+
+        .summary-list .num {
+            min-width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, #1a73e8, #a855f7);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .highlight {
+            color: #ffd166;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>全球大模型季报 · 第7集</h1>
+        <p class="subtitle">张小珺 × 李广密</p>
+        <p class="desc">2025年，模型开始分化。硅谷各个模型公司在这个季度，开始分化到各个领域。除了 Google Gemini 和 OpenAI 还在做通用模型；Anthropic 分化到
+            Coding、Agentic；Mira 的 Thinking Machines Lab 分化到多模态和下一代交互。</p>
+        <div class="keywords">
+            <span class="keyword blue">模型分化</span>
+            <span class="keyword purple">产品化</span>
+            <span class="keyword teal">L4体验</span>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_1_divergence.svg" alt="模型分化格局">
+            <p class="card-title">模型分化格局</p>
+            <p class="card-desc">各大AI公司的战略定位：通用 vs 垂直</p>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_2_anthropic.svg" alt="Anthropic All-in Coding">
+            <p class="card-title">Anthropic：All-in Coding</p>
+            <p class="card-desc">Claude Code的惊人增长与战略聚焦</p>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_3_trends.svg" alt="横向全家桶 vs 纵向整合">
+            <p class="card-title">横向全家桶 vs 纵向整合</p>
+            <p class="card-desc">ChatGPT与Google的两大竞争模式</p>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_4_L4.svg" alt="L4级别体验">
+            <p class="card-title">什么是L4级别体验</p>
+            <p class="card-desc">Deep Research与Claude Code的Magic时刻</p>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_5_brand.svg" alt="产品与品牌壁垒">
+            <p class="card-title">产品与品牌的非技术壁垒</p>
+            <p class="card-desc">ChatGPT的可口可乐效应</p>
+        </div>
+        <div class="card-wrapper">
+            <img src="card_llm_quarterly_6_chinese.svg" alt="华人AGI时代">
+            <p class="card-title">犹太人的金融，华人的AGI</p>
+            <p class="card-desc">全球化机遇与投资配置策略</p>
+        </div>
+    </div>
+
+    <div class="summary">
+        <h2>📌 本期核心观点</h2>
+        <ul class="summary-list">
+            <li><span class="num">1</span>未来真正的通用模型可能就是 <span class="highlight">Google Gemini</span> 和 <span
+                    class="highlight">OpenAI</span>，其他公司开始分化到垂直领域</li>
+            <li><span class="num">2</span>Anthropic All-in <span class="highlight">Coding 和 Agentic</span>，Claude Code
+                ARR 增速可能比 ChatGPT 还快</li>
+            <li><span class="num">3</span>两大趋势：<span class="highlight">横向全家桶</span>（ChatGPT）与 <span
+                    class="highlight">纵向垂直整合</span>（Google）</li>
+            <li><span class="num">4</span>L4 级别体验就是端到端交付 <span class="highlight">Magic moment</span>，触发商业模式从 $20 升级到
+                $200</li>
+            <li><span class="num">5</span>ChatGPT 最大壁垒不是技术壁垒，而是 <span class="highlight">品牌壁垒</span>，如同可口可乐</li>
+            <li><span class="num">6</span>投资配置：40块 OpenAI + 40块 字节 + 10块 Anthropic + 10块 Google</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>全球大模型季报 · 第7集 · 2025</p>
+        <p style="margin-top:8px;">张小珺 × 李广密</p>
+    </div>
+</body>
+
+</html>

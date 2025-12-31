@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小红书接广告完全指南 - 知识卡片</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+      color: #fff;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #e74c3c, #f39c12, #1abc9c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 15px;
+    }
+    .header p {
+      color: #888;
+      font-size: 1.1rem;
+    }
+    .header .meta {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card-container {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #1c1c2e;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .card-container:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+    .card-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .card-info {
+      padding: 15px 20px;
+      background: rgba(28, 28, 46, 0.95);
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .card-info h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+    .card-info p {
+      font-size: 0.85rem;
+      color: #888;
+      line-height: 1.5;
+    }
+    .card-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #c0392b, #a93226);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.95);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .modal.active {
+      display: flex;
+    }
+    .modal-content {
+      max-width: 90vw;
+      max-height: 90vh;
+      position: relative;
+    }
+    .modal-content img {
+      max-width: 100%;
+      max-height: 90vh;
+      border-radius: 12px;
+      box-shadow: 0 20px 80px rgba(0,0,0,0.8);
+    }
+    .modal-close {
+      position: absolute;
+      top: -40px;
+      right: 0;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      cursor: pointer;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .modal-close:hover {
+      opacity: 1;
+    }
+    .modal-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: #fff;
+      font-size: 2rem;
+      padding: 20px 15px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .modal-nav:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .modal-nav.prev { left: -60px; }
+    .modal-nav.next { right: -60px; }
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .footer p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    .footer a {
+      color: #e74c3c;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .header h1 { font-size: 1.8rem; }
+      .gallery { gap: 20px; }
+      .modal-nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📕 小红书接广告完全指南</h1>
+    <p>一个10万粉AI博主的商业化方法论（毫无保留）</p>
+    <div class="meta">来源：向阳乔木 | 分享嘉宾：陈言（Linkc_Chen）</div>
+  </div>
+
+  <div class="gallery">
+    <div class="card-container" onclick="openModal(0)">
+      <img src="card_xhs_1_account_positioning.svg" alt="账号定位的四个硬指标">
+      <div class="card-info">
+        <h3>1️⃣ 账号定位的四个硬指标</h3>
+        <p>可转化、有空间、双满足、抓时机</p>
+        <div class="card-actions">
+          <a href="card_xhs_1_account_positioning.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(0)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(1)">
+      <img src="card_xhs_2_content_design.svg" alt="内容设计">
+      <div class="card-info">
+        <h3>2️⃣ 内容设计：给广告留空间</h3>
+        <p>场景有商品、日常即广告</p>
+        <div class="card-actions">
+          <a href="card_xhs_2_content_design.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(1)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(2)">
+      <img src="card_xhs_3_cold_start.svg" alt="冷启动">
+      <div class="card-info">
+        <h3>3️⃣ 冷启动的三个关键动作</h3>
+        <p>最小成本验证、差异化定位、复制爆款</p>
+        <div class="card-actions">
+          <a href="card_xhs_3_cold_start.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(2)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(3)">
+      <img src="card_xhs_4_topic_logic.svg" alt="选题逻辑">
+      <div class="card-info">
+        <h3>4️⃣ 选题的三个底层逻辑</h3>
+        <p>情绪类、利他类、避开算法限制</p>
+        <div class="card-actions">
+          <a href="card_xhs_4_topic_logic.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(3)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(4)">
+      <img src="card_xhs_5_cover_design.svg" alt="封面设计">
+      <div class="card-info">
+        <h3>5️⃣ 封面设计：转化率翻倍</h3>
+        <p>夸张但真实、AI生成MrBeast风格</p>
+        <div class="card-actions">
+          <a href="card_xhs_5_cover_design.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(4)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(5)">
+      <img src="card_xhs_6_followers.svg" alt="涨粉核心">
+      <div class="card-info">
+        <h3>6️⃣ 涨粉核心：给用户关注理由</h3>
+        <p>稀缺资源引流、多维表格涨粉</p>
+        <div class="card-actions">
+          <a href="card_xhs_6_followers.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(5)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(6)">
+      <img src="card_xhs_7_monetization.svg" alt="商业化阶段">
+      <div class="card-info">
+        <h3>7️⃣ 商业化的三个阶段</h3>
+        <p>代理必选→品牌直合→多元破局</p>
+        <div class="card-actions">
+          <a href="card_xhs_7_monetization.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(6)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(7)">
+      <img src="card_xhs_8_compliance.svg" alt="合规雷区">
+      <div class="card-info">
+        <h3>8️⃣ 合规的三个雷区</h3>
+        <p>玄学改兴趣、医疗禁疗效、金融禁推荐</p>
+        <div class="card-actions">
+          <a href="card_xhs_8_compliance.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(7)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" onclick="openModal(8)">
+      <img src="card_xhs_9_content_format.svg" alt="内容形式选择">
+      <div class="card-info">
+        <h3>9️⃣ 图文还是视频？</h3>
+        <p>视频为主、图文为辅、长尾并重</p>
+        <div class="card-actions">
+          <a href="card_xhs_9_content_format.svg" download class="btn btn-primary">⬇️ 下载</a>
+          <button class="btn btn-secondary" onclick="event.stopPropagation(); openModal(8)">🔍 预览</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>zhangAI 知识卡片 · 2025-12-31</p>
+    <p style="margin-top: 10px;">原文：<a href="https://mp.weixin.qq.com/s/jq-GLDtV5QSrH-Zufe8u6A" target="_blank">小红书接广告完全指南</a></p>
+  </div>
+
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <button class="modal-nav prev" onclick="prevCard()">‹</button>
+    <div class="modal-content">
+      <img id="modal-img" src="" alt="">
+    </div>
+    <button class="modal-nav next" onclick="nextCard()">›</button>
+  </div>
+
+  <script>
+    const cards = [
+      'card_xhs_1_account_positioning.svg',
+      'card_xhs_2_content_design.svg',
+      'card_xhs_3_cold_start.svg',
+      'card_xhs_4_topic_logic.svg',
+      'card_xhs_5_cover_design.svg',
+      'card_xhs_6_followers.svg',
+      'card_xhs_7_monetization.svg',
+      'card_xhs_8_compliance.svg',
+      'card_xhs_9_content_format.svg'
+    ];
+    let currentIndex = 0;
+
+    function openModal(index) {
+      currentIndex = index;
+      document.getElementById('modal-img').src = cards[index];
+      document.getElementById('modal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function prevCard() {
+      currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+      document.getElementById('modal-img').src = cards[currentIndex];
+    }
+
+    function nextCard() {
+      currentIndex = (currentIndex + 1) % cards.length;
+      document.getElementById('modal-img').src = cards[currentIndex];
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (!document.getElementById('modal').classList.contains('active')) return;
+      if (e.key === 'Escape') closeModal();
+      if (e.key === 'ArrowLeft') prevCard();
+      if (e.key === 'ArrowRight') nextCard();
+    });
+
+    document.getElementById('modal').addEventListener('click', (e) => {
+      if (e.target.id === 'modal') closeModal();
+    });
+  </script>
+</body>
+</html>

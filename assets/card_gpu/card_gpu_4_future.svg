@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="100" cy="100" r="170" fill="#fb923c" opacity="0.08"/>
+  <circle cx="800" cy="1100" r="210" fill="#fbbf24" opacity="0.05"/>
+  
+  <!-- 顶部渐变条 -->
+  <rect x="0" y="0" width="900" height="8" fill="url(#headerGrad4)"/>
+  
+  <!-- 主标题区 -->
+  <foreignObject x="40" y="50" width="820" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;">
+      <div style="font-size:42px; line-height:1.2; color:#ffffff; font-weight:700; margin-bottom:12px;">
+        估值争议与未来突破
+      </div>
+      <div style="font-size:20px; line-height:1.4; color:#fb923c; font-weight:500;">
+        为梦想定价,用时间验证
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 估值逻辑 -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#fb923c"/>
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#fb923c">💡 估值逻辑</text>
+  <foreignObject x="70" y="260" width="760" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      英伟达巅峰市值<span style="color:#ffd166; font-weight:600;">5万亿美元</span>,若国产GPU有<span style="color:#fb923c; font-weight:600;">1%可能性部分取代</span>英伟达,对应<span style="color:#ffd166; font-weight:600;">500亿美元(3500亿人民币)</span>估值,与摩尔线程、沐曦市值接近。全球AI赛道只有<span style="color:#fb923c; font-weight:600;">中美两大玩家</span>,市场预期可以更大胆
+    </div>
+  </foreignObject>
+  
+  <!-- 投资者分歧 -->
+  <rect x="40" y="430" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="430" width="6" height="200" rx="3" fill="#ef4444"/>
+  <text x="70" y="465" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ef4444">⚖️ 分配失衡</text>
+  <foreignObject x="70" y="480" width="760" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      机构配售占<span style="color:#ef4444; font-weight:600;">70%+筹码</span>(易方达获配沐曦2.03亿元,幻方量化490万元),个人投资者中签率仅<span style="color:#ffd166; font-weight:600;">1/3000</span>。"人皆有赚"未能实现,造富故事不均衡。摩尔线程<span style="color:#fb923c; font-weight:600;">75亿购买理财</span>被质疑"不务正业",引发投资者教育问题
+    </div>
+  </foreignObject>
+  
+  <!-- 关键挑战 -->
+  <rect x="40" y="650" width="820" height="195" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="650" width="6" height="195" rx="3" fill="#14b8a6"/>
+  <text x="70" y="685" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#14b8a6">🎯 最终考验</text>
+  <foreignObject x="70" y="700" width="760" height="135">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">短期:</strong> 性能优化、成本控制、生态易用性提升<br/>
+      <strong style="color:#ffffff;">中期:</strong> 拿到大厂订单,扩大营收规模(上市前10亿 → 上市后必须增长)<br/>
+      <strong style="color:#ffffff;">长期:</strong> <span style="color:#14b8a6; font-weight:600;">20年蛰伏与突破</span>,建立自主生态体系
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="865" width="820" height="155" rx="16" fill="#232340"/>
+  <rect x="40" y="865" width="6" height="155" rx="3" fill="#ffd166"/>
+  <text x="70" y="910" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="895" width="730" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      半导体企业靠客户订单说话,凭实力说话。英伟达5万亿美元市值,是20年技术积累与生态霸权的结果。国产GPU的崛起,同样需要漫长的蛰伏与突破,市值再高也要回归业绩支撑。
+    </div>
+  </foreignObject>
+  <text x="790" y="1000" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="17" fill="#888888" text-anchor="end">— 资深半导体研究员</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1060" width="900" height="140" fill="#15152a"/>
+  <rect x="0" y="1060" width="900" height="2" fill="#fb923c" opacity="0.3"/>
+  <text x="40" y="1105" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666">国产GPU企业深度观察</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666666">2025年12月</text>
+  <text x="780" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666" text-anchor="end">4/4</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="130" fill="#22c55e" opacity="0.08"/>
+  <circle cx="100" cy="1080" r="170" fill="#4ade80" opacity="0.05"/>
+  
+  <rect x="40" y="40" width="820" height="120" rx="16" fill="url(#headerGrad6)"/>
+  <text x="70" y="90" font-size="16" fill="#0f0f1a" opacity="0.8" font-family="-apple-system, 'PingFang SC', sans-serif">全球大模型季报 · 第7集</text>
+  <text x="70" y="130" font-size="36" font-weight="700" fill="#0f0f1a" font-family="-apple-system, 'PingFang SC', sans-serif">犹太人的金融，华人的AGI</text>
+  
+  <rect x="40" y="180" width="120" height="36" rx="18" fill="#22c55e" opacity="0.2"/>
+  <text x="100" y="205" font-size="16" fill="#22c55e" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">李广密</text>
+  
+  <rect x="40" y="235" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="235" width="6" height="180" rx="3" fill="#ffd166"/>
+  <text x="70" y="280" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, 'PingFang SC', sans-serif">🌏 全球化机遇</text>
+  <foreignObject x="70" y="295" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      中国本土市场供给制造能力很强，但内需不够强，容易过度内卷；北美市场供给不充裕，但<span style="color:#22c55e; font-weight:600;">付费需求很强</span>。今天可能是<span style="color:#ffd166; font-weight:600;">华人创业者做全球跨国公司的 timing</span>。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="435" width="820" height="170" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="435" width="6" height="170" rx="3" fill="#1a73e8"/>
+  <text x="70" y="480" font-size="24" font-weight="600" fill="#1a73e8" font-family="-apple-system, 'PingFang SC', sans-serif">💰 投资配置（100块钱）</text>
+  <foreignObject x="70" y="495" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.8; color:#b8b8cc; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      <span style="color:#22c55e;">40块</span> OpenAI · <span style="color:#22c55e;">40块</span> 字节 · <span style="color:#ffd166;">10块</span> Anthropic · <span style="color:#ffd166;">10块</span> Google
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="625" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="625" width="6" height="200" rx="3" fill="#a855f7"/>
+  <text x="70" y="670" font-size="24" font-weight="600" fill="#a855f7" font-family="-apple-system, 'PingFang SC', sans-serif">🎯 非共识观点</text>
+  <foreignObject x="70" y="685" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:8px;">• <span style="color:#a855f7; font-weight:600;">强团队价值被低估</span>：Anthropic、Thinking Machines Lab</div>
+      <div style="margin-bottom:8px;">• <span style="color:#22c55e; font-weight:600;">Coding 价值被低估</span>：语言是唯一实现泛化的</div>
+      <div>• <span style="color:#ffd166; font-weight:600;">机器人突破</span>可能不由做机器人的团队做出</div>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="845" width="820" height="100" rx="16" fill="#232340"/>
+  <rect x="40" y="845" width="6" height="100" rx="3" fill="#ffd166"/>
+  <text x="70" y="885" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="870" width="730" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#e0e0e0; font-style:italic; font-family:-apple-system, 'PingFang SC', sans-serif;">
+      未来 3-5 年，华人创业者会非常厉害。我们今天要花时间去理解新一代创业者。
+    </div>
+  </foreignObject>
+  <text x="780" y="925" font-size="16" fill="#888" text-anchor="end" font-family="-apple-system, 'PingFang SC', sans-serif">— 李广密</text>
+  
+  <rect x="40" y="965" width="820" height="195" rx="16" fill="#15152a"/>
+  <text x="70" y="1010" font-size="18" font-weight="600" fill="#888888" font-family="-apple-system, 'PingFang SC', sans-serif">关键词</text>
+  <rect x="70" y="1025" width="80" height="32" rx="16" fill="#22c55e" opacity="0.2"/>
+  <text x="110" y="1047" font-size="14" fill="#22c55e" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">全球化</text>
+  <rect x="160" y="1025" width="90" height="32" rx="16" fill="#1a73e8" opacity="0.2"/>
+  <text x="205" y="1047" font-size="14" fill="#1a73e8" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">投资策略</text>
+  <rect x="260" y="1025" width="80" height="32" rx="16" fill="#a855f7" opacity="0.2"/>
+  <text x="300" y="1047" font-size="14" fill="#a855f7" text-anchor="middle" font-family="-apple-system, 'PingFang SC', sans-serif">非共识</text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, 'PingFang SC', sans-serif">6/6</text>
+</svg>

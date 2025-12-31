@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#00b4d8" opacity="0.05"/>
+  
+  <!-- 顶部渐变条 -->
+  <rect x="0" y="0" width="900" height="8" fill="url(#headerGrad1)"/>
+  
+  <!-- 主标题区 -->
+  <foreignObject x="40" y="50" width="820" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;">
+      <div style="font-size:42px; line-height:1.2; color:#ffffff; font-weight:700; margin-bottom:12px;">
+        国产GPU IPO狂潮
+      </div>
+      <div style="font-size:20px; line-height:1.4; color:#00b4d8; font-weight:500;">
+        政策红利 × 资本推动 × AI算力激增
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 核心背景 -->
+  <rect x="40" y="210" width="820" height="185" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="185" rx="3" fill="#1a73e8"/>
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#1a73e8">🎯 极限压力测试</text>
+  <foreignObject x="70" y="260" width="760" height="125">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      自2020年9月华为麒麟芯片遭遇断供,<span style="color:#00b4d8; font-weight:600;">5年间中国芯片加速自主研发</span>,于2025年末集体冲刺上市。摩尔线程、沐曦股份率先登陆科创板,市值分别突破<span style="color:#ffd166; font-weight:600;">4400亿元和3000亿元</span>,一场造富神话席卷资本市场。
+    </div>
+  </foreignObject>
+  
+  <!-- 上市数据 -->
+  <rect x="40" y="415" width="820" height="230" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="415" width="6" height="230" rx="3" fill="#00b4d8"/>
+  <text x="70" y="450" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#00b4d8">📈 上市节奏加速</text>
+  <foreignObject x="70" y="465" width="760" height="170">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">已上市:</strong> 摩尔线程(12月初)、沐曦股份(12月17日),上市首日涨幅近700%,1签浮盈接近30万元<br/>
+      <strong style="color:#ffffff;">排队中:</strong> 壁仞、天数智芯、昆仑芯纷纷加速,目标香港联交所<br/>
+      <strong style="color:#ffffff;">节奏:</strong> 从6月IPO辅导到挂牌,仅用<span style="color:#ffd166; font-weight:600;">半年时间</span>,效率惊人
+    </div>
+  </foreignObject>
+  
+  <!-- 驱动因素 -->
+  <rect x="40" y="665" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="665" width="6" height="200" rx="3" fill="#a855f7"/>
+  <text x="70" y="700" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#a855f7">🚀 三大驱动力</text>
+  <foreignObject x="70" y="715" width="760" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <span style="color:#00b4d8;">①</span> <strong style="color:#ffffff;">政策催化</strong> — 做标杆、做引领,明确鼓励科技产业落地<br/>
+      <span style="color:#00b4d8;">②</span> <strong style="color:#ffffff;">市场回暖</strong> — AI确定性高,二级市场情绪积极<br/>
+      <span style="color:#00b4d8;">③</span> <strong style="color:#ffffff;">企业需求</strong> — 研发烧钱,急需资本补血
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="885" width="820" height="135" rx="16" fill="#232340"/>
+  <rect x="40" y="885" width="6" height="135" rx="3" fill="#ffd166"/>
+  <text x="70" y="925" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="910" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      半导体圈都在排队上市,企业要生存发展,不得不走这条路。上市需求已经不来自企业自身,而是政策、市场、投资者的共同推动。
+    </div>
+  </foreignObject>
+  <text x="790" y="1000" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="17" fill="#888888" text-anchor="end">— 国产芯片从业者</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1060" width="900" height="140" fill="#15152a"/>
+  <rect x="0" y="1060" width="900" height="2" fill="#1a73e8" opacity="0.3"/>
+  <text x="40" y="1105" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666">国产GPU企业深度观察</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666666">2025年12月</text>
+  <text x="780" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666" text-anchor="end">1/4</text>
+</svg>

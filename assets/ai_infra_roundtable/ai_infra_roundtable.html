@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 基础设施圆桌 · 知识卡片</title>
+    <style>
+        body {
+            background-color: #0f0f12;
+            color: #eee;
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #2979ff, #00e676, #d500f9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p { color: #888; margin-bottom: 40px; }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            max-width: 1400px;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: translateY(-5px);
+        }
+        .download-btn {
+            padding: 10px 20px;
+            border: 1px solid #444;
+            border-radius: 20px;
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            background: #1a1a24;
+            transition: all 0.2s;
+        }
+        .download-btn:hover {
+            border-color: #888;
+            color: #fff;
+            background: #2a2a35;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AI 基础设施圆桌 · 稳态还是变态</h1>
+    <p>深度解读：孙国梁 · 胡健 · 张祥雨</p>
+
+    <div class="gallery">
+        <!-- Sun -->
+        <div class="card-container">
+            <img src="ai_infra_card_1_sun.svg" alt="孙国梁 - 算力与稳态">
+            <a href="ai_infra_card_1_sun.svg" download="孙国梁_AI基础设施.svg" class="download-btn">下载卡片 (SVG)</a>
+        </div>
+
+        <!-- Hu -->
+        <div class="card-container">
+            <img src="ai_infra_card_2_hu.svg" alt="胡健 - 开源与博弈">
+            <a href="ai_infra_card_2_hu.svg" download="胡健_AI基础设施.svg" class="download-btn">下载卡片 (SVG)</a>
+        </div>
+
+        <!-- Zhang -->
+        <div class="card-container">
+            <img src="ai_infra_card_3_zhang.svg" alt="张祥雨 - 算法变局">
+            <a href="ai_infra_card_3_zhang.svg" download="张祥雨_AI基础设施.svg" class="download-btn">下载卡片 (SVG)</a>
+        </div>
+    </div>
+
+</body>
+</html>

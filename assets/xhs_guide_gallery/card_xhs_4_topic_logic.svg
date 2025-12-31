@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e67e22;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="120" r="100" fill="#f39c12" opacity="0.08"/>
+  <circle cx="60" cy="1080" r="140" fill="#e67e22" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">小红书商业化</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">4/9</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffffff" font-weight="700">选题的三个底层逻辑</text>
+  
+  <!-- 副标题 -->
+  <foreignObject x="40" y="145" width="820" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#888888;">
+      情绪类、利他类、避开算法限制
+    </div>
+  </foreignObject>
+  
+  <!-- 逻辑1：情绪类内容 -->
+  <rect x="40" y="210" width="820" height="190" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="190" rx="3" fill="#e74c3c"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#e74c3c" font-weight="600">🔥 情绪类内容：流量大但不涨粉</text>
+  <foreignObject x="70" y="270" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      能调动某一类人情绪的内容，如年底年终奖话题。特点：<span style="color:#e74c3c; font-weight:600;">数据特别好，但不涨粉</span>（1000点赞可能只有10个粉丝）。用户是为了发泄情绪，看完就走。方法：找热点、站队、极端一点。
+    </div>
+  </foreignObject>
+  
+  <!-- 逻辑2：利他类内容 -->
+  <rect x="40" y="420" width="820" height="190" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="420" width="6" height="190" rx="3" fill="#27ae60"/>
+  <text x="70" y="465" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#27ae60" font-weight="600">📚 利他类内容：涨粉稳但流量小</text>
+  <foreignObject x="70" y="480" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      让用户觉得能学到东西：AI工具测评、使用攻略、提示词分享。<span style="color:#27ae60; font-weight:600;">更稳，适合长期做</span>。套路：上来说结果→下钩子→两三句话讲清楚→行动号召→一分钟内搞定。B站不讲明白会被骂，<span style="color:#27ae60; font-weight:600;">小红书讲太明白会被骂</span>！
+    </div>
+  </foreignObject>
+  
+  <!-- 逻辑3：避开算法限制 -->
+  <rect x="40" y="630" width="820" height="190" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="630" width="6" height="190" rx="3" fill="#f39c12"/>
+  <text x="70" y="675" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" fill="#f39c12" font-weight="600">⚙️ 避免被算法限制</text>
+  <foreignObject x="70" y="690" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      小红书算法很刻板，<span style="color:#f39c12; font-weight:600;">一旦打上某类标签，做泛内容就没流量</span>。案例：20多万粉英语号转母婴，用了半年时间，活跃度还不如一个10万粉母婴号。陈言刻意说自己是"科技博主"而非"AI博主"，AI内容只占一半。
+    </div>
+  </foreignObject>
+  
+  <!-- 实操技巧 -->
+  <rect x="40" y="840" width="820" height="180" rx="16" fill="#232340"/>
+  <rect x="40" y="840" width="6" height="180" rx="3" fill="#3498db"/>
+  <text x="70" y="880" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#3498db" font-weight="600">💡 小红书内容套路</text>
+  <foreignObject x="70" y="895" width="760" height="115">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#b8b8cc;">
+      1. 上来说结果<br/>
+      2. 然后下钩子<br/>
+      3. 用两三句话把事讲清楚<br/>
+      4. 最后留一个行动号召<br/>
+      5. 最好一分钟内搞定
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1080" width="900" height="120" fill="#15152a"/>
+  <text x="40" y="1120" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：向阳乔木 | 小红书接广告完全指南</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">分享嘉宾：陈言（Linkc_Chen）| 10万粉AI博主</text>
+  <text x="40" y="1170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="13" fill="#555">zhangAI 知识卡片 · 2025-12-31</text>
+</svg>

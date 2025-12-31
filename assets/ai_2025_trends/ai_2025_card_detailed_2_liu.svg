@@ -1,0 +1,90 @@
+<svg width="900" height="1410" viewBox="0 0 900 1410" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style> text, tspan { font-family: "Hiragino Sans GB", "Heiti SC", sans-serif; } .text-div, .quote-div { font-family: "Early Summer Serif", serif; } 
+      .bg { fill: #0f0f12; }
+      .card-bg { fill: #1a1a24; stroke: #333; stroke-width: 2; rx: 30; }
+      
+      .header-role { font-size: 22px; font-weight: 400; fill: #be29ec; letter-spacing: 1px; }
+      .header-name { font-size: 56px; font-weight: 900; fill: #fff; }
+      
+      .section-box { fill: #23202a; rx: 15; stroke: #333; stroke-width: 1; }
+      .section-title { font-size: 26px; font-weight: 700; fill: #fff; }
+      
+      .highlight { color: #be29ec; font-weight: 700; }
+      .text-div { font-size: 24px; font-weight: 400; color: #ccc; line-height: 1.6; text-align: justify; word-wrap: break-word; }
+      
+      .quote-bar { fill: #be29ec; }
+      .quote-div { font-size: 28px; font-style: italic; color: #eee; line-height: 1.5; }
+      
+      .sub-label { font-size: 18px; fill: #666; font-weight: 700; text-transform: uppercase; }
+      .footer { font-size: 18px; fill: #444; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1410" class="bg"/>
+  <rect x="40" y="40" width="820" height="1330" class="card-bg"/>
+
+  <!-- Header -->
+  <g transform="translate(80, 100)">
+    <text x="0" y="0" class="header-role">MODELBEST / TSINGHUA NLP</text>
+    <text x="0" y="60" class="header-name">刘知远</text>
+    <text x="200" y="60" font-size="30" fill="#666" font-weight="400">02 / 密度与效率</text>
+    <line x1="0" y1="90" x2="740" y2="90" stroke="#be29ec" stroke-width="4"/>
+  </g>
+
+  <!-- Section 1 (Tight Fit: 290px) -->
+  <g transform="translate(80, 240)">
+    <text x="0" y="-15" class="sub-label">01 核心法则</text>
+    <rect x="0" y="0" width="740" height="290" class="section-box"/>
+    <text x="30" y="45" class="section-title">密度法则 (Densing Law)</text>
+    
+    <foreignObject x="30" y="70" width="680" height="220">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        定义：AI 时代的“摩尔定律”。<br/>
+        目标：不断提升<span class="highlight">单位参数内的智能密度</span>。<br/><br/>
+        物理意义：不仅要把模型做小，更要把知识压缩进更小的空间。每100天模型密度提升一个台阶，是算力受限下的突围路径。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 2 (Tight Fit: 280px) -->
+  <g transform="translate(80, 570)">
+    <text x="0" y="-15" class="sub-label">02 端云格局</text>
+    <rect x="0" y="0" width="740" height="280" class="section-box"/>
+    <text x="30" y="45" class="section-title">云端规划，端侧执行</text>
+    
+    <foreignObject x="30" y="70" width="680" height="210">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        云端 (Brain)：负责复杂逻辑推理、宏观规划。<br/>
+        端侧 (Action)：距离用户最近，负责实时感知执行。<br/><br/>
+        比喻：<span class="highlight">"不需要人人身边有AI杨振宁"</span>。我们需要专业的云端科学家配合灵巧的端侧助手，两者分工协作，兼顾隐私与效率。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 3 (Tight Fit: 220px) -->
+  <g transform="translate(80, 890)">
+    <text x="0" y="-15" class="sub-label">03 极限预测</text>
+    <rect x="0" y="0" width="740" height="220" class="section-box"/>
+    <text x="30" y="45" class="section-title">2030年的端侧算力</text>
+    
+    <foreignObject x="30" y="70" width="680" height="150">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        硬件演进：端侧芯片将能承载 <span class="highlight">600亿 (60B)</span> 参数。<br/><br/>
+        能力涌现：届时手机/机器人端侧将直接具备 <span class="highlight">GPT-5 级别</span> 的智能水平，无需时刻联网。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote -->
+  <g transform="translate(80, 1180)">
+    <rect x="0" y="0" width="10" height="100" class="quote-bar"/>
+    <foreignObject x="35" y="10" width="680" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="quote-div">
+        “小模型变聪明是有物理极限的，但通过技术创新，我们能把更多智慧压缩进更小的芯片，实现端侧突围。”
+      </div>
+    </foreignObject>
+  </g>
+
+  <text x="450" y="1330" class="footer">2025 AI 进化论 · 详细深度版</text>
+</svg>

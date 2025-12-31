@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="150" cy="150" r="180" fill="#a855f7" opacity="0.08"/>
+  <circle cx="750" cy="1000" r="220" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 顶部渐变条 -->
+  <rect x="0" y="0" width="900" height="8" fill="url(#headerGrad2)"/>
+  
+  <!-- 主标题区 -->
+  <foreignObject x="40" y="50" width="820" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;">
+      <div style="font-size:42px; line-height:1.2; color:#ffffff; font-weight:700; margin-bottom:12px;">
+        亏损与市值齐飞
+      </div>
+      <div style="font-size:20px; line-height:1.4; color:#a855f7; font-weight:500;">
+        业绩尚未兑现,估值已达万亿
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 营收数据 -->
+  <rect x="40" y="210" width="820" height="220" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="220" rx="3" fill="#a855f7"/>
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#a855f7">💰 2025年预期数据</text>
+  <foreignObject x="70" y="260" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">沐曦:</strong> 营收上限<span style="color:#ffd166; font-weight:600;">19.8亿元</span>,净亏损<span style="color:#ef4444; font-weight:600;">7.63亿</span>,市值曾超<span style="color:#a855f7; font-weight:600;">3000亿</span><br/>
+      <strong style="color:#ffffff;">摩尔线程:</strong> 营收上限<span style="color:#ffd166; font-weight:600;">14.98亿元</span>,净亏损<span style="color:#ef4444; font-weight:600;">11.68亿</span>,市值曾超<span style="color:#a855f7; font-weight:600;">4400亿</span><br/>
+      <strong style="color:#ffffff;">昆仑芯:</strong> 预计营收<span style="color:#ffd166; font-weight:600;">35亿元</span>,亏损<span style="color:#ef4444; font-weight:600;">2-3亿</span>(相对健康)
+    </div>
+  </foreignObject>
+  
+  <!-- 市销率 -->
+  <rect x="40" y="450" width="820" height="160" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="450" width="6" height="160" rx="3" fill="#6366f1"/>
+  <text x="70" y="485" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#6366f1">📊 估值悖论</text>
+  <foreignObject x="70" y="500" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <span style="color:#ffd166; font-weight:700; font-size:28px;">170倍</span> 市销率(PS) — AI三小龙合计营收70亿元,总市值<span style="color:#a855f7; font-weight:600;">1.2万亿元</span>,远超半导体板块均值
+    </div>
+  </foreignObject>
+  
+  <!-- 烧钱研发 -->
+  <rect x="40" y="630" width="820" height="235" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="630" width="6" height="235" rx="3" fill="#14b8a6"/>
+  <text x="70" y="665" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#14b8a6">🔥 烧钱赌未来</text>
+  <foreignObject x="70" y="680" width="760" height="175">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ffffff;">寒武纪:</strong> 2024年研发投入<span style="color:#ffd166; font-weight:600;">12.16亿元</span><br/>
+      <strong style="color:#ffffff;">摩尔线程:</strong> 过去三年累计<span style="color:#ffd166; font-weight:600;">38.1亿元</span><br/>
+      <strong style="color:#ffffff;">沐曦:</strong> 过去三年累计<span style="color:#ffd166; font-weight:600;">22.5亿元</span><br/>
+      GPU是<span style="color:#14b8a6; font-weight:600;">超级复杂系统工程</span>,一个项目动辄上千人,所有事情都做对才能成功,<span style="color:#ef4444; font-weight:600;">一件做错就全盘皆输</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="885" width="820" height="135" rx="16" fill="#232340"/>
+  <rect x="40" y="885" width="6" height="135" rx="3" fill="#ffd166"/>
+  <text x="70" y="925" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="910" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      亏损不意味着不值得投资。创业初期的英伟达,1996年营收118万美元却亏损638万,几乎濒临绝境。但用3个月和100万美元,靠RIVA 128绝处逢生。
+    </div>
+  </foreignObject>
+  <text x="790" y="1000" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="17" fill="#888888" text-anchor="end">— 历史的启示</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1060" width="900" height="140" fill="#15152a"/>
+  <rect x="0" y="1060" width="900" height="2" fill="#a855f7" opacity="0.3"/>
+  <text x="40" y="1105" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666">国产GPU企业深度观察</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666666">2025年12月</text>
+  <text x="780" y="1135" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666666" text-anchor="end">2/4</text>
+</svg>

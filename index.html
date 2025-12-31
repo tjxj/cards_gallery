@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老章的知识卡片画廊 | Zhang's Knowledge Cards</title>
+    <meta name="description" content="汇集各类 AI、科技、运营知识卡片，深度解析行业趋势。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f1115;
+            --card-bg: #1e2128;
+            --text-main: #ffffff;
+            --text-sub: #a0a0b0;
+            --accent: #3b82f6;
+            --hover-border: #60a5fa;
+        }
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-sub);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 40px;
+        }
+        .collection-card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .collection-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--hover-border);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .cover-area {
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            background: #2a2d36;
+            position: relative;
+        }
+        .cover-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .collection-card:hover .cover-area img {
+            transform: scale(1.05);
+        }
+        .content-area {
+            padding: 24px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin: 0 0 12px 0;
+            font-weight: 600;
+        }
+        p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--text-sub);
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+        .meta {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 500;
+        }
+        .meta svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 6px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 100px;
+            padding-bottom: 40px;
+            color: var(--text-sub);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 40px;
+        }
+        footer a { color: var(--text-sub); text-decoration: none; transition: color 0.2s; }
+        footer a:hover { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Knowledge Cards Gallery</h1>
+            <p class="subtitle">深度解析行业趋势，一图胜千言。由老章制作。</p>
+        </header>
+
+        <div class="grid">
+            <!-- XHS Guide -->
+            <a href="./assets/xhs_guide_gallery/index.html" class="collection-card">
+                <div class="cover-area">
+                    <img src="./assets/xhs_guide_gallery/card_xhs_1_account_positioning.svg" alt="小红书运营指南">
+                </div>
+                <div class="content-area">
+                    <h2>小红书运营指南</h2>
+                    <p>从账号定位到商业变现，9 张卡片通过 IP 打造全流程。实战经验总结，助你快速起号。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        9 张卡片
+                    </div>
+                </div>
+            </a>
+
+            <!-- GPU Series -->
+            <a href="./assets/card_gpu/index.html" class="collection-card">
+                <div class="cover-area">
+                    <img src="./assets/card_gpu/card_gpu_1_ipo_wave.svg" alt="国产 GPU 独角兽">
+                </div>
+                <div class="content-area">
+                    <h2>国产 GPU 独角兽上市潮</h2>
+                    <p>深度解析国产 GPU 行业的上市背景、估值倒挂现象及未来破局之道。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        4 张卡片
+                    </div>
+                </div>
+            </a>
+
+            <!-- AI 2025 -->
+            <a href="./assets/ai_2025_trends/index.html" class="collection-card">
+                <div class="cover-area">
+                    <img src="./assets/ai_2025_trends/ai_2025_card_detailed_1_wang.svg" alt="AI 2025 趋势">
+                </div>
+                <div class="content-area">
+                    <h2>2025 AI 趋势预测</h2>
+                    <p>大佬眼中的 2025：从 Scaling Law 到 Agent 落地，全方位解读 AI 发展新风向。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        3 张卡片
+                    </div>
+                </div>
+            </a>
+
+            <!-- LLM Quarterly -->
+            <a href="./assets/llm_quarterly_cards/index.html" class="collection-card">
+                <div class="cover-area">
+                    <img src="./assets/llm_quarterly_cards/card_llm_quarterly_1_divergence.svg" alt="LLM 季度报告">
+                </div>
+                <div class="content-area">
+                    <h2>大模型季度观察</h2>
+                    <p>模型分化、Anthropic 崛起、L4 级自动驾驶... 季度核心事件深度复盘。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        6 张卡片
+                    </div>
+                </div>
+            </a>
+            
+            <!-- Tencent Yuanbao -->
+            <a href="./assets/tencent_yuanbao_cards/index.html" class="collection-card">
+                <div class="cover-area">
+                    <!-- 假设命名规则，稍后若不匹配会自动修正 -->
+                    <img src="./assets/tencent_yuanbao_cards/card_yuanbao_1_overview.svg" onerror="this.src='./assets/tencent_yuanbao_cards/card_1.svg'" alt="腾讯元宝">
+                </div>
+                <div class="content-area">
+                    <h2>腾讯元宝深度解读</h2>
+                    <p>解析腾讯在大模型应用层的核心布局与元宝产品的独特优势。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        4 张卡片
+                    </div>
+                </div>
+            </a>
+
+            <!-- AI Infra -->
+            <a href="./assets/ai_infra_roundtable/index.html" class="collection-card">
+                <div class="cover-area">
+                    <img src="./assets/ai_infra_roundtable/ai_infra_card_1_sun.svg" alt="AI 基础设施">
+                </div>
+                <div class="content-area">
+                    <h2>AI 基础设施圆桌</h2>
+                    <p>专家共话 AI Infra 的未来：算力、网络与存储的挑战与机遇。</p>
+                    <div class="meta">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        3 张卡片
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <footer>
+            <p>© 2025 老章 Zhang's Gallery. Built with <a href="https://svg.zhanglearning.com" target="_blank">SVG2PNG</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>

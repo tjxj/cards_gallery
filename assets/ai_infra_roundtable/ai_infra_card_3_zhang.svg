@@ -1,0 +1,85 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style> text, tspan { font-family: "Hiragino Sans GB", "Heiti SC", sans-serif; } .text-div, .quote-div { font-family: "Early Summer Serif", serif; } 
+      .bg { fill: #0f0f12; }
+      .card-bg { fill: #1a1a24; stroke: #333; stroke-width: 2; rx: 30; }
+      
+      .header-role { font-size: 22px; font-weight: 400; fill: #d500f9; letter-spacing: 1px; }
+      .header-name { font-size: 56px; font-weight: 900; fill: #fff; }
+      
+      .section-box { fill: #2a2030; rx: 15; stroke: #333; stroke-width: 1; }
+      .section-title { font-size: 26px; font-weight: 700; fill: #fff; }
+      
+      .highlight { color: #d500f9; font-weight: 700; }
+      .text-div { font-size: 24px; font-weight: 400; color: #ccc; line-height: 1.6; text-align: justify; word-wrap: break-word; }
+      
+      .quote-bar { fill: #d500f9; }
+      .quote-div { font-size: 26px; font-style: italic; color: #eee; line-height: 1.5; }
+      
+      .sub-label { font-size: 18px; fill: #666; font-weight: 700; text-transform: uppercase; }
+      .footer { font-size: 18px; fill: #444; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1200" class="bg"/>
+  <rect x="40" y="40" width="820" height="1120" class="card-bg"/>
+
+  <!-- Header -->
+  <g transform="translate(80, 100)">
+    <text x="0" y="0" class="header-role">STEPFUN CHIEF SCIENTIST</text>
+    <text x="0" y="60" class="header-name">张祥雨</text>
+    <text x="200" y="60" font-size="30" fill="#666" font-weight="400">算法变局</text>
+    <line x1="0" y1="90" x2="740" y2="90" stroke="#d500f9" stroke-width="4"/>
+  </g>
+
+  <!-- Section 1 -->
+  <g transform="translate(80, 230)">
+    <text x="0" y="-15" class="sub-label">01 智商掉落</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">Transformer 的阿喀琉斯之踵</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        面对长文本时，模型的“智商”会随上下文增加而快速下降。<span class="highlight">单向信息流</span>机制存在先天缺陷，无法像人脑一样拥有复杂的压缩机制。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 2 -->
+  <g transform="translate(80, 480)">
+    <text x="0" y="-15" class="sub-label">02 终极架构</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">非线性 RNN 的回归</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        未来的架构极可能是 <span class="highlight">Short-term Transformer</span> + <span class="highlight">Non-Linear RNN</span>。这也是通向下一代拥有无限上下文 Agent 的必经之路。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Section 3 -->
+  <g transform="translate(80, 730)">
+    <text x="0" y="-15" class="sub-label">03 颠覆扩散</text>
+    <rect x="0" y="0" width="740" height="210" class="section-box"/>
+    <text x="30" y="45" class="section-title">生成模型要有语义</text>
+    
+    <foreignObject x="30" y="70" width="680" height="140">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="text-div">
+        现有的“加噪-去噪”过程缺乏语义（Bad CoT Pattern）。未来的生成模型应引入更丰富的语义对齐，甚至增强单步推理能力。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote -->
+  <g transform="translate(80, 990)">
+    <rect x="0" y="0" width="10" height="100" class="quote-bar"/>
+    <foreignObject x="35" y="10" width="680" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="quote-div">
+        “今天的Transformer完全支撑不了下一代Agent。真正的挑战不是计算复杂度，而是‘智商掉落’——文本越长，模型越傻。”
+      </div>
+    </foreignObject>
+  </g>
+
+  <text x="450" y="1120" class="footer">AI 基础设施圆桌 · 2025</text>
+</svg>
