@@ -8,7 +8,8 @@ const DIRS = [
     { id: 'ai_2025_trends', title: '2025 AI 趋势预测' },
     { id: 'llm_quarterly_cards', title: '大模型季度观察' },
     { id: 'tencent_yuanbao_cards', title: '腾讯元宝深度解读' },
-    { id: 'ai_infra_roundtable', title: 'AI 基础设施圆桌' }
+    { id: 'ai_infra_roundtable', title: 'AI 基础设施圆桌' },
+    { id: 'luozhenyu_2026', title: '罗振宇「时间的朋友」2026' }
 ];
 
 const TEMPLATE = (title, cards) => `<!DOCTYPE html>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00b4d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 画布背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#00b4d8" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="180" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="130" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">2026 跨年演讲</text>
+  
+  <!-- 系列标识 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">1/6</text>
+  
+  <!-- 主标题区 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="42" fill="#ffffff" font-weight="700">AI 远超想象</text>
+  <text x="40" y="170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#888">这一轮科技革命，真的不一样</text>
+  
+  <!-- 核心洞见区块 -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#00b4d8"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#00b4d8">💡 核心洞见</text>
+  <foreignObject x="70" y="275" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      过去的技术革命，都有可见的社会景观——蒸汽机带来工厂烟囱，内燃机带来高速公路，计算机带来写字楼。但<span style="color:#00b4d8; font-weight:600;">AI没有特定的社会景观</span>，没有什么东西矗立在那里提醒你：时代变了。
+    </div>
+  </foreignObject>
+  
+  <!-- 关键观点区块 -->
+  <rect x="40" y="430" width="820" height="280" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="430" width="6" height="280" rx="3" fill="#a855f7"/>
+  <text x="70" y="475" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#a855f7">🔮 三个"被摇晃肩膀"的时刻</text>
+  <foreignObject x="70" y="495" width="760" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.75; color:#b8b8cc;">
+      <div style="margin-bottom:12px;">🤖 <span style="color:#fff; font-weight:500;">灵心巧手公司：</span>不是大脑指挥手，而是手塑造了大脑——应用喂养智能</div>
+      <div style="margin-bottom:12px;">🎨 <span style="color:#fff; font-weight:500;">懂AI的初久：</span>8小时+零成本=炫酷视频，所想即所得的时代</div>
+      <div style="margin-bottom:12px;">🏢 <span style="color:#fff; font-weight:500;">某大公司战略会：</span>AI一发言，人类都不好意思开口了</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 金句引用 -->
+  <rect x="40" y="730" width="820" height="160" rx="16" fill="#232340"/>
+  <rect x="40" y="730" width="6" height="160" rx="3" fill="#ffd166"/>
+  <text x="70" y="780" font-family="Georgia, serif" font-size="48" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="765" width="720" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:22px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      到2025年年底，AI的智力水平将超越任何单个人类。
+    </div>
+  </foreignObject>
+  <text x="760" y="870" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="end">— 埃隆·马斯克</text>
+  
+  <!-- 数据亮点 -->
+  <rect x="40" y="910" width="400" height="100" rx="12" fill="#1c1c2e"/>
+  <text x="240" y="955" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#00b4d8" text-anchor="middle" font-weight="700">1000天</text>
+  <text x="240" y="990" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="middle">足以带来奇迹的时间跨度</text>
+  
+  <rect x="460" y="910" width="400" height="100" rx="12" fill="#1c1c2e"/>
+  <text x="660" y="955" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#a855f7" text-anchor="middle" font-weight="700">3100万</text>
+  <text x="660" y="990" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="middle">2035年中国"紫领"岗位规模</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1040" width="900" height="160" fill="#15152a"/>
+  <text x="40" y="1085" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">罗振宇「时间的朋友」</text>
+  <text x="40" y="1115" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">2025年12月31日 · 三亚保利国际博览中心</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555">主题：1000天后的世界</text>
+  
+  <!-- 页脚右侧logo区域 -->
+  <rect x="720" y="1070" width="140" height="50" rx="8" fill="#1c1c2e"/>
+  <text x="790" y="1102" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#00b4d8" text-anchor="middle">得到 · 跨年演讲</text>
+</svg>

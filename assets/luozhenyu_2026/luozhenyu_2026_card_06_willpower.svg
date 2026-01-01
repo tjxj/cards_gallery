@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="100" fill="#ef4444" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="170" fill="#f472b6" opacity="0.05"/>
+  <rect x="40" y="40" width="180" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="130" y="64" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="600">2026 跨年演讲</text>
+  <text x="860" y="64" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">6/6</text>
+  <text x="40" y="130" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="42" fill="#fff" font-weight="700">我怎么能比AI强？</text>
+  <text x="40" y="170" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#888">愿力：人类独有的能力</text>
+  <rect x="40" y="210" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="150" rx="3" fill="#ef4444"/>
+  <text x="70" y="255" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#ef4444">🔥 愿力：人类的终极优势</text>
+  <foreignObject x="70" y="275" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:19px;line-height:1.7;color:#b8b8cc;">
+      AI的能力来自数据训练，是人类既有经验喂养出来的孩子。到文明边缘、数据稀少的地方，它就不行了。<span style="color:#ef4444;font-weight:600;">AI是"窝里横"，出门闯荡远不如人类。</span>
+    </div>
+  </foreignObject>
+  <rect x="40" y="380" width="820" height="145" rx="16" fill="#232340"/>
+  <rect x="40" y="380" width="6" height="145" rx="3" fill="#ffd166"/>
+  <text x="70" y="420" font-family="Georgia,serif" font-size="42" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="410" width="720" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:20px;line-height:1.6;color:#e0e0e0;font-style:italic;">主观上有充足依据，而在客观上依据不足的判断——这就是<span style="color:#ffd166;font-weight:600;">愿力</span>。张骞凿空西域、玄奘西天取经、哥伦布远航美洲，都是如此。</div>
+  </foreignObject>
+  <text x="760" y="505" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— 康德</text>
+  <rect x="40" y="545" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="545" width="6" height="130" rx="3" fill="#a855f7"/>
+  <text x="70" y="585" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#a855f7">👩‍👦 小时工阿姨的愿力</text>
+  <foreignObject x="70" y="605" width="760" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:18px;line-height:1.6;color:#b8b8cc;">"家里有事，上半年我不回来了。今年我要陪儿子备考。我儿子高考。"——隔着屏幕都能感受到那种骄傲。<span style="color:#a855f7;font-weight:600;">出发时没有把握的人，都是英雄。</span></div>
+  </foreignObject>
+  <text x="40" y="720" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#22c55e">🌟 1000天后的三个预测</text>
+  <rect x="40" y="740" width="265" height="90" rx="10" fill="#1c1c2e"/>
+  <text x="172" y="775" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="18" fill="#22c55e" text-anchor="middle" font-weight="600">医疗大平权</text>
+  <text x="172" y="805" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#888" text-anchor="middle">基层诊疗差距填平</text>
+  <rect x="317" y="740" width="265" height="90" rx="10" fill="#1c1c2e"/>
+  <text x="450" y="775" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="18" fill="#fbbf24" text-anchor="middle" font-weight="600">就业去文凭</text>
+  <text x="450" y="805" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#888" text-anchor="middle">高中生直入大厂</text>
+  <rect x="595" y="740" width="265" height="90" rx="10" fill="#1c1c2e"/>
+  <text x="728" y="775" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="18" fill="#0ea5e9" text-anchor="middle" font-weight="600">语言大融通</text>
+  <text x="728" y="805" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#888" text-anchor="middle">人听懂所有物种</text>
+  <rect x="40" y="850" width="820" height="150" rx="16" fill="#232340"/>
+  <rect x="40" y="850" width="6" height="150" rx="3" fill="#ffd166"/>
+  <text x="70" y="895" font-family="Georgia,serif" font-size="42" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="885" width="720" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:20px;line-height:1.6;color:#e0e0e0;font-style:italic;">天地那么大，命运那么无常。只要我能在<span style="color:#ef4444;font-weight:600;">一席之地，构建出小小的造物</span>，我就能享受这生命的欢喜！</div>
+  </foreignObject>
+  <text x="760" y="980" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— 苏东坡 · 儋州</text>
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="40" y="1070" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#fff" font-weight="600">罗振宇「时间的朋友」第十一届</text>
+  <text x="40" y="1100" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#666">2025年12月31日 · 三亚保利国际博览中心</text>
+  <text x="40" y="1130" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="16" fill="#ef4444">做一个不可救药的乐观派！</text>
+  <rect x="720" y="1060" width="140" height="50" rx="8" fill="#1c1c2e"/>
+  <text x="790" y="1092" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#ef4444" text-anchor="middle">得到 · 跨年演讲</text>
+</svg>

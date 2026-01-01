@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d9488;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 画布背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="850" cy="150" r="100" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="50" cy="1050" r="150" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="180" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="130" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">2026 跨年演讲</text>
+  
+  <!-- 系列标识 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">2/6</text>
+  
+  <!-- 主标题区 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="42" fill="#ffffff" font-weight="700">我会被AI替代吗？</text>
+  <text x="40" y="170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#888">这是一个问错了的问题</text>
+  
+  <!-- 核心洞见区块 -->
+  <rect x="40" y="210" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="180" rx="3" fill="#14b8a6"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#14b8a6">⚡ 问题错在哪？</text>
+  <foreignObject x="70" y="275" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc; text-align:justify;">
+      <div style="margin-bottom:10px;">❌ 错误假设一：有些行业安全、有些行业危险 → <span style="color:#14b8a6; font-weight:600;">没有行当能幸免</span></div>
+      <div>❌ 错误假设二："替代"是坏事 → <span style="color:#14b8a6; font-weight:600;">未必，可能是解放</span></div>
+    </div>
+  </foreignObject>
+  
+  <!-- 案例区块 -->
+  <rect x="40" y="410" width="820" height="260" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="410" width="6" height="260" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="455" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#0ea5e9">🏭 真实世界的AI应用</text>
+  <foreignObject x="70" y="475" width="760" height="185">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.75; color:#b8b8cc;">
+      <div style="margin-bottom:10px;">🛒 <span style="color:#fff; font-weight:500;">超市：</span>AI监控口罩佩戴、地面清洁、烤面包决策、优惠券推送</div>
+      <div style="margin-bottom:10px;">⛏️ <span style="color:#fff; font-weight:500;">伊敏矿：</span>100台无人矿车，零下40度极寒环境下的人类解放</div>
+      <div style="margin-bottom:10px;">🐷 <span style="color:#fff; font-weight:500;">养猪场：</span>20秒AI体检替代5-6个大汉围堵800斤公猪</div>
+      <div>🏗️ <span style="color:#fff; font-weight:500;">混凝土行业：</span>AI萃取老师傅经验，精准配比"生鲜"混凝土</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 金句引用 -->
+  <rect x="40" y="690" width="820" height="200" rx="16" fill="#232340"/>
+  <rect x="40" y="690" width="6" height="200" rx="3" fill="#ffd166"/>
+  <text x="70" y="745" font-family="Georgia, serif" font-size="48" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="730" width="720" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:22px; line-height:1.65; color:#e0e0e0; font-style:italic;">
+      AI不是在往外排挤人、替代人，<span style="color:#14b8a6; font-weight:600;">而是在往上托举人</span>。它替代掉的部分，恰恰是我们原来不愿意干、干不动、甚至压根就不该人干的部分。
+    </div>
+  </foreignObject>
+  <text x="760" y="870" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="end">— 罗振宇</text>
+  
+  <!-- 底部亮点 -->
+  <rect x="40" y="910" width="820" height="100" rx="12" fill="#1c1c2e"/>
+  <foreignObject x="60" y="930" width="780" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.6; color:#b8b8cc; text-align:center;">
+      <span style="color:#14b8a6; font-weight:600;">真实世界里的大活人</span>，不是一枚被AI挤来挤去的棋子<br/>
+      踏着AI的阶梯，想办法往上走一步
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1040" width="900" height="160" fill="#15152a"/>
+  <text x="40" y="1085" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">罗振宇「时间的朋友」</text>
+  <text x="40" y="1115" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">2025年12月31日 · 三亚保利国际博览中心</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555">主题：1000天后的世界</text>
+  
+  <!-- 页脚右侧logo区域 -->
+  <rect x="720" y="1070" width="140" height="50" rx="8" fill="#1c1c2e"/>
+  <text x="790" y="1102" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#14b8a6" text-anchor="middle">得到 · 跨年演讲</text>
+</svg>

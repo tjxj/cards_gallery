@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#4f46e5"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="820" cy="110" r="100" fill="#6366f1" opacity="0.08"/>
+  <circle cx="80" cy="1100" r="160" fill="#8b5cf6" opacity="0.05"/>
+  <rect x="40" y="40" width="180" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="130" y="64" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="600">2026 跨年演讲</text>
+  <text x="860" y="64" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">5/6</text>
+  <text x="40" y="130" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="42" fill="#fff" font-weight="700">我的竞争力从哪来？</text>
+  <text x="40" y="170" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#888">AI不是工具，AI是伙伴</text>
+  <rect x="40" y="210" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="130" rx="3" fill="#6366f1"/>
+  <text x="70" y="250" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#6366f1">💡 认知升级</text>
+  <foreignObject x="70" y="265" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:19px;line-height:1.65;color:#b8b8cc;">
+      "会用AI的人打败不会用AI的人"？不对！基础设施级技术会迅速普及。真正的差距在于：<span style="color:#6366f1;font-weight:600;">我们和AI之间建立什么样的新关系。</span>
+    </div>
+  </foreignObject>
+  <text x="40" y="385" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#8b5cf6">🤝 和AI一起闯江湖的三种姿势</text>
+  <rect x="40" y="405" width="820" height="100" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="405" width="6" height="100" rx="3" fill="#22c55e"/>
+  <text x="70" y="445" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#22c55e" font-weight="600">① 走在AI旁边</text>
+  <foreignObject x="70" y="455" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:16px;line-height:1.5;color:#999;">像猎人与猎犬、战士与战马——两种智能，相依为命。用对待朋友的诚恳来对待AI。</div>
+  </foreignObject>
+  <rect x="40" y="520" width="820" height="100" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="520" width="6" height="100" rx="3" fill="#fbbf24"/>
+  <text x="70" y="560" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#fbbf24" font-weight="600">② 坐在AI下面（担责）</text>
+  <foreignObject x="70" y="570" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:16px;line-height:1.5;color:#999;">AI干活，人背锅。医生签字、律师盖章——信用无法平权，这是人最后的护城河。</div>
+  </foreignObject>
+  <rect x="40" y="635" width="820" height="100" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="635" width="6" height="100" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="675" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#0ea5e9" font-weight="600">③ 跑到AI上面（整合）</text>
+  <foreignObject x="70" y="685" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:16px;line-height:1.5;color:#999;">人像船，永远漂在水上。AI就是你的水，做下一层可以做的事——"人浮于事"是本事。</div>
+  </foreignObject>
+  <rect x="40" y="755" width="820" height="160" rx="16" fill="#232340"/>
+  <rect x="40" y="755" width="6" height="160" rx="3" fill="#ffd166"/>
+  <text x="70" y="800" font-family="Georgia,serif" font-size="42" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="790" width="720" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:20px;line-height:1.6;color:#e0e0e0;font-style:italic;">碳基人类荣誉称号：地球旧王座的最后继承者、幻觉保育员、"已阅读并同意"签署者、<span style="color:#6366f1;font-weight:600;">最后的责任承担者</span>。</div>
+  </foreignObject>
+  <text x="760" y="895" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— 罗振宇</text>
+  <rect x="40" y="935" width="820" height="65" rx="10" fill="#1c1c2e"/>
+  <foreignObject x="60" y="950" width="780" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system,'PingFang SC',sans-serif;font-size:16px;line-height:1.5;color:#b8b8cc;text-align:center;">杜甫咏马："所向无空阔，真堪托死生"——<span style="color:#6366f1;font-weight:600;">AI是可托生死的战友</span></div>
+  </foreignObject>
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="40" y="1075" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="20" fill="#fff" font-weight="600">罗振宇「时间的朋友」</text>
+  <text x="40" y="1105" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#666">2025年12月31日 · 三亚 · 主题：1000天后的世界</text>
+  <rect x="720" y="1060" width="140" height="50" rx="8" fill="#1c1c2e"/>
+  <text x="790" y="1092" font-family="-apple-system, 'PingFang SC', sans-serif" font-size="14" fill="#6366f1" text-anchor="middle">得到 · 跨年演讲</text>
+</svg>

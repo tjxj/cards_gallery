@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 画布背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="120" r="100" fill="#a855f7" opacity="0.08"/>
+  <circle cx="80" cy="1080" r="160" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="180" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="130" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">2026 跨年演讲</text>
+  
+  <!-- 系列标识 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">3/6</text>
+  
+  <!-- 主标题区 -->
+  <text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="42" fill="#ffffff" font-weight="700">我还能干什么？</text>
+  <text x="40" y="170" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#888">AI带来四大全新需求爆发</text>
+  
+  <!-- 核心洞见区块 -->
+  <rect x="40" y="210" width="820" height="140" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="140" rx="3" fill="#a855f7"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#a855f7">💡 技术革命的真正价值</text>
+  <foreignObject x="70" y="275" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify;">
+      技术革命最大的价值，不是原本要解决的那个问题，而是它<span style="color:#a855f7; font-weight:600;">无意中打开的全新空间</span>——不只是需求被满足，而是出现大量新需求。
+    </div>
+  </foreignObject>
+  
+  <!-- 四大需求卡片 -->
+  <rect x="40" y="370" width="400" height="145" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="370" width="400" height="6" rx="3" fill="#22c55e"/>
+  <text x="60" y="410" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="28" fill="#22c55e">🏥</text>
+  <text x="100" y="412" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">泛健康</text>
+  <foreignObject x="60" y="425" width="360" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.55; color:#999;">
+      一切让自己活得更长更健康的努力。支付意愿最强烈，AI技术最能帮上忙。
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="370" width="400" height="145" rx="12" fill="#1c1c2e"/>
+  <rect x="460" y="370" width="400" height="6" rx="3" fill="#f472b6"/>
+  <text x="480" y="410" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="28" fill="#f472b6">✨</text>
+  <text x="520" y="412" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">泛体验</text>
+  <foreignObject x="480" y="425" width="360" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.55; color:#999;">
+      AI能生成无数美图，但无法代替你爬上山顶看日出的"身临其境"。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="530" width="400" height="145" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="530" width="400" height="6" rx="3" fill="#fbbf24"/>
+  <text x="60" y="570" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="28" fill="#fbbf24">📚</text>
+  <text x="100" y="572" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">泛学习</text>
+  <foreignObject x="60" y="585" width="360" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.55; color:#999;">
+      知识不贵了，但"向上的自我成长"和"被尊重的感觉"永远稀缺。
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="530" width="400" height="145" rx="12" fill="#1c1c2e"/>
+  <rect x="460" y="530" width="400" height="6" rx="3" fill="#0ea5e9"/>
+  <text x="480" y="570" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="28" fill="#0ea5e9">🎮</text>
+  <text x="520" y="572" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">泛游戏</text>
+  <foreignObject x="480" y="585" width="360" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.55; color:#999;">
+      只要分输赢，冠军就只有一个。只要有稀缺，就有动力去拼。广场舞C位也是奥林匹克。
+    </div>
+  </foreignObject>
+  
+  <!-- 金句引用 -->
+  <rect x="40" y="695" width="820" height="200" rx="16" fill="#232340"/>
+  <rect x="40" y="695" width="6" height="200" rx="3" fill="#ffd166"/>
+  <text x="70" y="750" font-family="Georgia, serif" font-size="48" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="100" y="735" width="720" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.65; color:#e0e0e0; font-style:italic;">
+      最好的社会什么样？其实我们从小就知道：<span style="color:#a855f7; font-weight:600;">人人为我，我为人人</span>。如果因为AI的存在，我们能够更进一步地互相服务，我们其实就已经身在天堂。
+    </div>
+  </foreignObject>
+  <text x="760" y="875" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="end">— 罗振宇</text>
+  
+  <!-- 底部亮点 -->
+  <rect x="40" y="915" width="820" height="95" rx="12" fill="#1c1c2e"/>
+  <foreignObject x="60" y="932" width="780" height="65">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.6; color:#b8b8cc; text-align:center;">
+      未来会涌现：健康顾问、着装顾问、各领域知识家教、体能教练、<br/>陪聊师、陪跑师、聚会策划师……<span style="color:#a855f7; font-weight:600;">只要你想工作，有的是工作可以做</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1040" width="900" height="160" fill="#15152a"/>
+  <text x="40" y="1085" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#ffffff" font-weight="600">罗振宇「时间的朋友」</text>
+  <text x="40" y="1115" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">2025年12月31日 · 三亚保利国际博览中心</text>
+  <text x="40" y="1145" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555">主题：1000天后的世界</text>
+  
+  <!-- 页脚右侧logo区域 -->
+  <rect x="720" y="1070" width="140" height="50" rx="8" fill="#1c1c2e"/>
+  <text x="790" y="1102" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#a855f7" text-anchor="middle">得到 · 跨年演讲</text>
+</svg>
