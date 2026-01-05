@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SystemFont';
+        src: local('-apple-system'), local('BlinkMacSystemFont'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('Segoe UI'), sans-serif;
+      }
+      .title { font-family: 'SystemFont'; font-weight: bold; }
+      .body { font-family: 'SystemFont'; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1500" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="800" cy="100" r="250" fill="#1a73e8" opacity="0.05"/>
+  <circle cx="100" cy="1400" r="300" fill="#00b4d8" opacity="0.03"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="900" height="160" fill="url(#headerGrad)"/>
+  <foreignObject x="50" y="40" width="800" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; color: white;">
+      <div style="font-size: 20px; opacity: 0.9; margin-bottom: 8px;">Simon Willison 年度回顾</div>
+      <div style="font-size: 48px; font-weight: 800; line-height: 1.1;">2025：大模型之年</div>
+    </div>
+  </foreignObject>
+
+  <!-- Content 1: Reasoning -->
+  <g transform="translate(0, 220)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#1a73e8"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#1a73e8">🧠 “推理”模型元年</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        OpenAI 以 <span style="color:#63b3ed; font-weight:600;">o1/o3 模型</span>掀起了“推理”革命（RLVR），各大实验室纷纷跟进。其实际价值不在于解逻辑题，而在于<span style="color:#ffffff;">驱动工具和调试代码</span>。推理模型现在能够规划多步任务并进行自我修正，实现真正自主的工作流。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 2: Agents -->
+  <g transform="translate(0, 540)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#a855f7"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#a855f7">🤖 编程智能体的崛起</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        “智能体”已从流行词成熟为实用的工具执行闭环。2025年2月发布的 <span style="color:#d8b4fe; font-weight:600;">Claude Code</span> 成为爆款，定义了“编程智能体”新品类。转向<span style="color:#ffffff;">异步智能体</span>（如 Web 版 Claude Code）让开发者能对复杂任务“即发即弃”。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 3: CLI -->
+  <g transform="translate(0, 860)">
+    <rect x="40" y="0" width="820" height="260" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="260" rx="4" fill="#14b8a6"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#14b8a6">💻 命令行上的大模型</text>
+    <foreignObject x="80" y="70" width="740" height="170">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        开发者终于在终端拥抱了大模型。<span style="color:#5eead4; font-weight:600;">Claude Code CLI</span> 等工具证明，只要模型足够强大，命令行就是终极交互界面。当 AI 充当翻译器时，晦涩的语法（如 sed, ffmpeg）不再是门槛。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote Section -->
+  <g transform="translate(0, 1160)">
+    <rect x="40" y="0" width="820" height="220" rx="20" fill="#232340"/>
+    <rect x="40" y="0" width="6" height="220" rx="3" fill="#ffd166"/>
+    <text x="70" y="60" font-family="SystemFont" font-size="60" fill="#ffd166" opacity="0.4">"</text>
+    <foreignObject x="95" y="40" width="730" height="150">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 24px; line-height: 1.5; color: #e0e0e0; font-style: italic;">
+        Claude Code 及其同类工具确凿地证明：只要有足够强大的模型和合适的交互框架，开发者就会欣然在命令行中拥抱大模型。
+      </div>
+    </foreignObject>
+    <text x="820" y="190" font-family="SystemFont" font-size="18" fill="#888888" text-anchor="end">— Simon Willison</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 1420)">
+    <line x1="40" y1="0" x2="860" y2="0" stroke="#333" stroke-width="1"/>
+    <text x="40" y="45" font-family="SystemFont" font-size="16" fill="#666666">DESIGN BY ZHANG.AI • 2025 年度回顾</text>
+    <text x="860" y="45" font-family="SystemFont" font-size="16" fill="#666666" text-anchor="end">1 / 1</text>
+  </g>
+</svg>

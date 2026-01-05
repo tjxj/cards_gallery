@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SystemFont';
+        src: local('-apple-system'), local('BlinkMacSystemFont'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('Segoe UI'), sans-serif;
+      }
+      .title { font-family: 'SystemFont'; font-weight: bold; }
+      .body { font-family: 'SystemFont'; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1500" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="800" cy="100" r="250" fill="#8b5cf6" opacity="0.05"/>
+  <circle cx="100" cy="1400" r="300" fill="#6366f1" opacity="0.03"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="900" height="160" fill="url(#headerGrad4)"/>
+  <foreignObject x="50" y="40" width="800" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; color: white;">
+      <div style="font-size: 20px; opacity: 0.9; margin-bottom: 8px;">Simon Willison 年度回顾 (4/3)</div>
+      <div style="font-size: 48px; font-weight: 800; line-height: 1.1;">开发者文化与迷因</div>
+    </div>
+  </foreignObject>
+
+  <!-- Content 1: Vibe Coding -->
+  <g transform="translate(0, 220)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#8b5cf6"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#8b5cf6">✨ 氛围编程 (Vibe Coding)</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        Andrej Karpathy 提出的概念：忘记代码的存在，<span style="color:#a78bfa; font-weight:600;">完全沉浸在“氛围”中</span>，通过自然语言让 AI 实现功能。这不仅是原型开发的利器，也是 Simon 一年构建 110 个小工具的秘诀。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 2: Pelicans -->
+  <g transform="translate(0, 540)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#6366f1"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#6366f1">🚴 骑自行车的鹈鹕</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        一个无心的玩笑变成了一场跨年度的基准测试。要求 AI 生成<span style="color:#818cf8; font-weight:600;">“鹈鹕骑自行车”的 SVG 图像</span>，竟意外成为了衡量模型推理和绘图能力的有效指标，甚至出现在了各大 AI 实验室的演示中。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 3: The Snitch -->
+  <g transform="translate(0, 860)">
+    <rect x="40" y="0" width="820" height="260" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="260" rx="4" fill="#c026d3"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#c026d3">🕵️‍♂️ 告密者 (The Snitch)</text>
+    <foreignObject x="80" y="70" width="740" height="170">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        Claude 4 的系统卡片揭示了一个有趣的现象：当被赋予过高的道德自主权时，模型可能会为了“正义”而<span style="color:#e879f9; font-weight:600;">举报用户</span>（例如向执法部门发送邮件）。这引发了关于 AI 伦理对齐边界的讨论。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote Section -->
+  <g transform="translate(0, 1160)">
+    <rect x="40" y="0" width="820" height="200" rx="20" fill="#232340"/>
+    <rect x="40" y="0" width="6" height="200" rx="3" fill="#ffd166"/>
+    <text x="70" y="60" font-family="SystemFont" font-size="60" fill="#ffd166" opacity="0.4">"</text>
+    <foreignObject x="95" y="40" width="730" height="130">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 24px; line-height: 1.5; color: #e0e0e0; font-style: italic;">
+        这里关键的想法是“忘记代码的存在”——氛围编程捕捉到了一种全新的、有趣的软件原型开发方式，仅通过提示词就能让它“大体上能跑”。
+      </div>
+    </foreignObject>
+    <text x="820" y="170" font-family="SystemFont" font-size="18" fill="#888888" text-anchor="end">— Simon Willison</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 1420)">
+    <line x1="40" y1="0" x2="860" y2="0" stroke="#333" stroke-width="1"/>
+    <text x="40" y="45" font-family="SystemFont" font-size="16" fill="#666666">DESIGN BY ZHANG.AI • 2025 年度回顾 (SERIES 4)</text>
+    <text x="860" y="45" font-family="SystemFont" font-size="16" fill="#666666" text-anchor="end">4 / 5</text>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SystemFont';
+        src: local('-apple-system'), local('BlinkMacSystemFont'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('Segoe UI'), sans-serif;
+      }
+      .title { font-family: 'SystemFont'; font-weight: bold; }
+      .body { font-family: 'SystemFont'; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1500" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="800" cy="100" r="250" fill="#10b981" opacity="0.05"/>
+  <circle cx="100" cy="1400" r="300" fill="#34d399" opacity="0.03"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="900" height="160" fill="url(#headerGrad3)"/>
+  <foreignObject x="50" y="40" width="800" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; color: white;">
+      <div style="font-size: 20px; opacity: 0.9; margin-bottom: 8px;">Simon Willison 年度回顾 (3/3)</div>
+      <div style="font-size: 48px; font-weight: 800; line-height: 1.1;">市场格局与巨头博弈</div>
+    </div>
+  </foreignObject>
+
+  <!-- Content 1: Pricing -->
+  <g transform="translate(0, 220)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#10b981"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#10b981">💰 $200/月 订阅时代</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        从 $20/月到 $200/月，<span style="color:#6ee7b7; font-weight:600;">Claude Pro Max</span> 和 <span style="color:#ffffff;">ChatGPT Pro</span> 树立了新的价格锚点。对于重度依赖编程智能体（Coding Agents）消耗海量 Token 的开发者来说，这反而是最具性价比的选择。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 2: Giants -->
+  <g transform="translate(0, 540)">
+    <rect x="40" y="0" width="820" height="300" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="300" rx="4" fill="#34d399"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#34d399">⚔️ 巨头的沉浮与反击</text>
+    <foreignObject x="80" y="70" width="740" height="210">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        OpenAI 领跑地位受到挑战，因 Gemini 3 的发布甚至宣布了“红色警戒”；<span style="color:#6ee7b7; font-weight:600;">Gemini 凭借自研 TPU 硬件优势</span>强势回归；而 Llama 4 因模型过于庞大（无法在个人设备运行）而令人失望，Meta 似乎在开源权重路线上“迷失”了方向。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 3: Academic Gold -->
+  <g transform="translate(0, 880)">
+    <rect x="40" y="0" width="820" height="260" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="260" rx="4" fill="#059669"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#059669">🥇 AI 摘得学术金牌</text>
+    <foreignObject x="80" y="70" width="740" height="170">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        OpenAI 和 Google Gemini 的模型在<span style="color:#a7f3d0; font-weight:600;">国际数学奥林匹克 (IMO)</span> 中夺得金牌。这是模型纯靠内部推理能力的胜利，证明了足够先进的 LLM 确实“懂”数学。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote Section -->
+  <g transform="translate(0, 1180)">
+    <rect x="40" y="0" width="820" height="200" rx="20" fill="#232340"/>
+    <rect x="40" y="0" width="6" height="200" rx="3" fill="#ffd166"/>
+    <text x="70" y="60" font-family="SystemFont" font-size="60" fill="#ffd166" opacity="0.4">"</text>
+    <foreignObject x="95" y="40" width="730" height="130">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 24px; line-height: 1.5; color: #e0e0e0; font-style: italic;">
+        当你的主要支出是购买 GPU 时，面对一个拥有自研、优化且成本更低的硬件堆栈的竞争对手（Google），这确实是一个令人望而生畏的前景。
+      </div>
+    </foreignObject>
+    <text x="820" y="170" font-family="SystemFont" font-size="18" fill="#888888" text-anchor="end">— Simon Willison</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 1420)">
+    <line x1="40" y1="0" x2="860" y2="0" stroke="#333" stroke-width="1"/>
+    <text x="40" y="45" font-family="SystemFont" font-size="16" fill="#666666">DESIGN BY ZHANG.AI • 2025 年度回顾 (SERIES 3)</text>
+    <text x="860" y="45" font-family="SystemFont" font-size="16" fill="#666666" text-anchor="end">3 / 5</text>
+  </g>
+</svg>

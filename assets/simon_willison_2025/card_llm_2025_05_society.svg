@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SystemFont';
+        src: local('-apple-system'), local('BlinkMacSystemFont'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('Segoe UI'), sans-serif;
+      }
+      .title { font-family: 'SystemFont'; font-weight: bold; }
+      .body { font-family: 'SystemFont'; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1500" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="800" cy="100" r="250" fill="#f97316" opacity="0.05"/>
+  <circle cx="100" cy="1400" r="300" fill="#ef4444" opacity="0.03"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="900" height="160" fill="url(#headerGrad5)"/>
+  <foreignObject x="50" y="40" width="800" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; color: white;">
+      <div style="font-size: 20px; opacity: 0.9; margin-bottom: 8px;">Simon Willison 年度回顾 (5/5)</div>
+      <div style="font-size: 48px; font-weight: 800; line-height: 1.1;">未来标准与社会影响</div>
+    </div>
+  </foreignObject>
+
+  <!-- Content 1: MCP & Browser -->
+  <g transform="translate(0, 220)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#f97316"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#f97316">🌐 浏览器智能体与 MCP</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        尽管存在巨大的安全风险，将 LLM 塞进浏览器仍是大势所趋。同时，Anthropic 的 <span style="color:#fb923c; font-weight:600;">Model Context Protocol (MCP)</span> 已成为连接 AI 与数据的开放标准，尽管 CLI 工具和 Bash 依然是最高效的替代品。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 2: Lethal Trifecta -->
+  <g transform="translate(0, 540)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#ef4444"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#ef4444">☠️ 致命三连 (Lethal Trifecta)</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        Simon 提出的新安全术语，特指：<span style="color:#f87171; font-weight:600;">提示词注入 + 恶意指令 + 窃取私有数据</span>。随着 Agents 权限的扩大，这种组合攻击成为了 AI 安全领域最令人担忧的隐患。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 3: Slop & Conformance -->
+  <g transform="translate(0, 860)">
+    <rect x="40" y="0" width="820" height="270" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="270" rx="4" fill="#9ca3af"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#9ca3af">🚮 垃圾内容 (Slop) 与合规</text>
+    <foreignObject x="80" y="70" width="740" height="180">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        "Slop"（AI生成的低质内容）当选年度词汇，公众对数据中心的扩张愈发反感。与此同时，<span style="color:#d1d5db; font-weight:600;">一致性套件 (Conformance Suites)</span> 成为验证 AI 编码能力的黄金标准，通过测试集来确保代码质量。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote Section -->
+  <g transform="translate(0, 1170)">
+    <rect x="40" y="0" width="820" height="200" rx="20" fill="#232340"/>
+    <rect x="40" y="0" width="6" height="200" rx="3" fill="#ffd166"/>
+    <text x="70" y="60" font-family="SystemFont" font-size="60" fill="#ffd166" opacity="0.4">"</text>
+    <foreignObject x="95" y="40" width="730" height="130">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 24px; line-height: 1.5; color: #e0e0e0; font-style: italic;">
+        提示词注入是一个前沿的、尚未解决的安全问题。任何构建此类软件的人都需要认真对待它。
+      </div>
+    </foreignObject>
+    <text x="820" y="170" font-family="SystemFont" font-size="18" fill="#888888" text-anchor="end">— Simon Willison</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 1420)">
+    <line x1="40" y1="0" x2="860" y2="0" stroke="#333" stroke-width="1"/>
+    <text x="40" y="45" font-family="SystemFont" font-size="16" fill="#666666">DESIGN BY ZHANG.AI • 2025 年度回顾 (SERIES 5)</text>
+    <text x="860" y="45" font-family="SystemFont" font-size="16" fill="#666666" text-anchor="end">5 / 5</text>
+  </g>
+</svg>

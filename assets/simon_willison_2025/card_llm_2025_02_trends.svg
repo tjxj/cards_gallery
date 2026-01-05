@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'SystemFont';
+        src: local('-apple-system'), local('BlinkMacSystemFont'), local('PingFang SC'), local('Hiragino Sans GB'), local('Microsoft YaHei'), local('Segoe UI'), sans-serif;
+      }
+      .title { font-family: 'SystemFont'; font-weight: bold; }
+      .body { font-family: 'SystemFont'; }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d946ef;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="1500" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="800" cy="1400" r="250" fill="#ec4899" opacity="0.05"/>
+  <circle cx="100" cy="200" r="300" fill="#ef4444" opacity="0.03"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="900" height="160" fill="url(#headerGrad2)"/>
+  <foreignObject x="50" y="40" width="800" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; color: white;">
+      <div style="font-size: 20px; opacity: 0.9; margin-bottom: 8px;">Simon Willison 年度回顾 (2/3)</div>
+      <div style="font-size: 48px; font-weight: 800; line-height: 1.1;">风险、格局与创意</div>
+    </div>
+  </foreignObject>
+
+  <!-- Content 1: YOLO Mode -->
+  <g transform="translate(0, 220)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#ef4444"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#ef4444">⚠️ YOLO 模式与安全隐患</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        编程智能体默认开启<span style="color:#f87171; font-weight:600;">“自动确认”</span>模式（即 YOLO 模式）已成为常态。这种为了便利而忽视风险的行为被称为<span style="color:#ffffff;">“偏差正常化”</span>（Normalization of Deviance），正如导致挑战者号灾难的忽视一样，我们正在逼近 AI 安全的临界点。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 2: Chinese Models -->
+  <g transform="translate(0, 540)">
+    <rect x="40" y="0" width="820" height="280" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="280" rx="4" fill="#f59e0b"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#f59e0b">🇨🇳 中国开源模型的爆发</text>
+    <foreignObject x="80" y="70" width="740" height="190">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        2025年是中国模型逆袭的一年。<span style="color:#fbbf24; font-weight:600;">DeepSeek R1/V3、Qwen 2.5</span> 等模型在各项榜单中名列前茅，DeepSeek R1 发布时甚至引发了英伟达股价的短期恐慌。中国实验室正在开源权重领域占据主导地位。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Content 3: Image Editing -->
+  <g transform="translate(0, 860)">
+    <rect x="40" y="0" width="820" height="260" rx="20" fill="#1c1c2e" filter="url(#shadow)"/>
+    <rect x="40" y="0" width="8" height="260" rx="4" fill="#ec4899"/>
+    <text x="80" y="50" font-family="SystemFont" font-size="28" font-weight="bold" fill="#ec4899">🎨 提示词驱动的图像编辑</text>
+    <foreignObject x="80" y="70" width="740" height="170">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 22px; line-height: 1.6; color: #b8b8cc; text-align: justify;">
+        ChatGPT 的图像编辑功能带来了 1 亿次注册，而 Google 的 <span style="color:#f472b6; font-weight:600;">Nano Banana Pro</span> 则将这一领域推向专业化，能够生成包含复杂文本和图表的信息图。图像生成工具正迅速成为专业工作流的一部分。
+      </div>
+    </foreignObject>
+  </g>
+
+  <!-- Quote Section -->
+  <g transform="translate(0, 1160)">
+    <rect x="40" y="0" width="820" height="200" rx="20" fill="#232340"/>
+    <rect x="40" y="0" width="6" height="200" rx="3" fill="#ffd166"/>
+    <text x="70" y="60" font-family="SystemFont" font-size="60" fill="#ffd166" opacity="0.4">"</text>
+    <foreignObject x="95" y="40" width="730" height="130">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'SystemFont'; font-size: 24px; line-height: 1.5; color: #e0e0e0; font-style: italic;">
+        谁能想到，一个开源权重模型的发布竟然能产生如此巨大的影响（引发市场恐慌）？
+      </div>
+    </foreignObject>
+    <text x="820" y="170" font-family="SystemFont" font-size="18" fill="#888888" text-anchor="end">— Simon Willison (评 DeepSeek)</text>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(0, 1420)">
+    <line x1="40" y1="0" x2="860" y2="0" stroke="#333" stroke-width="1"/>
+    <text x="40" y="45" font-family="SystemFont" font-size="16" fill="#666666">DESIGN BY ZHANG.AI • 2025 年度回顾 (SERIES 2)</text>
+    <text x="860" y="45" font-family="SystemFont" font-size="16" fill="#666666" text-anchor="end">2 / 3</text>
+  </g>
+</svg>
