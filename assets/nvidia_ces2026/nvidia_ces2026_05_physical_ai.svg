@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#4ade80"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="800" cy="80" r="120" fill="#22c55e" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#4ade80" opacity="0.05"/>
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#0f0f1a" opacity="0.8" font-family="-apple-system, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#0f0f1a" font-family="-apple-system, PingFang SC, sans-serif">物理AI与自动驾驶</text>
+  <text x="780" y="95" font-size="14" fill="#0f0f1a" opacity="0.7" text-anchor="end" font-family="-apple-system, PingFang SC, sans-serif">Jensen Huang</text>
+  <rect x="40" y="210" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="165" rx="3" fill="#22c55e"/>
+  <text x="70" y="255" font-size="24" font-weight="600" fill="#22c55e" font-family="-apple-system, PingFang SC, sans-serif">💻 物理AI的三台计算机</text>
+  <foreignObject x="70" y="275" width="760" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      <span style="color:#22c55e; font-weight:600;">1. 训练计算机</span> → <span style="color:#22c55e; font-weight:600;">2. 推理计算机</span>（机器人中）→ <span style="color:#22c55e; font-weight:600;">3. 模拟计算机</span>（Omniverse）
+    </div>
+  </foreignObject>
+  <rect x="40" y="395" width="400" height="160" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="395" width="6" height="160" rx="3" fill="#4ade80"/>
+  <text x="70" y="438" font-size="22" font-weight="600" fill="#4ade80" font-family="-apple-system, PingFang SC, sans-serif">🌐 Cosmos世界模型</text>
+  <foreignObject x="70" y="455" width="350" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.55; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      理解世界如何运作，<span style="color:#4ade80; font-weight:600;">将计算转化为数据</span>
+    </div>
+  </foreignObject>
+  <rect x="460" y="395" width="400" height="160" rx="14" fill="#1c1c2e"/>
+  <rect x="460" y="395" width="6" height="160" rx="3" fill="#22c55e"/>
+  <text x="490" y="438" font-size="22" font-weight="600" fill="#22c55e" font-family="-apple-system, PingFang SC, sans-serif">🚗 Alpamayo自动驾驶</text>
+  <foreignObject x="490" y="455" width="350" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.55; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      世界首个<span style="color:#22c55e; font-weight:600;">会思考推理</span>的AV AI
+    </div>
+  </foreignObject>
+  <rect x="40" y="575" width="820" height="170" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="575" width="6" height="170" rx="3" fill="#22c55e"/>
+  <text x="70" y="620" font-size="24" font-weight="600" fill="#22c55e" font-family="-apple-system, PingFang SC, sans-serif">🧠 Alpamayo推理能力</text>
+  <foreignObject x="70" y="640" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      • 遇到场景时<span style="color:#22c55e; font-weight:600;">推理将采取的行动</span><br/>• 将长尾场景<span style="color:#22c55e; font-weight:600;">分解为已知情况</span>处理<br/>• 摄像头 → 思考 → 执行
+    </div>
+  </foreignObject>
+  <rect x="40" y="765" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="765" width="6" height="150" rx="3" fill="#4ade80"/>
+  <text x="70" y="810" font-size="24" font-weight="600" fill="#4ade80" font-family="-apple-system, PingFang SC, sans-serif">🛡️ 双堆栈安全架构</text>
+  <foreignObject x="70" y="830" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      <span style="color:#22c55e;">Alpamayo</span> + <span style="color:#4ade80;">经典AV护栏</span> + <span style="color:#ffd166;">策略评估器</span>，世界唯一双堆栈AV
+    </div>
+  </foreignObject>
+  <rect x="40" y="935" width="820" height="100" rx="16" fill="#232340"/>
+  <rect x="40" y="935" width="6" height="100" rx="3" fill="#ffd166"/>
+  <text x="70" y="975" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="960" width="730" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#e0e0e0; font-style:italic; font-family:-apple-system, PingFang SC, sans-serif;">
+      梅赛德斯CLA，NCAP评为世界最安全汽车。Alpamayo今日开源！
+    </div>
+  </foreignObject>
+  <rect x="40" y="1055" width="820" height="105" rx="16" fill="#15152a"/>
+  <text x="70" y="1100" font-size="14" fill="#666" font-family="-apple-system, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1128" font-size="12" fill="#555" font-family="-apple-system, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1128" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, PingFang SC, sans-serif">5/6</text>
+</svg>

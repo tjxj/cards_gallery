@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#fb923c" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#fbbf24" opacity="0.05"/>
+  <circle cx="850" cy="550" r="90" fill="#fb923c" opacity="0.04"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#1a1a2e" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#1a1a2e" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">AI智能体架构</text>
+  <text x="780" y="95" font-size="14" fill="#1a1a2e" opacity="0.7" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Jensen Huang</text>
+  
+  <!-- 四大特性网格 -->
+  <rect x="40" y="210" width="400" height="140" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="140" rx="3" fill="#fb923c"/>
+  <text x="70" y="255" font-size="22" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🎭 多模态 Multi-modal</text>
+  <foreignObject x="70" y="270" width="350" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      理解语音、图像、文本、视频、3D图形、蛋白质
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="210" width="400" height="140" rx="14" fill="#1c1c2e"/>
+  <rect x="460" y="210" width="6" height="140" rx="3" fill="#fbbf24"/>
+  <text x="490" y="255" font-size="22" font-weight="600" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🔀 多模型 Multi-model</text>
+  <foreignObject x="490" y="270" width="350" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      使用最适合任务的任何模型，如Perplexity
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="370" width="400" height="140" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="370" width="6" height="140" rx="3" fill="#fbbf24"/>
+  <text x="70" y="415" font-size="22" font-weight="600" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">☁️ 多云 Multi-cloud</text>
+  <foreignObject x="70" y="430" width="350" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      AI模型位于所有不同的云平台
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="370" width="400" height="140" rx="14" fill="#1c1c2e"/>
+  <rect x="460" y="370" width="6" height="140" rx="3" fill="#fb923c"/>
+  <text x="490" y="415" font-size="22" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🏢 混合云 Hybrid</text>
+  <foreignObject x="490" y="430" width="350" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      边缘、信号塔、企业内部、医院等场景
+    </div>
+  </foreignObject>
+  
+  <!-- 智能路由器 -->
+  <rect x="40" y="530" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="530" width="6" height="150" rx="3" fill="#fb923c"/>
+  <text x="70" y="575" font-size="24" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🧭 智能路由器 Smart Router</text>
+  <foreignObject x="70" y="595" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      一个<span style="color:#fb923c; font-weight:600;">管理者</span>，根据提示的意图决定<span style="color:#fb923c; font-weight:600;">最适合的模型</span>来解决问题。一方面<span style="color:#fbbf24; font-weight:600;">完全定制</span>，另一方面<span style="color:#fbbf24; font-weight:600;">始终前沿</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 企业合作伙伴 -->
+  <rect x="40" y="700" width="820" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="700" width="6" height="160" rx="3" fill="#fbbf24"/>
+  <text x="70" y="745" font-size="24" font-weight="600" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🤝 企业AI平台合作</text>
+  <foreignObject x="70" y="765" width="760" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#fbbf24;">Palantir</span> · <span style="color:#fbbf24;">ServiceNow</span> · <span style="color:#fbbf24;">Snowflake</span> · <span style="color:#fbbf24;">CodeRabbit</span> · <span style="color:#fbbf24;">CrowdStrike</span> · <span style="color:#fbbf24;">NetApp</span><br/>代理系统成为平台的<span style="color:#fb923c; font-weight:600;">新用户界面</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用区块 -->
+  <rect x="40" y="880" width="820" height="150" rx="16" fill="#232340"/>
+  <rect x="40" y="880" width="6" height="150" rx="3" fill="#ffd166"/>
+  <text x="70" y="925" font-size="40" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="910" width="730" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      不再是Excel和一堆需要输入信息的方块，你与平台互动的方式就像与人互动一样简单。这就是被代理系统彻底革命化的企业AI。
+    </div>
+  </foreignObject>
+  <text x="760" y="1010" font-size="16" fill="#888888" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">— Jensen Huang</text>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1050" width="820" height="110" rx="16" fill="#15152a"/>
+  <text x="70" y="1095" font-size="14" fill="#666666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1125" font-size="12" fill="#555555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1125" font-size="16" fill="#666666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">4/6</text>
+</svg>

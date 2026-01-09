@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd166"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="800" cy="80" r="120" fill="#ffd166" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#fbbf24" opacity="0.05"/>
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#0f0f1a" opacity="0.8" font-family="-apple-system, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#0f0f1a" font-family="-apple-system, PingFang SC, sans-serif">Vera Rubin新计算平台</text>
+  <text x="780" y="95" font-size="14" fill="#0f0f1a" opacity="0.7" text-anchor="end" font-family="-apple-system, PingFang SC, sans-serif">Jensen Huang</text>
+  <rect x="40" y="210" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="255" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, PingFang SC, sans-serif">✨ Vera Rubin命名由来</text>
+  <foreignObject x="70" y="275" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      以发现<span style="color:#ffd166; font-weight:600;">暗物质</span>的美国天文学家命名，象征探索不可见的计算前沿
+    </div>
+  </foreignObject>
+  <rect x="40" y="360" width="400" height="150" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="360" width="6" height="150" rx="3" fill="#ffd166"/>
+  <text x="70" y="400" font-size="20" font-weight="600" fill="#ffd166" font-family="-apple-system, PingFang SC, sans-serif">🔧 Vera CPU</text>
+  <foreignObject x="70" y="418" width="350" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      88核心/176线程<br/>性能<span style="color:#ffd166; font-weight:600;">2倍</span>，每瓦性能世界最高
+    </div>
+  </foreignObject>
+  <rect x="460" y="360" width="400" height="150" rx="14" fill="#1c1c2e"/>
+  <rect x="460" y="360" width="6" height="150" rx="3" fill="#fbbf24"/>
+  <text x="490" y="400" font-size="20" font-weight="600" fill="#fbbf24" font-family="-apple-system, PingFang SC, sans-serif">⚡ Rubin GPU</text>
+  <foreignObject x="490" y="418" width="350" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      浮点性能<span style="color:#fbbf24; font-weight:600;">5倍</span>于Blackwell<br/>晶体管仅1.6倍（极致协同设计）
+    </div>
+  </foreignObject>
+  <rect x="40" y="530" width="820" height="140" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="530" width="6" height="140" rx="3" fill="#ffd166"/>
+  <text x="70" y="575" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, PingFang SC, sans-serif">🔬 六芯片极致协同设计</text>
+  <foreignObject x="70" y="595" width="760" height="65">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      <span style="color:#ffd166;">Vera CPU</span> + <span style="color:#ffd166;">Rubin GPU</span> + <span style="color:#ffd166;">ConnectX-9</span> + <span style="color:#ffd166;">BlueField-4</span> + <span style="color:#ffd166;">NVLink6</span> + <span style="color:#ffd166;">Spectrum-X光子交换机</span>
+    </div>
+  </foreignObject>
+  <rect x="40" y="690" width="265" height="130" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="690" width="5" height="130" rx="2" fill="#fbbf24"/>
+  <text x="60" y="725" font-size="16" font-weight="600" fill="#fbbf24" font-family="-apple-system, PingFang SC, sans-serif">📊 训练性能</text>
+  <foreignObject x="60" y="740" width="225" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:15px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      10万亿参数模型<br/>仅需<span style="color:#fbbf24; font-weight:600;">1/4系统</span>
+    </div>
+  </foreignObject>
+  <rect x="318" y="690" width="265" height="130" rx="14" fill="#1c1c2e"/>
+  <rect x="318" y="690" width="5" height="130" rx="2" fill="#ffd166"/>
+  <text x="338" y="725" font-size="16" font-weight="600" fill="#ffd166" font-family="-apple-system, PingFang SC, sans-serif">🏭 工厂吞吐量</text>
+  <foreignObject x="338" y="740" width="225" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:15px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      比Blackwell再高<span style="color:#ffd166; font-weight:600;">10倍</span>
+    </div>
+  </foreignObject>
+  <rect x="595" y="690" width="265" height="130" rx="14" fill="#1c1c2e"/>
+  <rect x="595" y="690" width="5" height="130" rx="2" fill="#fbbf24"/>
+  <text x="615" y="725" font-size="16" font-weight="600" fill="#fbbf24" font-family="-apple-system, PingFang SC, sans-serif">💰 Token成本</text>
+  <foreignObject x="615" y="740" width="225" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:15px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      降至<span style="color:#fbbf24; font-weight:600;">1/10</span>
+    </div>
+  </foreignObject>
+  <rect x="40" y="840" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="840" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="885" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, PingFang SC, sans-serif">🌱 革命性改进</text>
+  <foreignObject x="70" y="905" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.55; color:#b8b8cc; font-family:-apple-system, PingFang SC, sans-serif;">
+      <span style="color:#22c55e;">45°C热水冷却</span> · <span style="color:#22c55e;">100%液冷</span> · <span style="color:#22c55e;">机密计算</span> · <span style="color:#22c55e;">功率平滑</span> · <span style="color:#22c55e;">组装2h→5min</span>
+    </div>
+  </foreignObject>
+  <rect x="40" y="990" width="820" height="70" rx="16" fill="#232340"/>
+  <rect x="40" y="990" width="6" height="70" rx="3" fill="#22c55e"/>
+  <foreignObject x="70" y="1005" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#e0e0e0; font-style:italic; font-family:-apple-system, PingFang SC, sans-serif;">
+      "Vera Rubin已全面投产。这是向AI下一个前沿的巨大飞跃。"
+    </div>
+  </foreignObject>
+  <rect x="40" y="1080" width="820" height="80" rx="16" fill="#15152a"/>
+  <text x="70" y="1118" font-size="14" fill="#666" font-family="-apple-system, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1140" font-size="12" fill="#555" font-family="-apple-system, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, PingFang SC, sans-serif">6/6</text>
+</svg>

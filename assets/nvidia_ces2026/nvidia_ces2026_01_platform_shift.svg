@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#00b4d8" opacity="0.05"/>
+  <circle cx="850" cy="600" r="100" fill="#0d47a1" opacity="0.06"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#ffffff" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">平台转移与AI变革</text>
+  <text x="780" y="95" font-size="14" fill="#ffffff" opacity="0.7" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Jensen Huang</text>
+  
+  <!-- 核心观点区块 -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#1a73e8"/>
+  <text x="70" y="255" font-size="24" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🔄 双重平台转移</text>
+  <foreignObject x="70" y="270" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      每隔10到15年，计算机行业就会发生一次重置。从<span style="color:#00b4d8; font-weight:600;">大型机到PC</span>，从<span style="color:#00b4d8; font-weight:600;">PC到互联网</span>，从<span style="color:#00b4d8; font-weight:600;">互联网到云</span>，从<span style="color:#00b4d8; font-weight:600;">云到移动端</span>。但这一次，实际上有<span style="color:#1a73e8; font-weight:700;">两个平台转移同时发生</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 技术变革区块 -->
+  <rect x="40" y="430" width="820" height="220" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="430" width="6" height="220" rx="3" fill="#00b4d8"/>
+  <text x="70" y="475" font-size="24" font-weight="600" fill="#00b4d8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">⚡ 制造堆栈重塑</text>
+  <foreignObject x="70" y="490" width="760" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      计算机行业的整个制造堆栈正在被重新发明：<br/>
+      • 你<span style="color:#00b4d8; font-weight:600;">不再编写软件</span>，而是<span style="color:#00b4d8; font-weight:600;">训练软件</span><br/>
+      • 你<span style="color:#00b4d8; font-weight:600;">不再在CPU上运行</span>，而是<span style="color:#00b4d8; font-weight:600;">在GPU上运行</span><br/>
+      • 应用程序能够理解上下文，<span style="color:#1a73e8; font-weight:600;">每次都从零开始生成</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 投资规模区块 -->
+  <rect x="40" y="670" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="670" width="6" height="200" rx="3" fill="#1a73e8"/>
+  <text x="70" y="715" font-size="24" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">💰 巨大投资浪潮</text>
+  <foreignObject x="70" y="730" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      • 过去十年<span style="color:#ffd166; font-weight:700;">10万亿美元</span>的计算基础设施正在现代化<br/>
+      • 每年<span style="color:#ffd166; font-weight:700;">数千亿美元</span>风险投资涌入<br/>
+      • <span style="color:#ffd166; font-weight:700;">100万亿美元</span>产业的研发预算转向AI
+    </div>
+  </foreignObject>
+  
+  <!-- 引用区块 -->
+  <rect x="40" y="890" width="820" height="140" rx="16" fill="#232340"/>
+  <rect x="40" y="890" width="6" height="140" rx="3" fill="#ffd166"/>
+  <text x="70" y="935" font-size="40" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="920" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      AI的五层蛋糕的每一层现在都在被重新发明。计算因此被从根本上重塑，这归功于加速计算，归功于人工智能。
+    </div>
+  </foreignObject>
+  <text x="760" y="1010" font-size="16" fill="#888888" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">— Jensen Huang</text>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1050" width="820" height="110" rx="16" fill="#15152a"/>
+  <text x="70" y="1095" font-size="14" fill="#666666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1125" font-size="12" fill="#555555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1125" font-size="16" fill="#666666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">1/6</text>
+</svg>

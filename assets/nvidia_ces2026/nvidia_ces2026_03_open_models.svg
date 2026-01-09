@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#0ea5e9" opacity="0.05"/>
+  <circle cx="850" cy="700" r="100" fill="#14b8a6" opacity="0.04"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#ffffff" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA开放模型生态</text>
+  <text x="780" y="95" font-size="14" fill="#ffffff" opacity="0.7" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Jensen Huang</text>
+  
+  <!-- DGX Cloud -->
+  <rect x="40" y="210" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="130" rx="3" fill="#14b8a6"/>
+  <text x="70" y="255" font-size="24" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">☁️ DGX Cloud超级计算机</text>
+  <foreignObject x="70" y="275" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      NVIDIA运营<span style="color:#14b8a6; font-weight:600;">数十亿美元的超级计算机</span>，用于开发前沿开放模型
+    </div>
+  </foreignObject>
+  
+  <!-- 模型矩阵 -->
+  <rect x="40" y="360" width="265" height="165" rx="14" fill="#1c1c2e"/>
+  <rect x="40" y="360" width="5" height="165" rx="2" fill="#0ea5e9"/>
+  <text x="65" y="395" font-size="18" font-weight="600" fill="#0ea5e9" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🧬 生物AI</text>
+  <foreignObject x="65" y="408" width="220" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      • Llama-Protina<br/>
+      • OpenFold 3<br/>
+      • Evo 2
+    </div>
+  </foreignObject>
+  
+  <rect x="318" y="360" width="265" height="165" rx="14" fill="#1c1c2e"/>
+  <rect x="318" y="360" width="5" height="165" rx="2" fill="#14b8a6"/>
+  <text x="343" y="395" font-size="18" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🌍 世界模型</text>
+  <foreignObject x="343" y="408" width="220" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      • Cosmos<br/>
+      • Earth-2<br/>
+      • ForecastNet
+    </div>
+  </foreignObject>
+  
+  <rect x="595" y="360" width="265" height="165" rx="14" fill="#1c1c2e"/>
+  <rect x="595" y="360" width="5" height="165" rx="2" fill="#0ea5e9"/>
+  <text x="620" y="395" font-size="18" font-weight="600" fill="#0ea5e9" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🤖 机器人</text>
+  <foreignObject x="620" y="408" width="220" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      • Groot (人形机器人)<br/>
+      • Alpamayo (自动驾驶)<br/>
+      • Isaac Sim
+    </div>
+  </foreignObject>
+  
+  <!-- Nemotron -->
+  <rect x="40" y="545" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="545" width="6" height="150" rx="3" fill="#14b8a6"/>
+  <text x="70" y="590" font-size="24" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">⚡ Nemotron 语言模型</text>
+  <foreignObject x="70" y="610" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      首个<span style="color:#14b8a6; font-weight:600;">混合Transformer SSM模型</span>，速度极快，可以思考很长时间，或非常快地产生智能答案
+    </div>
+  </foreignObject>
+  
+  <!-- NeMo库 -->
+  <rect x="40" y="715" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="715" width="6" height="150" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="760" font-size="24" font-weight="600" fill="#0ea5e9" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">📚 NeMo生命周期管理系统</text>
+  <foreignObject x="70" y="780" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#0ea5e9; font-weight:600;">NeMo</span> / <span style="color:#0ea5e9; font-weight:600;">Physics NeMo</span> / <span style="color:#0ea5e9; font-weight:600;">BioNeMo</span>：数据处理→模型训练→评估→护栏→部署
+    </div>
+  </foreignObject>
+  
+  <!-- 排行榜成就 -->
+  <rect x="40" y="885" width="820" height="150" rx="16" fill="#232340"/>
+  <rect x="40" y="885" width="6" height="150" rx="3" fill="#ffd166"/>
+  <text x="70" y="930" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🏆 排行榜领先</text>
+  <foreignObject x="70" y="950" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#ffd166;">PDF解析器</span>（世界级）· <span style="color:#ffd166;">语音识别</span>（绝对世界级）· <span style="color:#ffd166;">语义检索</span>（AI搜索引擎）
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1055" width="820" height="105" rx="16" fill="#15152a"/>
+  <text x="70" y="1100" font-size="14" fill="#666666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1128" font-size="12" fill="#555555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1128" font-size="16" fill="#666666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">3/6</text>
+</svg>

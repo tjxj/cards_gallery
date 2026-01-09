@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#a855f7" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#6366f1" opacity="0.05"/>
+  <circle cx="50" cy="500" r="80" fill="#a855f7" opacity="0.04"/>
+  
+  <!-- Header区域 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="70" y="95" font-size="18" fill="#ffffff" opacity="0.8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 主题演讲</text>
+  <text x="70" y="140" font-size="36" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">2025年AI四大突破</text>
+  <text x="780" y="95" font-size="14" fill="#ffffff" opacity="0.7" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Jensen Huang</text>
+  
+  <!-- 缩放定律区块 -->
+  <rect x="40" y="210" width="400" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="160" rx="3" fill="#a855f7"/>
+  <text x="70" y="250" font-size="22" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">📈 缩放定律</text>
+  <foreignObject x="70" y="265" width="350" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.55; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      ChatGPT的<span style="color:#a855f7; font-weight:600;">o1模型</span>发明了<span style="color:#a855f7; font-weight:600;">测试时缩放</span>（Test Time Scaling），让AI学会"思考"
+    </div>
+  </foreignObject>
+  
+  <!-- 代理系统区块 -->
+  <rect x="460" y="210" width="400" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="210" width="6" height="160" rx="3" fill="#6366f1"/>
+  <text x="490" y="250" font-size="22" font-weight="600" fill="#6366f1" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🤖 代理系统</text>
+  <foreignObject x="490" y="265" width="350" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.55; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      具备<span style="color:#6366f1; font-weight:600;">推理、研究、使用工具、规划</span>能力，如<span style="color:#6366f1; font-weight:600;">Cursor</span>彻底改变软件编程
+    </div>
+  </foreignObject>
+  
+  <!-- 物理AI区块 -->
+  <rect x="40" y="390" width="400" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="390" width="6" height="160" rx="3" fill="#a855f7"/>
+  <text x="70" y="430" font-size="22" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🌍 物理AI</text>
+  <foreignObject x="70" y="445" width="350" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.55; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      理解自然法则的AI，<span style="color:#a855f7; font-weight:600;">与物理世界互动</span>，理解物体恒存性、因果关系、摩擦力和重力
+    </div>
+  </foreignObject>
+  
+  <!-- 开放模型区块 -->
+  <rect x="460" y="390" width="400" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="390" width="6" height="160" rx="3" fill="#6366f1"/>
+  <text x="490" y="430" font-size="22" font-weight="600" fill="#6366f1" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🔓 开放模型</text>
+  <foreignObject x="490" y="445" width="350" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.55; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#6366f1; font-weight:600;">DeepSeek R1</span>开源推理模型震惊世界，开放模型已达前沿水平
+    </div>
+  </foreignObject>
+  
+  <!-- 技术演进时间线 -->
+  <rect x="40" y="570" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="570" width="6" height="180" rx="3" fill="#a855f7"/>
+  <text x="70" y="615" font-size="24" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">⏳ AI演进时间线</text>
+  <foreignObject x="70" y="635" width="760" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#ffd166;">2015</span> BERT语言模型 → <span style="color:#ffd166;">2017</span> Transformer → <span style="color:#ffd166;">2022</span> ChatGPT时刻 → <span style="color:#ffd166;">2023</span> o1推理模型 → <span style="color:#ffd166;">2024</span> 代理系统涌现 → <span style="color:#ffd166;">2025</span> DeepSeek R1开源
+    </div>
+  </foreignObject>
+  
+  <!-- AI三阶段计算 -->
+  <rect x="40" y="770" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="770" width="6" height="150" rx="3" fill="#6366f1"/>
+  <text x="70" y="815" font-size="24" font-weight="600" fill="#6366f1" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🧠 AI计算三阶段</text>
+  <foreignObject x="70" y="835" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#a855f7; font-weight:600;">预训练</span>（Pre-train）→ <span style="color:#a855f7; font-weight:600;">后训练</span>（Post-train，强化学习）→ <span style="color:#a855f7; font-weight:600;">测试时缩放</span>（实时思考）
+    </div>
+  </foreignObject>
+  
+  <!-- 引用区块 -->
+  <rect x="40" y="940" width="820" height="100" rx="16" fill="#232340"/>
+  <rect x="40" y="940" width="6" height="100" rx="3" fill="#ffd166"/>
+  <text x="70" y="980" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="965" width="730" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      数字形式的智能怎么可能抛下任何人呢？开放模型彻底改变了人工智能。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="40" y="1060" width="820" height="100" rx="16" fill="#15152a"/>
+  <text x="70" y="1105" font-size="14" fill="#666666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">NVIDIA CES 2026 · AI与加速计算的工业革命</text>
+  <text x="70" y="1130" font-size="12" fill="#555555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">整理: 老章mlpy</text>
+  <text x="780" y="1130" font-size="16" fill="#666666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">2/6</text>
+</svg>
