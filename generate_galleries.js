@@ -10,7 +10,8 @@ const DIRS = [
     { id: 'tencent_yuanbao_cards', title: '腾讯元宝深度解读' },
     { id: 'ai_infra_roundtable', title: 'AI 基础设施圆桌' },
     { id: 'luozhenyu_2026', title: '罗振宇「时间的朋友」2026' },
-    { id: 'simon_willison_2025', title: 'Simon Willison 2025 年度回顾' }
+    { id: 'simon_willison_2025', title: 'Simon Willison 2025 年度回顾' },
+    { id: 'nvidia_ces2026', title: 'NVIDIA CES 2026 主题演讲' }
 ];
 
 const TEMPLATE = (title, cards) => `<!DOCTYPE html>
