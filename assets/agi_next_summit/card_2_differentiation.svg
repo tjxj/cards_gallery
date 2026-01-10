@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="150" cy="150" r="180" fill="#a855f7" opacity="0.08"/>
+  <circle cx="750" cy="1050" r="200" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 标题区 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad2)" filter="url(#shadow)"/>
+  <text x="80" y="110" font-size="42" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    模型分化：新趋势
+  </text>
+  <text x="80" y="150" font-size="22" fill="#e0e0e0" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    To C vs To B 的不同演化路径
+  </text>
+  
+  <!-- To B 区块 -->
+  <rect x="40" y="210" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="230" rx="3" fill="#a855f7"/>
+  <text x="70" y="255" font-size="26" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🏢 To B：垂直整合失效
+  </text>
+  <foreignObject x="70" y="270" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      <span style="color:#a855f7; font-weight:600;">姚顺雨观点：</span>模型公司专注把模型做强，应用公司追求用最强的模型提升生产力——<span style="color:#e0e0e0; font-weight:600;">两者是分化的</span>。在生产力场景，智能越高代表生产力越高，用户愿意为强模型支付溢价（如200美元/月 vs 50美元/月）。<span style="color:#a855f7;">Claude在Coding领域的成功</span>证明了这一点。
+    </div>
+  </foreignObject>
+  
+  <!-- To C 区块 -->
+  <rect x="40" y="465" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="465" width="6" height="230" rx="3" fill="#6366f1"/>
+  <text x="70" y="510" font-size="26" font-weight="600" fill="#6366f1" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    👥 To C：垂直整合必要
+  </text>
+  <foreignObject x="70" y="525" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      <span style="color:#6366f1; font-weight:600;">核心挑战：</span>用户对智能提升的感知有限。ChatGPT从去年到今年，多数人体感变化不强。<span style="color:#e0e0e0; font-weight:600;">瓶颈不是更强的模型</span>，而是额外的上下文和环境。如"今天该吃什么"这类问题，需要知道天气、饮食偏好等context才能给出好答案。模型和产品必须强耦合迭代。
+    </div>
+  </foreignObject>
+  
+  <!-- 林俊旸补充 -->
+  <rect x="40" y="720" width="820" height="190" rx="16" fill="#232340"/>
+  <rect x="40" y="720" width="6" height="190" rx="3" fill="#14b8a6"/>
+  <text x="70" y="765" font-size="24" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    💭 林俊旸：自然分化
+  </text>
+  <foreignObject x="70" y="780" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      "公司没有那么多基因之分，To B、To C都是服务真实人类。"Anthropic的成功不是因为Coding特别厉害，而是<span style="color:#14b8a6; font-weight:600;">频繁和企业客户交流，发现了真实需求</span>——美国API消耗中，Coding占据绝对主导。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="60" y="1080" font-size="16" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    来源：《智能涌现》· AGI-Next前沿峰会
+  </text>
+  <text x="60" y="1110" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    关键词：垂直整合、模型分层、用户体验、生产力
+  </text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    2/5
+  </text>
+</svg>

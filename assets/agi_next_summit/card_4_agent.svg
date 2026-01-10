@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="150" cy="100" r="150" fill="#fb923c" opacity="0.08"/>
+  <circle cx="750" cy="1100" r="200" fill="#fbbf24" opacity="0.05"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 标题区 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad4)" filter="url(#shadow)"/>
+  <text x="80" y="110" font-size="42" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    Agent：2026关键年
+  </text>
+  <text x="80" y="150" font-size="22" fill="#e0e0e0" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    能否自动化1-2周的工作？
+  </text>
+  
+  <!-- 姚顺雨：To B vs To C -->
+  <rect x="40" y="210" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="230" rx="3" fill="#fb923c"/>
+  <text x="70" y="255" font-size="26" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    📊 姚顺雨：To B在上升
+  </text>
+  <foreignObject x="70" y="270" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      To B处于持续上升曲线，Anthropic的成功证明了专注预训练+RL+真实任务的路径。<span style="color:#fb923c; font-weight:600;">两大瓶颈：</span>①环境和部署——现有模型部署到各类公司就能带来10-100倍收益，但对GDP影响还不到1%；②教育——会用AI的人将替代不会用的人。<span style="color:#e0e0e0; font-weight:600;">中国最大机会：教育普及。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 林俊旸：模型即产品 -->
+  <rect x="40" y="465" width="820" height="260" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="465" width="6" height="260" rx="3" fill="#fbbf24"/>
+  <text x="70" y="510" font-size="26" font-weight="600" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🎯 林俊旸：长尾价值
+  </text>
+  <foreignObject x="70" y="525" width="760" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      <span style="color:#fbbf24; font-weight:600;">"模型即产品"</span>——通用Agent最大价值在于<span style="color:#e0e0e0; font-weight:600;">解决长尾问题</span>。头部问题易解决，但AI的魅力在于：当你寻遍各处都找不到答案时，AI却能帮你解决。对创业者的建议：如果不是"套壳"高手，通用Agent可能还是留给模型公司做——他们遇到问题，只要训模型就能解决。<span style="color:#fbbf24;">RL让修问题变得更容易。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 唐杰：价值与成本 -->
+  <rect x="40" y="750" width="820" height="160" rx="16" fill="#232340"/>
+  <rect x="40" y="750" width="6" height="160" rx="3" fill="#22c55e"/>
+  <text x="70" y="795" font-size="24" font-weight="600" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    ⚖️ 唐杰：三要素决定成败
+  </text>
+  <foreignObject x="70" y="810" width="760" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      ①解决问题的价值有多大？②成本有多高（是否API就能解决）？③迭代速度——能否抓住时间窗？<span style="color:#22c55e; font-weight:600;">大模型竞争本质是拼速度、拼时间。</span>智谱bet on Coding和Agent。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="60" y="1080" font-size="16" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    来源：《智能涌现》· AGI-Next前沿峰会
+  </text>
+  <text x="60" y="1110" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    关键词：Agent、生产力、长尾问题、教育普及
+  </text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    4/5
+  </text>
+</svg>

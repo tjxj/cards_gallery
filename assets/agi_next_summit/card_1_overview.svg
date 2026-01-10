@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#00b4d8" opacity="0.05"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="headerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 标题区 -->
+  <rect x="40" y="40" width="820" height="180" rx="20" fill="url(#headerGrad1)" filter="url(#shadow)"/>
+  <text x="80" y="110" font-size="42" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    基模四杰罕见同台
+  </text>
+  <text x="80" y="155" font-size="24" fill="#e0e0e0" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    AGI-Next 前沿峰会圆桌讨论
+  </text>
+  <text x="80" y="190" font-size="18" fill="#b8b8cc" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    2026年1月10日 · 智谱AI主办
+  </text>
+  
+  <!-- 嘉宾1 -->
+  <rect x="40" y="250" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="250" width="6" height="165" rx="3" fill="#1a73e8"/>
+  <text x="70" y="290" font-size="24" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    👨‍🔬 唐杰
+  </text>
+  <foreignObject x="70" y="305" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      智谱AI创始人兼首席科学家，刚于1月8日带领公司成功登陆港股。代表观点：<span style="color:#00b4d8; font-weight:600;">Chat范式已结束，bet on Coding和Reasoning</span>，提出Intelligence Efficiency新范式。
+    </div>
+  </foreignObject>
+  
+  <!-- 嘉宾2 -->
+  <rect x="40" y="440" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="440" width="6" height="165" rx="3" fill="#a855f7"/>
+  <text x="70" y="480" font-size="24" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🚀 杨植麟
+  </text>
+  <foreignObject x="70" y="495" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      月之暗面CEO，刚完成5亿美元新融资。代表观点：<span style="color:#a855f7; font-weight:600;">Scaling Law信徒</span>，强调模型的"Taste"——让模型不会趋同的关键。
+    </div>
+  </foreignObject>
+  
+  <!-- 嘉宾3 -->
+  <rect x="40" y="630" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="630" width="6" height="165" rx="3" fill="#14b8a6"/>
+  <text x="70" y="670" font-size="24" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🎯 林俊旸
+  </text>
+  <foreignObject x="70" y="685" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      阿里Qwen技术负责人，阿里史上最年轻P10。代表观点：<span style="color:#14b8a6; font-weight:600;">服务真实人类场景</span>，通义开源模型衍生数量和下载量全球第一。
+    </div>
+  </foreignObject>
+  
+  <!-- 嘉宾4 -->
+  <rect x="40" y="820" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="820" width="6" height="165" rx="3" fill="#fb923c"/>
+  <text x="70" y="860" font-size="24" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    💡 姚顺雨
+  </text>
+  <foreignObject x="70" y="875" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      前OpenAI研究员，现腾讯CEO办公室首席科学家。代表观点：<span style="color:#fb923c; font-weight:600;">To B和To C分化明显</span>，强模型在To B市场的溢价优势显著。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="60" y="1080" font-size="16" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    来源：《智能涌现》· AGI-Next前沿峰会
+  </text>
+  <text x="60" y="1110" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    整理：王欣逸、魏宁 | 编辑：苏建勋
+  </text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    1/5
+  </text>
+</svg>

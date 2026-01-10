@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="200" r="180" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="100" cy="1000" r="200" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 标题区 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad3)" filter="url(#shadow)"/>
+  <text x="80" y="110" font-size="42" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    下一代范式：自主学习
+  </text>
+  <text x="80" y="150" font-size="22" fill="#e0e0e0" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    硅谷共识，但定义各异
+  </text>
+  
+  <!-- 姚顺雨观点 -->
+  <rect x="40" y="210" width="820" height="260" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="260" rx="3" fill="#14b8a6"/>
+  <text x="70" y="255" font-size="26" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🔄 姚顺雨：渐变，非突变
+  </text>
+  <foreignObject x="70" y="270" width="760" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      自主学习不是方法论，<span style="color:#14b8a6; font-weight:600;">而是数据或任务</span>。每个场景的挑战不同：聊天的个性化、Coding的环境熟悉、科学探索的领域专精。<span style="color:#e0e0e0; font-weight:600;">信号已经出现：</span>ChatGPT在适应用户聊天风格，Claude项目95%的代码是自己写的，Cursor每几小时就用最新用户数据学习。<span style="color:#14b8a6;">这是渐变，不是突变。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 林俊旸观点 -->
+  <rect x="40" y="495" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="495" width="6" height="230" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="540" font-size="26" font-weight="600" fill="#0ea5e9" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🚀 林俊旸：主动性是关键
+  </text>
+  <foreignObject x="70" y="555" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      AI训练AI很快就能实现，但<span style="color:#0ea5e9; font-weight:600;">更大的挑战是主动性</span>。现在AI必须由人类prompt才能启动，未来能否让环境自己prompt AI？能否让AI主动思考、主动做事？这引发安全问题：如何注入正确的价值观，避免AI做出危险行为？<span style="color:#e0e0e0; font-weight:600;">个性化记忆</span>是另一个关键方向。
+    </div>
+  </foreignObject>
+  
+  <!-- 唐杰观点 -->
+  <rect x="40" y="750" width="820" height="160" rx="16" fill="#232340"/>
+  <rect x="40" y="750" width="6" height="160" rx="3" fill="#ffd166"/>
+  <text x="70" y="795" font-size="24" font-weight="600" fill="#ffd166" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    ⚡ 唐杰：范式变革将至
+  </text>
+  <foreignObject x="70" y="810" width="760" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      学术界已有充足算力，创新基因复苏。当Scaling效率遇到瓶颈，创新必然发生。提出<span style="color:#ffd166; font-weight:600;">Intelligence Efficiency</span>新范式：用更少的Scaling，获得同样的智能提升。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1030" width="900" height="170" fill="#15152a"/>
+  <text x="60" y="1080" font-size="16" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    来源：《智能涌现》· AGI-Next前沿峰会
+  </text>
+  <text x="60" y="1110" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    关键词：自主学习、主动性、个性化、智能效率
+  </text>
+  <text x="780" y="1140" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    3/5
+  </text>
+</svg>

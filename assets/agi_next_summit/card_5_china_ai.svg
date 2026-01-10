@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" width="900" height="1400">
+  <!-- 背景 -->
+  <rect width="900" height="1400" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="150" r="180" fill="#ef4444" opacity="0.08"/>
+  <circle cx="100" cy="1250" r="200" fill="#f472b6" opacity="0.05"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 标题区 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad5)" filter="url(#shadow)"/>
+  <text x="80" y="110" font-size="42" font-weight="700" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    中国AI的全球机会
+  </text>
+  <text x="80" y="150" font-size="22" fill="#e0e0e0" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    三年后成为全球领先的概率？
+  </text>
+  
+  <!-- 姚顺雨：概率与条件 -->
+  <rect x="40" y="210" width="820" height="260" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="260" rx="3" fill="#ef4444"/>
+  <text x="70" y="255" font-size="26" font-weight="600" fill="#ef4444" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🎯 姚顺雨：还挺乐观
+  </text>
+  <foreignObject x="70" y="270" width="760" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      <span style="color:#ef4444; font-weight:600;">客观条件：</span>①算力瓶颈——光刻机能否突破？软硬结合能否创新？②To B市场——支付意愿和国际竞争力。<span style="color:#e0e0e0; font-weight:600;">主观条件：</span>需要更多有冒险精神的人做前沿探索和范式突破。中国在工程、商业、产业设计上已比美国做得好，<span style="color:#ef4444;">唯一要解决的是能否引领新范式。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 林俊旸：20%概率 -->
+  <rect x="40" y="495" width="820" height="260" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="495" width="6" height="260" rx="3" fill="#f472b6"/>
+  <text x="70" y="540" font-size="26" font-weight="600" fill="#f472b6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    📊 林俊旸：20%已很乐观
+  </text>
+  <foreignObject x="70" y="555" width="760" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      <span style="color:#f472b6; font-weight:600;">美国算力优势明显：</span>总算力比中国大1-2个数量级，且大量投入到下一代Research。中国捉襟见肘，光交付就占据绝大部分算力。<span style="color:#e0e0e0; font-weight:600;">机会在于"穷则生变"：</span>算法Infra联合优化、软硬结合创新。好消息是，90后、00后的冒险精神越来越强，营商环境也在改善。
+    </div>
+  </foreignObject>
+  
+  <!-- 唐杰：坚持者的胜利 -->
+  <rect x="40" y="780" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="780" width="6" height="230" rx="3" fill="#22c55e"/>
+  <text x="70" y="825" font-size="26" font-weight="600" fill="#22c55e" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    🌟 唐杰：三个机会
+  </text>
+  <foreignObject x="70" y="840" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; text-align:justify;">
+      ①<span style="color:#22c55e; font-weight:600;">聪明人敢冒险</span>——90后、00后这一代愿意做特别冒险的事；②<span style="color:#22c55e; font-weight:600;">环境更好</span>——大小企业竞争、营商环境改善；③<span style="color:#22c55e; font-weight:600;">坚持的力量</span>——我们恰恰是幸运的，经历了环境从不好到变好的时代。<span style="color:#e0e0e0; font-weight:600;">如果笨笨地坚持，走到最后的就是我们。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用 -->
+  <rect x="40" y="1035" width="820" height="135" rx="16" fill="#232340"/>
+  <rect x="40" y="1035" width="6" height="135" rx="3" fill="#ffd166"/>
+  <text x="70" y="1075" font-size="36" fill="#ffd166" opacity="0.6" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">"</text>
+  <foreignObject x="95" y="1065" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      应该把更多资源投入到中国的AGI行业，让更多AI年轻研究员搓卡，有可能搓个三五年，中国就有几个自己的Ilya Sutskever。
+    </div>
+  </foreignObject>
+  <text x="750" y="1150" font-size="17" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    — 主持人李广密
+  </text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1230" width="900" height="170" fill="#15152a"/>
+  <text x="60" y="1280" font-size="16" fill="#888" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    来源：《智能涌现》· AGI-Next前沿峰会
+  </text>
+  <text x="60" y="1310" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    关键词：算力、范式创新、冒险精神、坚持
+  </text>
+  <text x="780" y="1340" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">
+    5/5
+  </text>
+</svg>
