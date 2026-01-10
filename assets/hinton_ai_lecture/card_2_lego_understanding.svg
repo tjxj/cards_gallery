@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="750" cy="100" r="150" fill="#a855f7" opacity="0.08"/>
+  <circle cx="150" cy="1100" r="200" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 头部 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad2)" filter="url(#shadow)"/>
+  <text x="70" y="110" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">🧩 词语是高维乐高</text>
+  <text x="70" y="150" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#e9d5ff">辛顿的"理解"类比：四个关键不同</text>
+  
+  <!-- 区块1：维度 -->
+  <rect x="40" y="210" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="165" rx="3" fill="#a855f7"/>
+  <text x="70" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#a855f7">① 维度：从3D到几千D</text>
+  <foreignObject x="70" y="265" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      乐高积木是三维的，可以模拟任何物体的空间分布。词语有<strong style="color:#a855f7;">成千上万个维度</strong>，可以模拟任何概念。想象诀窍？"想象一个3D物体，然后大声说'一千'！"
+    </div>
+  </foreignObject>
+  
+  <!-- 区块2：种类 -->
+  <rect x="40" y="400" width="820" height="145" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="400" width="6" height="145" rx="3" fill="#6366f1"/>
+  <text x="70" y="440" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#6366f1">② 种类：几种vs成千上万种</text>
+  <foreignObject x="70" y="455" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      乐高只有几种类型。词语有成千上万种，<strong style="color:#6366f1;">每种都有自己的名字</strong>，这极大促进了精确交流。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块3：可变形性 -->
+  <rect x="40" y="570" width="820" height="165" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="570" width="6" height="165" rx="3" fill="#a855f7"/>
+  <text x="70" y="610" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#a855f7">③ 可变形性：刚性vs语境适应</text>
+  <foreignObject x="70" y="625" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      乐高是刚性的。词语有粗略的形状，但<strong style="color:#a855f7;">会为了适应上下文而变形</strong>。比如"May"在不同语境中可以是月份、名字或情态动词，神经网络逐层"清理"出正确含义。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块4：连接方式 -->
+  <rect x="40" y="760" width="820" height="205" rx="16" fill="#232340"/>
+  <rect x="40" y="760" width="6" height="205" rx="3" fill="#ffd166"/>
+  <text x="70" y="800" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffd166">④ 连接方式：手套手锁定机制</text>
+  <foreignObject x="70" y="815" width="760" height="135">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#e0e0e0; text-align:justify; word-wrap:break-word;">
+      乐高通过塑料圆柱卡入孔洞连接。词语有<strong style="color:#ffd166;">长长的灵活手臂，末端是"手"和"手套"</strong>。理解一句话，就是让每个词变形，让某些词的手伸进其他词的手套。<strong style="color:#ffd166;">一旦所有词都手套手地锁在一起，你就"理解"了。</strong>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="995" width="820" height="115" rx="16" fill="#1c1c2e" opacity="0.8"/>
+  <foreignObject x="70" y="1010" width="760" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.6; color:#e0e0e0; font-style:italic; text-align:center;">
+      <strong style="color:#6366f1;">实例：</strong>"She scrummed him with the frying pan."<br/>你立刻知道 scrum 大概是"攻击"的意思——这就是从一个句子理解一个新词的能力。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1120" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666">AI教父辛顿 · 霍巴特演讲 2026.01.07</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">2/6</text>
+</svg>

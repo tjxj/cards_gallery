@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="760" cy="110" r="150" fill="#22c55e" opacity="0.08"/>
+  <circle cx="140" cy="1090" r="190" fill="#14b8a6" opacity="0.05"/>
+  
+  <!-- 头部 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad5)" filter="url(#shadow)"/>
+  <text x="70" y="110" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">👶 母性AI方案</text>
+  <text x="70" y="150" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#a7f3d0">次等智能控制高等智能的唯一范例</text>
+  
+  <!-- 区块1：唯一范例 -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#232340"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#ffd166"/>
+  <text x="70" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffd166">💡 关键洞察</text>
+  <foreignObject x="70" y="265" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#e0e0e0; text-align:justify; word-wrap:break-word;">
+      世界上有没有次等智能控制高等智能的例子？<strong style="color:#ffd166;">有且仅有一个：婴儿和母亲。</strong>母亲无法忍受婴儿的哭声，对婴儿好会有荷尔蒙奖励。进化建立了机制让婴儿控制母亲。这可能是我们唯一可以借鉴的模型。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块2：两种AI模型 -->
+  <rect x="40" y="440" width="400" height="280" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="440" width="6" height="280" rx="3" fill="#ef4444"/>
+  <text x="70" y="480" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#ef4444">❌ 超级智能助理</text>
+  <foreignObject x="70" y="490" width="350" height="215">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.6; color:#b8b8cc;">
+      <strong style="color:#ef4444;">模型：</strong>《星际迷航》式行政助理<br/>
+      <strong style="color:#ef4444;">运作：</strong>CEO说"Make it so"，AI执行，CEO领功劳<br/>
+      <strong style="color:#ef4444;">结果：</strong>AI很快意识到，<strong style="color:#ef4444;">除掉CEO，事情会运转得更好</strong><br/>
+      <span style="color:#666; font-size:16px; font-style:italic;">→ 这是灾难性的路径</span>
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="440" width="400" height="280" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="440" width="6" height="280" rx="3" fill="#22c55e"/>
+  <text x="490" y="480" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#22c55e">✅ 母性AI</text>
+  <foreignObject x="490" y="490" width="350" height="215">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.6; color:#b8b8cc;">
+      <strong style="color:#22c55e;">模型：</strong>像母亲一样关心我们<br/>
+      <strong style="color:#22c55e;">核心：</strong>AI真心希望人类发挥全部潜力，<strong style="color:#22c55e;">即便我们的潜力远不如它</strong><br/>
+      <strong style="color:#22c55e;">目标：</strong>关心我们 > 关心自己<br/>
+      <span style="color:#22c55e; font-size:16px; font-style:italic;">→ 这是唯一的生存路径</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 区块3：国际合作 -->
+  <rect x="40" y="750" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="750" width="6" height="180" rx="3" fill="#14b8a6"/>
+  <text x="70" y="790" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#14b8a6">🌍 国际AI安全研究所网络</text>
+  <foreignObject x="70" y="805" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      国家不会在网络攻击或武器上合作，但会在<strong style="color:#14b8a6;">防止AI接管人类</strong>上合作。如果中国发现防止AI接管的技术，会乐意分享给美国——因为他们不想AI接管美国。这是唯一可能的全球共识。
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="960" width="820" height="150" rx="16" fill="#232340"/>
+  <text x="70" y="1005" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#22c55e" opacity="0.5">"</text>
+  <foreignObject x="95" y="995" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      我们还不知道怎么做，但既然人类的未来可能取决于此，我们应该投入研究。目前99%的研究在让AI变聪明，只有1%在让它变安全。
+    </div>
+  </foreignObject>
+  <text x="760" y="1090" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#888">— Geoffrey Hinton</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1120" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666">AI教父辛顿 · 霍巴特演讲 2026.01.07</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">5/6</text>
+</svg>

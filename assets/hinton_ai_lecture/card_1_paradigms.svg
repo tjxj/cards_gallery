@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="780" cy="120" r="140" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="120" cy="1080" r="180" fill="#00b4d8" opacity="0.05"/>
+  
+  <!-- 头部 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad1)" filter="url(#shadow)"/>
+  <text x="70" y="110" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">🧠 两种智能范式</text>
+  <text x="70" y="150" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#b8e0ff">辛顿：60年AI发展的两条路径</text>
+  
+  <!-- 区块1：符号AI -->
+  <rect x="40" y="210" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="200" rx="3" fill="#ff6b6b"/>
+  <text x="70" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ff6b6b">📜 范式一：符号AI（逻辑派）</text>
+  <foreignObject x="70" y="265" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#ff6b6b;">核心理念：</strong>智能=推理，通过操作符号表达式来推导新知识。<strong style="color:#ff6b6b;">词义理论：</strong>一个词的意义来自它与其他词的关系网络。<strong style="color:#ff6b6b;">问题：</strong>忽视了学习和感知，专注于设计"特殊逻辑语言"。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块2：神经网络 -->
+  <rect x="40" y="440" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="440" width="6" height="200" rx="3" fill="#00b4d8"/>
+  <text x="70" y="480" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#00b4d8">🔗 范式二：神经网络（生物派）</text>
+  <foreignObject x="70" y="495" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#00b4d8;">核心理念：</strong>智能=学习连接强度，通过大量练习调整脑细胞之间的连接。<strong style="color:#00b4d8;">词义理论：</strong>一个词的意义是一大堆特征（features）的集合。<strong style="color:#00b4d8;">优势：</strong>从生物学现实出发，专注基础系统。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块3：统一理论 -->
+  <rect x="40" y="670" width="820" height="240" rx="16" fill="#232340"/>
+  <rect x="40" y="670" width="6" height="240" rx="3" fill="#ffd166"/>
+  <text x="70" y="710" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffd166">✨ 1985年的突破：同一枚硬币的两面</text>
+  <foreignObject x="70" y="725" width="760" height="170">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#e0e0e0; text-align:justify; word-wrap:break-word;">
+      辛顿发现：训练神经网络预测下一个词时，它同时在做两件事——<strong style="color:#ffd166;">①学习如何将词符号转换为特征集</strong>（心理学理论），<strong style="color:#ffd166;">②学习特征之间如何相互作用</strong>（符号AI理论）。关系知识不再存储在句子中，而是隐含在"转换规则"和"交互规则"里。这就是今天所有大语言模型的基础！
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="940" width="820" height="150" rx="16" fill="#1c1c2e" opacity="0.8"/>
+  <text x="70" y="985" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#00b4d8" opacity="0.5">"</text>
+  <foreignObject x="95" y="975" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      LLM 并没有存储任何词串或句子。它们所有的知识都在于如何将词转换为特征，以及特征如何相互作用。
+    </div>
+  </foreignObject>
+  <text x="760" y="1070" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#888">— Geoffrey Hinton</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1120" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666">AI教父辛顿 · 霍巴特演讲 2026.01.07</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">1/6</text>
+</svg>

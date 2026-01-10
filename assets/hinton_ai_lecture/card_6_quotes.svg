@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="780" cy="100" r="150" fill="#fbbf24" opacity="0.08"/>
+  <circle cx="120" cy="1100" r="200" fill="#f59e0b" opacity="0.05"/>
+  
+  <!-- 头部 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad6)" filter="url(#shadow)"/>
+  <text x="70" y="110" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">✨ 辛顿金句</text>
+  <text x="70" y="150" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#fef3c7">AI教父的深刻洞察与幽默</text>
+  
+  <!-- 金句1 -->
+  <rect x="40" y="210" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="130" rx="3" fill="#fbbf24"/>
+  <foreignObject x="70" y="225" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#fbbf24;">关于乔姆斯基 📚</strong><br/>
+      "识别邪教领袖的方法是，要加入他们的邪教，你必须同意一些显而易见的废话。对于乔姆斯基，你得同意'语言不是习得的'。"
+    </div>
+  </foreignObject>
+  
+  <!-- 金句2 -->
+  <rect x="40" y="365" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="365" width="6" height="130" rx="3" fill="#6366f1"/>
+  <foreignObject x="70" y="380" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#6366f1;">关于幻觉 🎭</strong><br/>
+      "我们一直在产生幻觉，只是不称之为幻觉，心理学家称之为'虚构'。记忆不是去文件柜取文件，而是根据连接强度构建一个故事。"
+    </div>
+  </foreignObject>
+  
+  <!-- 金句3 -->
+  <rect x="40" y="520" width="820" height="150" rx="16" fill="#232340"/>
+  <rect x="40" y="520" width="6" height="150" rx="3" fill="#14b8a6"/>
+  <foreignObject x="70" y="535" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#14b8a6;">关于高维想象 🌌</strong><br/>
+      "大多数人无法想象几千个维度的东西。诀窍是：你想象一个三维的东西，然后很大声地对自己说'一千'。这是你能做的最好的办法了。"
+    </div>
+  </foreignObject>
+  
+  <!-- 金句4 -->
+  <rect x="40" y="695" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="695" width="6" height="130" rx="3" fill="#ef4444"/>
+  <foreignObject x="70" y="710" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#ef4444;">关于超级智能 🤖</strong><br/>
+      "如果你和它辩论任何事情，它都会赢。想象你在幼儿园工作，但三岁小孩是主管。你怎么夺回控制权？很难。"
+    </div>
+  </foreignObject>
+  
+  <!-- 金句5 -->
+  <rect x="40" y="850" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="850" width="6" height="110" rx="3" fill="#a855f7"/>
+  <foreignObject x="70" y="865" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#a855f7;">关于量子力学 ⚛️</strong><br/>
+      "我不懂量子力学是如何工作的。这有点尴尬，因为我有诺贝尔物理学奖。"
+    </div>
+  </foreignObject>
+  
+  <!-- 金句6 -->
+  <rect x="40" y="985" width="820" height="125" rx="16" fill="#232340"/>
+  <rect x="40" y="985" width="6" height="125" rx="3" fill="#22c55e"/>
+  <foreignObject x="70" y="1000" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0;">
+      <strong style="color:#22c55e;">关于AI安全 🛡️</strong><br/>
+      "我们已经解决了复活的问题。天主教会对此不太高兴，但我们真的能做到。"
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1120" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666">AI教父辛顿 · 霍巴特演讲 2026.01.07</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">6/6</text>
+</svg>

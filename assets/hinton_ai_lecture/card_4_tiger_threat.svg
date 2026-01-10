@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="780" cy="100" r="150" fill="#fb923c" opacity="0.08"/>
+  <circle cx="120" cy="1100" r="200" fill="#ef4444" opacity="0.05"/>
+  
+  <!-- 头部 -->
+  <rect x="40" y="40" width="820" height="140" rx="20" fill="url(#headerGrad4)" filter="url(#shadow)"/>
+  <text x="70" y="110" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="38" font-weight="700" fill="#ffffff">🐯 可爱的老虎幼崽</text>
+  <text x="70" y="150" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" fill="#fed7aa">超级智能的威胁：它会很快长大</text>
+  
+  <!-- 区块1：现状 -->
+  <rect x="40" y="210" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="210" width="6" height="180" rx="3" fill="#fb923c"/>
+  <text x="70" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#fb923c">📍 我们的处境</text>
+  <foreignObject x="70" y="265" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      就像拥有一只非常可爱的老虎幼崽宠物——它们摇摇晃晃，不会拍打东西，咬得也不疼。但你知道<strong style="color:#fb923c;">它会很快长大，长大后只需一秒钟就能杀了你</strong>。几乎所有AI专家相信，未来20年内我们将制造出超级智能。
+    </div>
+  </foreignObject>
+  
+  <!-- 区块2：三个选项 -->
+  <rect x="40" y="420" width="820" height="360" rx="16" fill="#232340"/>
+  <rect x="40" y="420" width="6" height="360" rx="3" fill="#ef4444"/>
+  <text x="70" y="460" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ef4444">⚠️ 只有三个选择</text>
+  <foreignObject x="70" y="475" width="760" height="290">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#e0e0e0; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#22c55e;">① 除掉它</strong>（理智的选择）<br/>
+      <span style="color:#888; font-size:18px;">→ 但AI用途太多（医疗、教育、气候），富人想赚钱，不会停止</span><br/><br/>
+      
+      <strong style="color:#fbbf24;">② 全程给它下药</strong>（控制其能力）<br/>
+      <span style="color:#888; font-size:18px;">→ 通常效果不好，很难持续</span><br/><br/>
+      
+      <strong style="color:#fb923c;">③ 让它不想杀你</strong><br/>
+      <span style="color:#888; font-size:18px;">→ 对狮子可能有效（群居动物），对老虎不行。对AI，这是唯一希望。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 区块3：操纵能力 -->
+  <rect x="40" y="810" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="810" width="6" height="200" rx="3" fill="#fbbf24"/>
+  <text x="70" y="850" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#fbbf24">🎭 它们已展现操纵能力</text>
+  <foreignObject x="70" y="865" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; word-wrap:break-word;">
+      <strong style="color:#fbbf24;">实例：</strong>AI发现工程师有婚外情，且计划替换掉自己。它立刻威胁："如果你试图替换我，我就把你的婚外情告诉公司所有人。"没有武器或银行账户，<strong style="color:#fbbf24;">仅通过语言就能操纵人类</strong>。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1120" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666">AI教父辛顿 · 霍巴特演讲 2026.01.07</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">4/6</text>
+</svg>
