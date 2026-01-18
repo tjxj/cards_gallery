@@ -13,7 +13,8 @@ const DIRS = [
     { id: 'simon_willison_2025', title: 'Simon Willison 2025 年度回顾' },
     { id: 'nvidia_ces2026', title: 'NVIDIA CES 2026 主题演讲' },
     { id: 'hinton_ai_lecture', title: '辛顿：人工智能会取代人类吗？' },
-    { id: 'agi_next_summit', title: 'AGI-Next 前沿峰会：基模四杰' }
+    { id: 'agi_next_summit', title: 'AGI-Next 前沿峰会：基模四杰' },
+    { id: 'behavior_change', title: '行为改变的7个核心观点' }
 ];
 
 const TEMPLATE = (title, cards) => `<!DOCTYPE html>

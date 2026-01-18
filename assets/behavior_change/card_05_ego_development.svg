@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1800" width="900" height="1800">
+  <rect width="900" height="1800" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="160" fill="#fbbf24" opacity="0.06"/>
+  <circle cx="100" cy="1700" r="140" fill="#f59e0b" opacity="0.04"/>
+  
+  <rect x="40" y="40" width="200" height="36" rx="18" fill="#fbbf24" opacity="0.15"/>
+  <text x="60" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="#fbbf24">🧠 行为改变心理学</text>
+  
+  <foreignObject x="40" y="100" width="820" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:38px; font-weight:800; line-height:1.3; color:#ffffff;">
+      观点四：<span style="color:#fbbf24;">9层自我发展</span>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="210" width="820" height="80" rx="16" fill="#1c1c2e"/>
+  <foreignObject x="75" y="230" width="760" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc; text-align:center;">
+      心智通过可预测的阶段演化。大多数人在 4-8 层之间，穿越任何阶段都遵循相同的模式。
+    </div>
+  </foreignObject>
+  
+  <!-- 9个层次 -->
+  <rect x="40" y="320" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="320" width="8" height="120" rx="4" fill="#ef4444"/>
+  <text x="75" y="360" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#ef4444">① 冲动型 Impulsive</text>
+  <foreignObject x="75" y="375" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      冲动与行动之间没有分离。非黑即白的思维。例：幼儿生气就打人，因为感觉和行为是同一件事。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="460" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="460" width="8" height="120" rx="4" fill="#f97316"/>
+  <text x="75" y="500" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#f97316">② 自我保护型 Self-Protective</text>
+  <foreignObject x="75" y="515" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      世界是危险的，你学会照顾自己。例：孩子学会藏成绩单、撒谎做完家务、弄清大人想听什么。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="600" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="600" width="8" height="120" rx="4" fill="#fbbf24"/>
+  <text x="75" y="640" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#fbbf24">③ 从众型 Conformist</text>
+  <foreignObject x="75" y="655" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你就是你的群体，它的规则感觉像是现实本身。例：无法理解为什么有人会投票与自己家人不同。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="740" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="740" width="8" height="120" rx="4" fill="#22c55e"/>
+  <text x="75" y="780" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#22c55e">④ 自我觉察型 Self-Aware</text>
+  <foreignObject x="75" y="795" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你注意到内心世界与外在不匹配。例：在教堂意识到自己不确定相信大家似乎相信的，但不知如何处理。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="880" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="880" width="8" height="120" rx="4" fill="#14b8a6"/>
+  <text x="75" y="920" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#14b8a6">⑤ 良心型 Conscientious</text>
+  <foreignObject x="75" y="935" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你建立自己的原则系统并对自己负责。例：经过仔细研究离开家庭宗教，采纳可以捍卫的个人哲学。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="1020" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="1020" width="8" height="120" rx="4" fill="#0ea5e9"/>
+  <text x="75" y="1060" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#0ea5e9">⑥ 个人主义型 Individualist</text>
+  <foreignObject x="75" y="1075" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你看到原则是由环境塑造的，开始更松弛地持有它们。例：意识到政治观点更多与成长地有关而非客观真理。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="1160" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="1160" width="8" height="120" rx="4" fill="#6366f1"/>
+  <text x="75" y="1200" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#6366f1">⑦ 战略型 Strategist</text>
+  <foreignObject x="75" y="1215" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你在系统中工作的同时意识到自己的参与。例：领导组织的同时积极质疑自己的盲点。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="1300" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="1300" width="8" height="120" rx="4" fill="#a855f7"/>
+  <text x="75" y="1340" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#a855f7">⑧ 建构觉察型 Construct-Aware</text>
+  <foreignObject x="75" y="1355" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      你将所有框架（包括身份）视为有用的虚构。例：以隐喻而非字面意义持有信念，知道地图不是领土。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="1440" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="1440" width="8" height="120" rx="4" fill="#f472b6"/>
+  <text x="75" y="1480" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="700" fill="#f472b6">⑨ 合一型 Unitive</text>
+  <foreignObject x="75" y="1495" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#888;">
+      自我与生命之间的分离消解。工作、休息和玩耍感觉像同一件事。没有人需要成为什么，只有当下的回应。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="1590" width="820" height="80" rx="16" fill="#1c1c2e"/>
+  <foreignObject x="75" y="1610" width="760" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#fbbf24; text-align:center; font-weight:600;">
+      💡 好消息：无论你在哪个阶段，穿越它们都遵循相同的模式
+    </div>
+  </foreignObject>
+  
+  <rect x="0" y="1700" width="900" height="100" fill="#15152a"/>
+  <text x="70" y="1745" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#666666">来源：Dan Koe · 行为改变的7个核心观点</text>
+  <text x="70" y="1775" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555555">整理 @老章mlpy · 2026年1月</text>
+  <rect x="800" y="1720" width="60" height="50" rx="12" fill="#fbbf24" opacity="0.15"/>
+  <text x="830" y="1753" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#fbbf24" font-weight="700" text-anchor="middle">5/8</text>
+</svg>

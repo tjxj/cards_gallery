@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
+  <rect width="900" height="1600" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="160" fill="#22c55e" opacity="0.06"/>
+  <circle cx="100" cy="1500" r="140" fill="#4ade80" opacity="0.04"/>
+  
+  <rect x="40" y="40" width="200" height="36" rx="18" fill="#22c55e" opacity="0.15"/>
+  <text x="60" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="#22c55e">🎮 系统化框架</text>
+  
+  <foreignObject x="40" y="100" width="820" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:38px; font-weight:800; line-height:1.3; color:#ffffff;">
+      观点七：<span style="color:#22c55e;">把人生变成游戏</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 契克森米哈伊引用 -->
+  <rect x="40" y="210" width="820" height="140" rx="20" fill="#232340"/>
+  <rect x="40" y="210" width="8" height="140" rx="4" fill="#ffd166"/>
+  <text x="75" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="90" y="240" width="740" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.65; color:#e0e0e0; font-style:italic;">
+      当心理能量投入现实目标、当技能匹配行动机会时，意识就会有序。追求目标带来专注，让人暂时忘记其他一切。
+    </div>
+  </foreignObject>
+  <text x="760" y="330" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— 米哈里·契克森米哈伊（心流之父）</text>
+  
+  <!-- 6个组件 -->
+  <rect x="40" y="380" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="380" width="6" height="180" rx="3" fill="#ef4444"/>
+  <text x="70" y="425" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#ef4444">❌ 反愿景</text>
+  <text x="70" y="455" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = 失败的代价</text>
+  <foreignObject x="70" y="470" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      我存在的敌人，我永远不想再经历的生活。如果放弃会怎样？
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="380" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="380" width="6" height="180" rx="3" fill="#22c55e"/>
+  <text x="490" y="425" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#22c55e">🏆 愿景</text>
+  <text x="490" y="455" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = 如何获胜</text>
+  <foreignObject x="490" y="470" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      理想生活的模样。至少在游戏进化之前是的。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="580" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="580" width="6" height="180" rx="3" fill="#1a73e8"/>
+  <text x="70" y="625" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#1a73e8">🎯 1年目标</text>
+  <text x="70" y="655" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = 主线任务</text>
+  <foreignObject x="70" y="670" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      1年后的生活是什么样？这是我的唯一优先级。
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="580" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="580" width="6" height="180" rx="3" fill="#a855f7"/>
+  <text x="490" y="625" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#a855f7">📦 1月项目</text>
+  <text x="490" y="655" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = Boss战</text>
+  <foreignObject x="490" y="670" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      需要学什么？获得什么技能？打造什么作品？获取经验值和装备。
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="780" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="780" width="6" height="180" rx="3" fill="#14b8a6"/>
+  <text x="70" y="825" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#14b8a6">⚡ 每日杠杆</text>
+  <text x="70" y="855" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = 日常任务</text>
+  <foreignObject x="70" y="870" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      优先级最高的2-3个行动。推动项目向完成靠近的日常流程。
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="780" width="400" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="780" width="6" height="180" rx="3" fill="#fbbf24"/>
+  <text x="490" y="825" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="700" fill="#fbbf24">🚧 约束条件</text>
+  <text x="490" y="855" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888">🎮 = 游戏规则</text>
+  <foreignObject x="490" y="870" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.6; color:#b8b8cc;">
+      为了愿景，什么是我不愿意牺牲的？限制激发创造力。
+    </div>
+  </foreignObject>
+  
+  <!-- 为什么有效 -->
+  <rect x="40" y="990" width="820" height="180" rx="20" fill="#232340"/>
+  <rect x="40" y="990" width="8" height="180" rx="4" fill="#00b4d8"/>
+  <text x="75" y="1035" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#00b4d8">🌟 为什么这套系统有效？</text>
+  <foreignObject x="75" y="1060" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.7; color:#b8b8cc; text-align:justify;">
+      这6个组件形成一个<span style="color:#00b4d8; font-weight:600;">同心圆力场</span>，保护心智不受干扰和诱惑。你玩得越多，力场越强，直到成为你的一部分——<span style="color:#22c55e; font-weight:600;">你再也无法想象其他生活方式</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 游戏让人上瘾 -->
+  <rect x="40" y="1200" width="820" height="180" rx="20" fill="#1c1c2e"/>
+  <rect x="40" y="1200" width="8" height="180" rx="4" fill="#f472b6"/>
+  <text x="75" y="1245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#f472b6">🎮 为什么游戏让人上瘾？</text>
+  <foreignObject x="75" y="1270" width="760" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.7; color:#b8b8cc;">
+      游戏有<span style="color:#fbbf24;">目标</span>、<span style="color:#22c55e;">进度</span>、<span style="color:#1a73e8;">反馈</span>和<span style="color:#a855f7;">限制</span>——这些元素导向<span style="color:#f472b6; font-weight:600;">专注、清晰和心流</span>。<br/>
+      把这些元素放进你的人生，你就会对自己的人生上瘾。
+    </div>
+  </foreignObject>
+  
+  <!-- 最终结论 -->
+  <rect x="40" y="1410" width="820" height="80" rx="16" fill="#232340"/>
+  <foreignObject x="75" y="1430" width="760" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.5; color:#ffffff; text-align:center; font-weight:700;">
+      享受来自进步，而非终点线。<span style="color:#22c55e;">因为终点线本不存在。</span>
+    </div>
+  </foreignObject>
+  
+  <rect x="0" y="1520" width="900" height="80" fill="#15152a"/>
+  <text x="70" y="1555" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#666666">来源：Dan Koe · 行为改变的7个核心观点</text>
+  <text x="70" y="1583" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555555">整理 @老章mlpy · 2026年1月</text>
+  <rect x="800" y="1535" width="60" height="50" rx="12" fill="#22c55e" opacity="0.15"/>
+  <text x="830" y="1568" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#22c55e" font-weight="700" text-anchor="middle">8/8</text>
+</svg>

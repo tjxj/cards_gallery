@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1500" width="900" height="1500">
+  <rect width="900" height="1500" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="150" fill="#1a73e8" opacity="0.06"/>
+  <circle cx="100" cy="1400" r="130" fill="#0ea5e9" opacity="0.05"/>
+  
+  <rect x="40" y="40" width="200" height="36" rx="18" fill="#1a73e8" opacity="0.15"/>
+  <text x="60" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="#1a73e8">🧠 行为改变心理学</text>
+  
+  <foreignObject x="40" y="100" width="820" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:38px; font-weight:800; line-height:1.3; color:#ffffff;">
+      观点五：<span style="color:#1a73e8;">智慧与控制论</span>
+    </div>
+  </foreignObject>
+  
+  <!-- Naval 引用 -->
+  <rect x="40" y="210" width="820" height="120" rx="20" fill="#232340"/>
+  <rect x="40" y="210" width="8" height="120" rx="4" fill="#ffd166"/>
+  <text x="75" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="90" y="240" width="740" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      智慧的唯一真正测试是：你是否获得了想要的人生。
+    </div>
+  </foreignObject>
+  <text x="760" y="305" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— Naval Ravikant</text>
+  
+  <!-- 成功公式 -->
+  <rect x="40" y="360" width="820" height="140" rx="20" fill="#1c1c2e"/>
+  <rect x="40" y="360" width="8" height="140" rx="4" fill="#1a73e8"/>
+  <text x="75" y="405" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#1a73e8">🧮 成功公式</text>
+  <foreignObject x="75" y="430" width="760" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:26px; line-height:1.5; color:#ffffff; text-align:center; font-weight:700;">
+      <span style="color:#22c55e;">能动性</span> × <span style="color:#fbbf24;">机会</span> × <span style="color:#1a73e8;">智慧</span> = 成功
+    </div>
+  </foreignObject>
+  
+  <!-- 控制论 -->
+  <rect x="40" y="530" width="820" height="320" rx="20" fill="#1c1c2e"/>
+  <rect x="40" y="530" width="8" height="320" rx="4" fill="#14b8a6"/>
+  <text x="75" y="575" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#14b8a6">🎯 控制论 Cybernetics = 「擅长掌舵」</text>
+  
+  <foreignObject x="75" y="605" width="760" height="230">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.9; color:#b8b8cc;">
+      控制论展示了<span style="color:#14b8a6; font-weight:600;">智能系统的属性</span>：<br/><br/>
+      <div style="margin-left:20px;">
+        <span style="color:#22c55e; font-weight:700;">①</span> 有一个目标<br/>
+        <span style="color:#22c55e; font-weight:700;">②</span> 向目标行动<br/>
+        <span style="color:#22c55e; font-weight:700;">③</span> 感知当前位置<br/>
+        <span style="color:#22c55e; font-weight:700;">④</span> 与目标比较<br/>
+        <span style="color:#22c55e; font-weight:700;">⑤</span> 根据反馈再次行动
+      </div><br/>
+      🚢 船被风吹偏后修正航向 · 🌡️ 恒温器感知温度变化开启 · 🧬 胰腺分泌胰岛素
+    </div>
+  </foreignObject>
+  
+  <!-- 高智慧 vs 低智慧 -->
+  <rect x="40" y="880" width="400" height="200" rx="16" fill="#1f2a1f"/>
+  <rect x="40" y="880" width="6" height="200" rx="3" fill="#22c55e"/>
+  <text x="70" y="925" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#22c55e">✓ 高智慧</text>
+  <foreignObject x="70" y="945" width="350" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      • 迭代、坚持、理解大局<br/>
+      • 知道任何问题在足够长的时间尺度上都能解决<br/>
+      • 知道存在一系列选择可以达成目标
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="880" width="400" height="200" rx="16" fill="#2a1f1f"/>
+  <rect x="460" y="880" width="6" height="200" rx="3" fill="#ef4444"/>
+  <text x="490" y="925" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#ef4444">✗ 低智慧</text>
+  <foreignObject x="490" y="945" width="350" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      • 无法从错误中学习<br/>
+      • 卡在问题上而不是解决它们<br/>
+      • 遇到路障就放弃
+    </div>
+  </foreignObject>
+  
+  <!-- 提升智慧的步骤 -->
+  <rect x="40" y="1110" width="820" height="200" rx="20" fill="#232340"/>
+  <rect x="40" y="1110" width="8" height="200" rx="4" fill="#a855f7"/>
+  <text x="75" y="1155" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#a855f7">🚀 如何变得更智慧</text>
+  <foreignObject x="75" y="1180" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.85; color:#b8b8cc;">
+      <span style="color:#a855f7;">❶</span> 拒绝已知路径 → <span style="color:#a855f7;">❷</span> 潜入未知 → <span style="color:#a855f7;">❸</span> 设定更高目标扩展心智<br/>
+      <span style="color:#a855f7;">❹</span> 拥抱混乱并允许成长 → <span style="color:#a855f7;">❺</span> 研究自然的通用原理<br/>
+      <span style="color:#a855f7;">❻</span> 成为深度通才
+    </div>
+  </foreignObject>
+  
+  <rect x="0" y="1400" width="900" height="100" fill="#15152a"/>
+  <text x="70" y="1445" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#666666">来源：Dan Koe · 行为改变的7个核心观点</text>
+  <text x="70" y="1475" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555555">整理 @老章mlpy · 2026年1月</text>
+  <rect x="800" y="1420" width="60" height="50" rx="12" fill="#1a73e8" opacity="0.15"/>
+  <text x="830" y="1453" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#1a73e8" font-weight="700" text-anchor="middle">6/8</text>
+</svg>

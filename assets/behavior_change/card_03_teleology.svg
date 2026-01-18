@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" width="900" height="1400">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1400" fill="#0f0f1a"/>
+  
+  <!-- 装饰元素 -->
+  <circle cx="800" cy="100" r="160" fill="#a855f7" opacity="0.06"/>
+  <circle cx="100" cy="1300" r="140" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 系列标识 -->
+  <rect x="40" y="40" width="200" height="36" rx="18" fill="#a855f7" opacity="0.15"/>
+  <text x="60" y="65" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" font-weight="600" fill="#a855f7">🧠 行为改变心理学</text>
+  
+  <!-- 主标题 -->
+  <foreignObject x="40" y="100" width="820" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:38px; font-weight:800; line-height:1.3; color:#ffffff;">
+      观点二：<span style="color:#a855f7;">目的论</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 阿德勒引用 -->
+  <rect x="40" y="210" width="820" height="130" rx="20" fill="#232340"/>
+  <rect x="40" y="210" width="8" height="130" rx="4" fill="#ffd166"/>
+  <text x="75" y="250" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="36" fill="#ffd166" opacity="0.5">"</text>
+  <foreignObject x="90" y="240" width="740" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      只相信行动。生命发生在事件的层面，而非言语。只相信行动。
+    </div>
+  </foreignObject>
+  <text x="760" y="315" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#888" text-anchor="end">— 阿尔弗雷德·阿德勒</text>
+  
+  <!-- 核心概念 -->
+  <rect x="40" y="370" width="820" height="160" rx="20" fill="#1c1c2e"/>
+  <rect x="40" y="370" width="8" height="160" rx="4" fill="#a855f7"/>
+  <text x="75" y="415" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#a855f7">🎯 核心原理</text>
+  <foreignObject x="75" y="440" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:21px; line-height:1.7; color:#e0e0e0; text-align:justify;">
+      <span style="color:#a855f7; font-weight:700;">所有行为都是目标导向的</span>——这是目的论。大多数时候，你的目标是无意识的。
+    </div>
+  </foreignObject>
+  
+  <!-- 显性 vs 隐性目标 -->
+  <text x="40" y="580" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#888">显性 vs 隐性目标：</text>
+  
+  <rect x="40" y="610" width="400" height="160" rx="16" fill="#1c1c2e"/>
+  <text x="70" y="655" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#22c55e">✓ 显性目标（容易察觉）</text>
+  <foreignObject x="70" y="675" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      • 向前迈步 → 想到达某个位置<br/>
+      • 挠鼻子 → 想让痒感消失
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="610" width="400" height="160" rx="16" fill="#2a1f2f"/>
+  <text x="490" y="655" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#ef4444">⚠️ 隐性目标（难以察觉）</text>
+  <foreignObject x="490" y="675" width="350" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      • 中午躺沙发 → 消磨时间到下一个责任<br/>
+      • 追求可能伤害自己的目标
+    </div>
+  </foreignObject>
+  
+  <!-- 深层案例 -->
+  <rect x="40" y="800" width="820" height="240" rx="20" fill="#1c1c2e"/>
+  <rect x="40" y="800" width="8" height="240" rx="4" fill="#f472b6"/>
+  <text x="75" y="845" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#f472b6">🔍 深层案例分析</text>
+  
+  <foreignObject x="75" y="870" width="760" height="160">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.85; color:#b8b8cc;">
+      <div style="margin-bottom:15px;">
+        <span style="color:#fbbf24; font-weight:600;">😰 拖延工作：</span><br/>
+        <span style="color:#666;">表面原因：</span>「我缺乏自律」<br/>
+        <span style="color:#f472b6;">真实目标：</span>保护自己免受完成并分享作品后的批判
+      </div>
+      <div>
+        <span style="color:#fbbf24; font-weight:600;">🏢 不辞职：</span><br/>
+        <span style="color:#666;">表面原因：</span>「我不是冒险者」<br/>
+        <span style="color:#f472b6;">真实目标：</span>追求安全、可预测、以及不被视为失败者的借口
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 关键洞察 -->
+  <rect x="40" y="1070" width="820" height="130" rx="20" fill="#232340"/>
+  <rect x="40" y="1070" width="8" height="130" rx="4" fill="#14b8a6"/>
+  <foreignObject x="75" y="1100" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.6; color:#14b8a6; text-align:center; font-weight:600;">
+      💡 真正的改变需要改变你的目标<br/>
+      <span style="color:#888; font-size:17px; font-weight:400;">目标 = 投射到未来的视角 = 感知现实的滤镜</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 问题提示 -->
+  <rect x="40" y="1230" width="820" height="60" rx="16" fill="#1c1c2e"/>
+  <foreignObject x="75" y="1245" width="760" height="35">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; color:#888; text-align:center;">
+      🤔 问自己：我的行为在追求什么<span style="color:#a855f7;">隐藏的</span>目标？那个目标在<span style="color:#ef4444;">保护</span>什么？
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1310" width="900" height="90" fill="#15152a"/>
+  <text x="70" y="1350" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#666666">来源：Dan Koe · 行为改变的7个核心观点</text>
+  <text x="70" y="1378" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#555555">整理 @老章mlpy · 2026年1月</text>
+  <rect x="800" y="1325" width="60" height="50" rx="12" fill="#a855f7" opacity="0.15"/>
+  <text x="830" y="1358" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" fill="#a855f7" font-weight="700" text-anchor="middle">3/8</text>
+</svg>
