@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1600" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="120" r="180" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="80" cy="1500" r="200" fill="#00b4d8" opacity="0.06"/>
+  
+  <!-- 顶部渐变头 -->
+  <rect x="0" y="0" width="900" height="180" fill="url(#headerGrad)"/>
+  
+  <!-- 系列标签 -->
+  <rect x="40" y="30" width="160" height="32" rx="16" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="52" font-size="15" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">内容创作方法论</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="100" font-size="42" font-weight="700" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">二、战略篇</text>
+  <text x="40" y="145" font-size="22" fill="rgba(255,255,255,0.85)" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">在下笔之前，决定八成胜负</text>
+  
+  <!-- 第一块：选题 -->
+  <rect x="40" y="210" width="820" height="380" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="380" rx="3" fill="#1a73e8"/>
+  <text x="70" y="260" font-size="26" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❹ 选题，决定了文章80%的生死</text>
+  
+  <foreignObject x="70" y="280" width="760" height="300">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      一个平庸的选题，你就算文笔天花乱坠，用尽各种写作技巧，最后也大概率是个平淡的反馈。<br/><br/>
+      <span style="color:#00b4d8; font-weight:600;">【交集模型】</span><br/>
+      好选题 = 你的专业领域 + 读者的普遍兴趣 + 当下的时间节点<br/><br/>
+      <span style="color:#888;">• 光是你的专业 → 曲高和寡</span><br/>
+      <span style="color:#888;">• 光是读者兴趣 → 流于肤浅</span><br/>
+      <span style="color:#888;">• 光是蹭热点 → 昙花一现</span><br/><br/>
+      <span style="color:#ffd166;">只有三者结合，才能找到那个最精准的引爆点。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 第二块：专家 -->
+  <rect x="40" y="620" width="820" height="280" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="620" width="6" height="280" rx="3" fill="#1a73e8"/>
+  <text x="70" y="670" font-size="26" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❺ 你必须先是一个专家</text>
+  
+  <foreignObject x="70" y="690" width="760" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      这里的"专家"，不是说你非得有个博士学位。而是指<span style="color:#00b4d8; font-weight:600;">在你要写的这个具体问题上，你付出的研究和思考，要超过90%的读者</span>。<br/><br/>
+      你的价值，就是通过专业能力，帮读者节省时间，降低他们的信息获取成本。<br/><br/>
+      <span style="color:#ffd166;">没有这个做地基，一切上层建筑都是空中楼阁。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 第三块：研究 -->
+  <rect x="40" y="930" width="820" height="320" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="930" width="6" height="320" rx="3" fill="#1a73e8"/>
+  <text x="70" y="980" font-size="26" font-weight="600" fill="#1a73e8" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❻ 不懂的，不要硬写；要写的，就往死里研究</text>
+  
+  <foreignObject x="70" y="1000" width="760" height="240">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      一个成熟创作者的标志，就是<span style="color:#00b4d8; font-weight:600;">知道自己的能力边界在哪里</span>。<br/><br/>
+      不懂的领域，不碰 — 这是对自己负责，更是对读者负责。<br/><br/>
+      要写的领域，就把相关的资料、论文、报道、评论都看一遍，把产品从头到尾都用一遍。<br/><br/>
+      <span style="color:#ef4444; font-weight:500;">评论区里一定有真正的专家。对你写下的每一个字，都要有十足的把握和敬畏。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="1280" width="820" height="130" rx="16" fill="#232340"/>
+  <rect x="40" y="1280" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="1325" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="1305" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      很多时候，一篇内容的成败，在动笔之前就已经决定了。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1440" width="900" height="160" fill="#15152a"/>
+  <rect x="40" y="1470" width="50" height="50" rx="8" fill="url(#headerGrad)"/>
+  <text x="65" y="1505" font-size="24" fill="#fff" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">章</text>
+  <text x="110" y="1495" font-size="18" fill="#b8b8cc" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">老章AI</text>
+  <text x="110" y="1520" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">内容创作10条私藏方法论</text>
+  
+  <!-- 页码 -->
+  <text x="820" y="1505" font-size="18" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">2/4</text>
+</svg>

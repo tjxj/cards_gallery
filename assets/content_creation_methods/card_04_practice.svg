@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" width="900" height="1400">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1400" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="120" r="180" fill="#fb923c" opacity="0.08"/>
+  <circle cx="80" cy="1300" r="200" fill="#fbbf24" opacity="0.06"/>
+  
+  <!-- 顶部渐变头 -->
+  <rect x="0" y="0" width="900" height="180" fill="url(#headerGrad)"/>
+  
+  <!-- 系列标签 -->
+  <rect x="40" y="30" width="160" height="32" rx="16" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="52" font-size="15" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">内容创作方法论</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="100" font-size="42" font-weight="700" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">四、修炼篇</text>
+  <text x="40" y="145" font-size="22" fill="rgba(255,255,255,0.85)" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">写完之后，一切才刚刚开始</text>
+  
+  <!-- 主要内容块 -->
+  <rect x="40" y="210" width="820" height="420" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="420" rx="3" fill="#fb923c"/>
+  <text x="70" y="260" font-size="26" font-weight="600" fill="#fb923c" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❿ 你的评论区，是下一篇爆款的起点</text>
+  
+  <foreignObject x="70" y="280" width="760" height="340">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      很多创作者，文章一发，就觉得工作结束了。但这恰恰是<span style="color:#fb923c; font-weight:600;">工作的开始</span>。<br/><br/>
+      <span style="color:#fbbf24; font-weight:600;">评论区不是你的成绩单，它是你的藏宝库：</span><br/><br/>
+      <span style="color:#888;">• 他们哪里没看懂</span> → 说明你没讲清楚<br/>
+      <span style="color:#888;">• 他们对什么最感兴趣</span> → 这是你的内容亮点<br/>
+      <span style="color:#888;">• 他们还想知道什么</span> → 这是你下个选题的来源<br/>
+      <span style="color:#888;">• 他们发现了你的错误</span> → 赶紧改，并且感谢他<br/><br/>
+      和读者互动，让他们感觉到你是一个活生生的、在乎他们想法的人。这种连接，是任何算法都给不了你的。
+    </div>
+  </foreignObject>
+  
+  <!-- 数据分析提示 -->
+  <rect x="40" y="660" width="820" height="160" rx="16" fill="#232340"/>
+  <rect x="40" y="660" width="6" height="160" rx="3" fill="#fbbf24"/>
+  <foreignObject x="70" y="680" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#e0e0e0; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#fbbf24; font-weight:600;">📊 双重反馈机制</span><br/><br/>
+      <span style="color:#fb923c;">用户评论</span> = 主观反馈<br/>
+      <span style="color:#fb923c;">数据分析</span> = 客观反馈<br/><br/>
+      <span style="color:#888;">两者都要有，两者都要抓。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 总结引用框 -->
+  <rect x="40" y="850" width="820" height="230" rx="16" fill="#232340"/>
+  <rect x="40" y="850" width="6" height="230" rx="3" fill="#ffd166"/>
+  <text x="70" y="900" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="875" width="730" height="190">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      创作的内核总是相通的：<br/><br/>
+      <span style="color:#ffd166; font-weight:600;">保持真诚，尊重读者，然后，写下那些真正能打动你自己的东西。</span><br/><br/>
+      要把这件事长久地做下去，靠的不是一两次的爆款，而是你内心那团永远不会熄灭的，对世界的好奇，和对表达的热爱。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1240" width="900" height="160" fill="#15152a"/>
+  <rect x="40" y="1270" width="50" height="50" rx="8" fill="url(#headerGrad)"/>
+  <text x="65" y="1305" font-size="24" fill="#fff" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">章</text>
+  <text x="110" y="1295" font-size="18" fill="#b8b8cc" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">老章AI</text>
+  <text x="110" y="1320" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">内容创作10条私藏方法论</text>
+  
+  <!-- 页码 -->
+  <text x="820" y="1305" font-size="18" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">4/4</text>
+</svg>

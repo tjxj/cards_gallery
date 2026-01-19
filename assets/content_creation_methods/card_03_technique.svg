@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1650" width="900" height="1650">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1650" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="120" r="180" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="80" cy="1550" r="200" fill="#0ea5e9" opacity="0.06"/>
+  
+  <!-- 顶部渐变头 -->
+  <rect x="0" y="0" width="900" height="180" fill="url(#headerGrad)"/>
+  
+  <!-- 系列标签 -->
+  <rect x="40" y="30" width="160" height="32" rx="16" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="52" font-size="15" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">内容创作方法论</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="100" font-size="42" font-weight="700" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">三、技法篇</text>
+  <text x="40" y="145" font-size="22" fill="rgba(255,255,255,0.85)" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">讲一个好故事</text>
+  
+  <!-- 第一块：故事 -->
+  <rect x="40" y="210" width="820" height="350" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="350" rx="3" fill="#14b8a6"/>
+  <text x="70" y="260" font-size="26" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❼ 内容是故事，不是论文</text>
+  
+  <foreignObject x="70" y="280" width="760" height="270">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      人脑很多时候不是用来处理逻辑的，<span style="color:#14b8a6; font-weight:600;">人脑是用来理解故事的</span>。<br/><br/>
+      <span style="color:#0ea5e9; font-weight:600;">【故事框架】</span><br/>
+      <span style="color:#888;">冲突：</span>我遇到了一个什么麻烦？<br/>
+      <span style="color:#888;">探索：</span>我是怎么寻找解决方案的？<br/>
+      <span style="color:#888;">发现：</span>我是怎么遇到这个产品的？<br/>
+      <span style="color:#888;">高潮：</span>最让我惊艳的那个瞬间是什么？<br/>
+      <span style="color:#888;">结局：</span>它如何解决了我的麻烦？<br/><br/>
+      <span style="color:#ffd166;">故事，是把思想装进别人脑子里的最有效方式。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 第二块：读者画像 -->
+  <rect x="40" y="590" width="820" height="350" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="590" width="6" height="350" rx="3" fill="#14b8a6"/>
+  <text x="70" y="640" font-size="26" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❽ 把读者当成很聪明、很有钱、但很忙的人</text>
+  
+  <foreignObject x="70" y="660" width="760" height="270">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#14b8a6; font-weight:600;">他很聪明</span> → 不要讲废话，不要把读者当傻子。要相信他们能听懂，把复杂的事情讲清楚，而不是把简单的事情反复说。<br/><br/>
+      <span style="color:#14b8a6; font-weight:600;">他很有钱（选择很多）</span> → 他选择花10分钟读你的文章，就意味着放弃了去看一部剧、刷短视频。你的内容，必须值得他花这个时间。<br/><br/>
+      <span style="color:#14b8a6; font-weight:600;">他很忙</span> → 文章结构一定要清晰，把重点加粗。让他可以快速抓住核心，就算一目十行，也能有所收获。
+    </div>
+  </foreignObject>
+  
+  <!-- 第三块：HKR -->
+  <rect x="40" y="970" width="820" height="360" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="970" width="6" height="360" rx="3" fill="#14b8a6"/>
+  <text x="70" y="1020" font-size="26" font-weight="600" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❾ 用HKR原则，检查你的每一个作品</text>
+  
+  <foreignObject x="70" y="1040" width="760" height="280">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <span style="color:#ffd166; font-weight:700; font-size:24px;">H</span><span style="color:#b8b8cc;">（Happiness/Hook）愉悦感/好奇心</span><br/>
+      内容有趣吗？标题和开头能勾住读者吗？能产生"卧槽，还有这种事？"的感觉吗？<br/><br/>
+      <span style="color:#ffd166; font-weight:700; font-size:24px;">K</span><span style="color:#b8b8cc;">（Knowledge）知识/信息</span><br/>
+      内容有料吗？读者看完能学到新东西吗？能让他觉得"原来是这样，学到了"吗？<br/><br/>
+      <span style="color:#ffd166; font-weight:700; font-size:24px;">R</span><span style="color:#b8b8cc;">（Resonance）共鸣</span><br/>
+      内容能戳中他吗？能产生"对对对，我也是这么想的"这种感觉吗？<br/><br/>
+      <span style="color:#22c55e;">✓ 优秀内容三者兼备　✓ 及格内容至少占两样　✗ 只占一样要警惕</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1490" width="900" height="160" fill="#15152a"/>
+  <rect x="40" y="1520" width="50" height="50" rx="8" fill="url(#headerGrad)"/>
+  <text x="65" y="1555" font-size="24" fill="#fff" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">章</text>
+  <text x="110" y="1545" font-size="18" fill="#b8b8cc" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">老章AI</text>
+  <text x="110" y="1570" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">内容创作10条私藏方法论</text>
+  
+  <!-- 页码 -->
+  <text x="820" y="1555" font-size="18" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">3/4</text>
+</svg>

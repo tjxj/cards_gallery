@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1600" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="120" r="180" fill="#a855f7" opacity="0.08"/>
+  <circle cx="80" cy="1500" r="200" fill="#6366f1" opacity="0.06"/>
+  
+  <!-- 顶部渐变头 -->
+  <rect x="0" y="0" width="900" height="180" fill="url(#headerGrad)"/>
+  
+  <!-- 系列标签 -->
+  <rect x="40" y="30" width="160" height="32" rx="16" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="52" font-size="15" fill="#fff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">内容创作方法论</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="100" font-size="42" font-weight="700" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">一、心法篇</text>
+  <text x="40" y="145" font-size="22" fill="rgba(255,255,255,0.85)" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">一切的开始，是成为一个"人"</text>
+  
+  <!-- 第一块：活人感 -->
+  <rect x="40" y="210" width="820" height="340" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="210" width="6" height="340" rx="3" fill="#a855f7"/>
+  <text x="70" y="260" font-size="26" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❶ 活人感，是AI时代最贵的奢侈品</text>
+  
+  <foreignObject x="70" y="280" width="760" height="260">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      AI可以模仿任何风格的文笔，可以整合任何领域的知识，但它<span style="color:#a855f7; font-weight:600;">没有体温，没有心跳，没有回忆，更没有伤疤</span>。<br/><br/>
+      "活人感"不是一种写作技巧，而是你作为一个独一无二的个体，<span style="color:#a855f7; font-weight:600;">你的情感、你的偏见、你的成长、你的笨拙</span>，在你文字里的自然流露。<br/><br/>
+      <span style="color:#ffd166;">你的不完美，你的主观，才是你在AI时代里最坚固的护城河。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 第二块：真诚 -->
+  <rect x="40" y="580" width="820" height="320" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="580" width="6" height="320" rx="3" fill="#a855f7"/>
+  <text x="70" y="630" font-size="26" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❷ 真诚，是永远的必杀技</text>
+  
+  <foreignObject x="70" y="650" width="760" height="240">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      我给自己定过一条规矩：<span style="color:#a855f7; font-weight:600;">可以不写，但绝不欺骗</span>。<br/><br/>
+      读者不是傻子，他们的感知能力比我们想象的要敏锐得多。一次的夸大和隐瞒，可能会换来短暂的数据，但你失去的，是他们<span style="color:#a855f7; font-weight:600;">长期的信任</span>。<br/><br/>
+      <span style="color:#ffd166;">信任，是我们创作者最宝贵的资产。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 第三块：价值观 -->
+  <rect x="40" y="930" width="820" height="320" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="930" width="6" height="320" rx="3" fill="#a855f7"/>
+  <text x="70" y="980" font-size="26" font-weight="600" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">❸ 价值观，比流量更重要</text>
+  
+  <foreignObject x="70" y="1000" width="760" height="240">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:21px; line-height:1.7; color:#b8b8cc; text-align:justify; word-wrap:break-word; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      不是所有的流量，我们都要去追。你要问自己：<span style="color:#a855f7; font-weight:600;">这个选题，符合我的价值观吗？它是我真的想表达的吗？</span><br/><br/>
+      如果为了流量，去写一些自己都不信的东西，那无异于<span style="color:#ef4444;">饮鸩止渴</span>。你的人设，你的IP，就在这一次次追逐流量的过程中，慢慢崩塌。<br/><br/>
+      <span style="color:#ffd166;">长期的品牌价值，永远比短期的流量数据更重要。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="1280" width="820" height="130" rx="16" fill="#232340"/>
+  <rect x="40" y="1280" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="1325" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="1305" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      建立一个好名声需要20年，而毁掉它，只需要5分钟。
+    </div>
+  </foreignObject>
+  <text x="760" y="1385" font-size="16" fill="#888" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">— 沃伦·巴菲特</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1440" width="900" height="160" fill="#15152a"/>
+  <rect x="40" y="1470" width="50" height="50" rx="8" fill="url(#headerGrad)"/>
+  <text x="65" y="1505" font-size="24" fill="#fff" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">章</text>
+  <text x="110" y="1495" font-size="18" fill="#b8b8cc" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">老章AI</text>
+  <text x="110" y="1520" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">内容创作10条私藏方法论</text>
+  
+  <!-- 页码 -->
+  <text x="820" y="1505" font-size="18" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">1/4</text>
+</svg>
