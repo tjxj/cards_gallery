@@ -79,10 +79,8 @@
   
   <!-- 页脚 -->
   <rect x="0" y="1440" width="900" height="160" fill="#15152a"/>
-  <rect x="40" y="1470" width="50" height="50" rx="8" fill="url(#headerGrad)"/>
-  <text x="65" y="1505" font-size="24" fill="#fff" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">章</text>
-  <text x="110" y="1495" font-size="18" fill="#b8b8cc" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">老章AI</text>
-  <text x="110" y="1520" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">内容创作10条私藏方法论</text>
+  <text x="40" y="1495" font-size="16" fill="#b8b8cc" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">原作者：数字生命卡兹克</text>
+  <text x="40" y="1520" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">知识卡片制作：老章AI</text>
   
   <!-- 页码 -->
   <text x="820" y="1505" font-size="18" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">1/4</text>
