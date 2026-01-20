@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="100" r="130" fill="#a855f7" opacity="0.08"/>
+  <circle cx="80" cy="1100" r="160" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="140" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="110" y="65" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">📋 行动清单</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="40" fill="#ffffff" font-weight="700">创作者行动清单</text>
+  <text x="40" y="180" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#a855f7">✦ 基于X算法的内容策略</text>
+  
+  <!-- 发布前 -->
+  <rect x="40" y="220" width="820" height="200" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="220" width="6" height="200" rx="3" fill="#00b4d8"/>
+  <text x="70" y="265" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#00b4d8">📝 发布前检查</text>
+  <foreignObject x="70" y="280" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.9; color:#b8b8cc;">
+      <div>☐ 是否设置了互动钩子？（提问/投票/争议点）</div>
+      <div>☐ 是否有可转发的价值？（干货/金句/共鸣）</div>
+      <div>☐ 是否可能引发负面反应？（争议过大/冒犯性）</div>
+      <div>☐ 视觉呈现是否能让人多停留几秒？</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 发布时 -->
+  <rect x="40" y="450" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="450" width="6" height="180" rx="3" fill="#22c55e"/>
+  <text x="70" y="495" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#22c55e">🚀 发布技巧</text>
+  <foreignObject x="70" y="510" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.9; color:#b8b8cc;">
+      <div>☐ 选择粉丝活跃的时段发布</div>
+      <div>☐ 发布后1小时内积极回复评论</div>
+      <div>☐ 用小号转发/引用扩大初始曝光</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 长期策略 -->
+  <rect x="40" y="660" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="660" width="6" height="200" rx="3" fill="#ffd166"/>
+  <text x="70" y="705" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ffd166">🎯 长期策略</text>
+  <foreignObject x="70" y="720" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.9; color:#b8b8cc;">
+      <div>☐ 保持稳定发帖频率，避免刷屏</div>
+      <div>☐ 打造个人特色，建立辨识度</div>
+      <div>☐ 培养核心粉丝群，保证基础互动</div>
+      <div>☐ 复盘高互动内容，复制成功模式</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 底部金句 -->
+  <rect x="40" y="890" width="820" height="130" rx="16" fill="#232340" filter="url(#shadow)"/>
+  <rect x="40" y="890" width="6" height="130" rx="3" fill="#a855f7"/>
+  <text x="70" y="935" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="36" fill="#a855f7" opacity="0.6">"</text>
+  <foreignObject x="95" y="920" width="730" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:20px; line-height:1.6; color:#ffffff; font-style:italic;">
+      算法的本质是预测人的行为。创作能打动人的内容，自然会获得算法青睐。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1070" width="900" height="130" fill="#15152a"/>
+  <text x="40" y="1110" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666666">来源：X开源推荐算法 x-algorithm</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#888888">github.com/xai-org/x-algorithm</text>
+  <text x="860" y="1120" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#666666" text-anchor="end">4/4</text>
+</svg>

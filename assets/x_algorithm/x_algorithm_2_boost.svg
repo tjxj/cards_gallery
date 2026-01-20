@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="150" r="120" fill="#22c55e" opacity="0.08"/>
+  <circle cx="80" cy="1050" r="180" fill="#4ade80" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="120" y="65" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">🚀 流量密码</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="40" fill="#ffffff" font-weight="700">6个让你更容易被推荐</text>
+  <text x="40" y="180" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#22c55e">✓ 基于X开源算法提炼的实战技巧</text>
+  
+  <!-- 技巧1 -->
+  <rect x="40" y="220" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="70" y="260" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">①</text>
+  <text x="110" y="260" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">引发评论互动</text>
+  <foreignObject x="70" y="275" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      提问、抛观点、设争议，让人忍不住回复
+    </div>
+  </foreignObject>
+  
+  <!-- 技巧2 -->
+  <rect x="460" y="220" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="490" y="260" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">②</text>
+  <text x="530" y="260" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">追求转发分享</text>
+  <foreignObject x="490" y="275" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      有用、有趣、有共鸣的内容更易分享
+    </div>
+  </foreignObject>
+  
+  <!-- 技巧3 -->
+  <rect x="40" y="360" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="70" y="400" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">③</text>
+  <text x="110" y="400" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">鼓励点赞收藏</text>
+  <foreignObject x="70" y="415" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      点赞是最基础的正向信号，权重高
+    </div>
+  </foreignObject>
+  
+  <!-- 技巧4 -->
+  <rect x="460" y="360" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="490" y="400" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">④</text>
+  <text x="530" y="400" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">增加停留时长</text>
+  <foreignObject x="490" y="415" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      长图文、视频让用户多停留几秒
+    </div>
+  </foreignObject>
+  
+  <!-- 技巧5 -->
+  <rect x="40" y="500" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="70" y="540" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">⑤</text>
+  <text x="110" y="540" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">引导关注作者</text>
+  <foreignObject x="70" y="555" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      单条帖子带来新关注，权重极高
+    </div>
+  </foreignObject>
+  
+  <!-- 技巧6 -->
+  <rect x="460" y="500" width="400" height="120" rx="16" fill="#1c1c2e"/>
+  <text x="490" y="540" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="28" fill="#22c55e" font-weight="700">⑥</text>
+  <text x="530" y="540" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ffffff" font-weight="600">多形式互动</text>
+  <foreignObject x="490" y="555" width="350" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:17px; line-height:1.5; color:#b8b8cc;">
+      引用、点击链接、看视频都是信号
+    </div>
+  </foreignObject>
+  
+  <!-- 核心公式 -->
+  <rect x="40" y="660" width="820" height="160" rx="16" fill="#232340" filter="url(#shadow)"/>
+  <rect x="40" y="660" width="6" height="160" rx="3" fill="#ffd166"/>
+  <text x="70" y="710" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ffd166">💡 爆款公式</text>
+  <foreignObject x="70" y="725" width="760" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:24px; line-height:1.6; color:#ffffff; font-weight:500; text-align:center;">
+      <span style="color:#22c55e;">有争议</span> + <span style="color:#00b4d8;">有价值</span> + <span style="color:#a855f7;">有共鸣</span> = <span style="color:#ffd166;">高互动</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 实操建议 -->
+  <rect x="40" y="850" width="820" height="190" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="850" width="6" height="190" rx="3" fill="#00b4d8"/>
+  <text x="70" y="895" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#00b4d8">🎯 实操建议</text>
+  <foreignObject x="70" y="910" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.8; color:#b8b8cc;">
+      <div>• 开头抛出观点或问题，激发评论欲望</div>
+      <div>• 结尾加一句"你怎么看？"或"转给需要的人"</div>
+      <div>• 干货内容配金句，方便转发引用</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1070" width="900" height="130" fill="#15152a"/>
+  <text x="40" y="1110" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666666">来源：X开源推荐算法 x-algorithm</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#888888">github.com/xai-org/x-algorithm</text>
+  <text x="860" y="1120" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#666666" text-anchor="end">2/4</text>
+</svg>

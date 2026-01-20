@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="120" r="140" fill="#ef4444" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#f472b6" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="140" height="36" rx="18" fill="url(#headerGrad)"/>
+  <text x="110" y="65" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="600">⚠️ 避坑指南</text>
+  
+  <!-- 主标题 -->
+  <text x="40" y="140" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="40" fill="#ffffff" font-weight="700">5个会让你被降权的雷区</text>
+  <text x="40" y="180" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#ef4444">✗ 这些行为会让算法"惩罚"你</text>
+  
+  <!-- 核心警告 -->
+  <rect x="40" y="220" width="820" height="100" rx="16" fill="#3d1c1c" filter="url(#shadow)"/>
+  <rect x="40" y="220" width="6" height="100" rx="3" fill="#ef4444"/>
+  <foreignObject x="70" y="240" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:22px; line-height:1.6; color:#ffffff; font-weight:500;">
+      算法会预测用户<span style="color:#ef4444;">负面反应</span>的概率，这些信号会<span style="color:#ef4444;">大幅降低</span>你的推荐权重！
+    </div>
+  </foreignObject>
+  
+  <!-- 雷区1 -->
+  <rect x="40" y="350" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="350" width="6" height="110" rx="3" fill="#ef4444"/>
+  <text x="70" y="395" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">❌ 引发举报</text>
+  <foreignObject x="70" y="410" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc;">
+      被举报的内容会被算法大幅降权，多次被举报可能导致账号限流
+    </div>
+  </foreignObject>
+  
+  <!-- 雷区2 -->
+  <rect x="40" y="480" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="480" width="6" height="110" rx="3" fill="#ef4444"/>
+  <text x="70" y="525" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">❌ 被用户屏蔽/静音</text>
+  <foreignObject x="70" y="540" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc;">
+      如果很多人看到你的内容后选择屏蔽你，算法会减少推荐给类似用户
+    </div>
+  </foreignObject>
+  
+  <!-- 雷区3 -->
+  <rect x="40" y="610" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="610" width="6" height="110" rx="3" fill="#ef4444"/>
+  <text x="70" y="655" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">❌ 标记"不感兴趣"</text>
+  <foreignObject x="70" y="670" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc;">
+      用户点击"不感兴趣"是明确的负面信号，会影响同类内容的推荐
+    </div>
+  </foreignObject>
+  
+  <!-- 雷区4 -->
+  <rect x="40" y="740" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="740" width="6" height="110" rx="3" fill="#ef4444"/>
+  <text x="70" y="785" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">❌ 刷屏/霸屏发帖</text>
+  <foreignObject x="70" y="800" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc;">
+      算法有"作者多样性"机制，同一作者连续出现会被自动降权
+    </div>
+  </foreignObject>
+  
+  <!-- 雷区5 -->
+  <rect x="40" y="870" width="820" height="110" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="870" width="6" height="110" rx="3" fill="#ef4444"/>
+  <text x="70" y="915" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="24" font-weight="600" fill="#ef4444">❌ 低互动内容</text>
+  <foreignObject x="70" y="930" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:18px; line-height:1.5; color:#b8b8cc;">
+      发布后无人互动的内容会被快速淘汰，影响后续内容的初始推荐
+    </div>
+  </foreignObject>
+  
+  <!-- 小贴士 -->
+  <rect x="40" y="1010" width="820" height="50" rx="12" fill="#232340"/>
+  <foreignObject x="50" y="1018" width="800" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif; font-size:16px; line-height:1.5; color:#888888; text-align:center;">
+      💡 提示：宁可少发精品，也不要刷屏低质量内容
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1070" width="900" height="130" fill="#15152a"/>
+  <text x="40" y="1110" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#666666">来源：X开源推荐算法 x-algorithm</text>
+  <text x="40" y="1135" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#888888">github.com/xai-org/x-algorithm</text>
+  <text x="860" y="1120" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="18" fill="#666666" text-anchor="end">3/4</text>
+</svg>

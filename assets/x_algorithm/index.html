@@ -1,30 +1,9 @@
-const fs = require('fs');
-const path = require('path');
-
-const ASSETS_DIR = path.join(__dirname, 'assets');
-const DIRS = [
-    { id: 'xhs_guide_gallery', title: '小红书运营指南' },
-    { id: 'card_gpu', title: '国产 GPU 独角兽上市潮' },
-    { id: 'ai_2025_trends', title: '2025 AI 趋势预测' },
-    { id: 'llm_quarterly_cards', title: '大模型季度观察' },
-    { id: 'tencent_yuanbao_cards', title: '腾讯元宝深度解读' },
-    { id: 'ai_infra_roundtable', title: 'AI 基础设施圆桌' },
-    { id: 'luozhenyu_2026', title: '罗振宇「时间的朋友」2026' },
-    { id: 'simon_willison_2025', title: 'Simon Willison 2025 年度回顾' },
-    { id: 'nvidia_ces2026', title: 'NVIDIA CES 2026 主题演讲' },
-    { id: 'hinton_ai_lecture', title: '辛顿：人工智能会取代人类吗？' },
-    { id: 'agi_next_summit', title: 'AGI-Next 前沿峰会：基模四杰' },
-    { id: 'behavior_change', title: '行为改变的7个核心观点' },
-    { id: 'content_creation_methods', title: '内容创作10条私藏方法论' },
-    { id: 'x_algorithm', title: 'X推荐算法揭秘：创作者流量密码' }
-];
-
-const TEMPLATE = (title, cards) => `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${title} | Zhang's Gallery</title>
+    <title>X推荐算法揭秘：创作者流量密码 | Zhang's Gallery</title>
     <style>
         :root { --bg: #1a1a1a; --card-bg: #2d2d2d; --text: #e0e0e0; --accent: #64ffda; }
         body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 40px 20px; }
@@ -54,11 +33,43 @@ const TEMPLATE = (title, cards) => `<!DOCTYPE html>
     <div class="container">
         <header>
             <a href="../../index.html" class="back-link">← 返回画廊首页</a>
-            <h1>${title}</h1>
+            <h1>X推荐算法揭秘：创作者流量密码</h1>
         </header>
 
         <div class="gallery">
-            ${cards.map(renderCard).join('')}
+            
+    <div class="card-wrapper">
+        <div class="card-title">x algorithm  core</div>
+        <img src="./x_algorithm_1_core.svg" class="preview-img" onclick="openModal(this.src)" loading="lazy">
+        <div class="actions">
+            <a href="./x_algorithm_1_core.svg" download class="btn">下载 SVG</a>
+            <a href="https://svg.zhanglearning.com/" target="_blank" class="btn">转为 PNG</a>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-title">x algorithm  boost</div>
+        <img src="./x_algorithm_2_boost.svg" class="preview-img" onclick="openModal(this.src)" loading="lazy">
+        <div class="actions">
+            <a href="./x_algorithm_2_boost.svg" download class="btn">下载 SVG</a>
+            <a href="https://svg.zhanglearning.com/" target="_blank" class="btn">转为 PNG</a>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-title">x algorithm  avoid</div>
+        <img src="./x_algorithm_3_avoid.svg" class="preview-img" onclick="openModal(this.src)" loading="lazy">
+        <div class="actions">
+            <a href="./x_algorithm_3_avoid.svg" download class="btn">下载 SVG</a>
+            <a href="https://svg.zhanglearning.com/" target="_blank" class="btn">转为 PNG</a>
+        </div>
+    </div>
+    <div class="card-wrapper">
+        <div class="card-title">x algorithm  action</div>
+        <img src="./x_algorithm_4_action.svg" class="preview-img" onclick="openModal(this.src)" loading="lazy">
+        <div class="actions">
+            <a href="./x_algorithm_4_action.svg" download class="btn">下载 SVG</a>
+            <a href="https://svg.zhanglearning.com/" target="_blank" class="btn">转为 PNG</a>
+        </div>
+    </div>
         </div>
 
         <footer>
@@ -79,34 +90,4 @@ const TEMPLATE = (title, cards) => `<!DOCTYPE html>
         document.addEventListener('keydown', e => { if(e.key === 'Escape') document.getElementById('imageModal').style.display = 'none'; });
     </script>
 </body>
-</html>`;
-
-function renderCard(file) {
-    const title = file.replace('.svg', '').replace(/card_|ai_|xhs_|llm_/g, '').replace(/_/g, ' ').replace(/\d+/, '').trim();
-    return `
-    <div class="card-wrapper">
-        <div class="card-title">${title}</div>
-        <img src="./${file}" class="preview-img" onclick="openModal(this.src)" loading="lazy">
-        <div class="actions">
-            <a href="./${file}" download class="btn">下载 SVG</a>
-            <a href="https://svg.zhanglearning.com/" target="_blank" class="btn">转为 PNG</a>
-        </div>
-    </div>`;
-}
-
-function generate() {
-    DIRS.forEach(dirInfo => {
-        const dirPath = path.join(ASSETS_DIR, dirInfo.id);
-        if (!fs.existsSync(dirPath)) return;
-
-        const files = fs.readdirSync(dirPath)
-            .filter(f => f.endsWith('.svg') && !f.startsWith('.'))
-            .sort(); // 简单的字母排序，您可以根据需要调整
-
-        const html = TEMPLATE(dirInfo.title, files);
-        fs.writeFileSync(path.join(dirPath, 'index.html'), html);
-        console.log(`Generated gallery for ${dirInfo.id} with ${files.length} cards.`);
-    });
-}
-
-generate();
+</html>
