@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#fb923c" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#fbbf24" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="140" height="36" rx="18" fill="url(#accentGrad)"/>
+  <text x="110" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">具身智能</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">4/5</text>
+  
+  <!-- 主标题 -->
+  <foreignObject x="40" y="100" width="820" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:36px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      工程难度被严重低估
+    </div>
+  </foreignObject>
+  
+  <!-- 维纳观点 -->
+  <rect x="40" y="195" width="820" height="100" rx="16" fill="#232340"/>
+  <rect x="40" y="195" width="6" height="100" rx="3" fill="#ffd166"/>
+  <text x="70" y="235" font-size="36" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="215" width="730" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      真正的 AGI 必然是具身智能。智能不应只是屏幕上的符号，它必须能在开放的、非预设的物理环境中与世界实时交互。
+    </div>
+  </foreignObject>
+  <text x="780" y="275" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#888" text-anchor="end">— 引用维纳《控制论》</text>
+  
+  <!-- 语言vs具身对比 -->
+  <text x="40" y="345" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffffff">🔄 Next Token Prediction 的局限</text>
+  
+  <rect x="40" y="375" width="400" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="375" width="400" height="6" rx="3" fill="#22c55e"/>
+  <text x="240" y="410" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#22c55e" text-anchor="middle">✓ 语言模型成功的原因</text>
+  <foreignObject x="55" y="425" width="370" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:8px;">• 语言是<span style="color:#22c55e;">线性序列</span></div>
+      <div style="margin-bottom:8px;">• 语义指向<span style="color:#22c55e;">相对简明</span>（Apple→苹果或公司）</div>
+      <div style="margin-bottom:8px;">• 词边界<span style="color:#22c55e;">清晰</span></div>
+      <div>• 具有"<span style="color:#22c55e;">离散无限性</span>"</div>
+    </div>
+  </foreignObject>
+  
+  <rect x="460" y="375" width="400" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="460" y="375" width="400" height="6" rx="3" fill="#ef4444"/>
+  <text x="660" y="410" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="600" fill="#ef4444" text-anchor="middle">✗ 物理世界的挑战</text>
+  <foreignObject x="475" y="425" width="370" height="140">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:8px;">• 图像Token是"<span style="color:#ef4444;">强行切分</span>"的Patch</div>
+      <div style="margin-bottom:8px;">• 语义指向<span style="color:#ef4444;">高度不确定</span></div>
+      <div style="margin-bottom:8px;">• 视频是<span style="color:#ef4444;">三维</span>，具身是<span style="color:#ef4444;">四维</span></div>
+      <div>• 变化与互动<span style="color:#ef4444;">无穷复杂</span></div>
+    </div>
+  </foreignObject>
+  
+  <!-- 核心观点 -->
+  <rect x="40" y="600" width="820" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="600" width="6" height="160" rx="3" fill="#fb923c"/>
+  
+  <text x="70" y="645" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#fb923c">⚠️ 冷静判断</text>
+  
+  <foreignObject x="70" y="665" width="760" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      人形机器人在未来<span style="color:#fb923c; font-weight:600;">五年内</span>进入现实世界、自主完成复杂开放式任务，是<span style="color:#ef4444; font-weight:600;">不现实的</span>。"通用人形机器人"的狂热存在<span style="color:#fb923c;">资本泡沫</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 破局点 -->
+  <rect x="40" y="785" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="785" width="6" height="230" rx="3" fill="#14b8a6"/>
+  
+  <text x="70" y="830" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#14b8a6">💡 破局点：受限场景深耕</text>
+  
+  <foreignObject x="70" y="850" width="760" height="155">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.75; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:10px;">机器人是不是"人形"其实没那么重要，关键是找到<span style="color:#14b8a6; font-weight:600;">具体的应用场景</span>。</div>
+      <div style="margin-bottom:10px;"><span style="color:#ffd166;">案例：</span>社区快递点自动分拣——典型的"非标场景"，需要极强的视觉识别和触觉灵活性去翻找、核对。</div>
+      <div>如果能把细分痛点打透、成本可控，全国无数快递点就是一片<span style="color:#14b8a6; font-weight:600;">确定性市场</span>。</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1130" width="900" height="70" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：高山书院10周年年会访谈</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">@老章mlpy</text>
+</svg>

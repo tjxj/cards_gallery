@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#a855f7" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#6366f1" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="160" height="36" rx="18" fill="url(#accentGrad)"/>
+  <text x="120" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">Scaling Law</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">2/5</text>
+  
+  <!-- 主标题 -->
+  <foreignObject x="40" y="100" width="820" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:36px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      边际递减？可能只是平台期
+    </div>
+  </foreignObject>
+  
+  <!-- 核心观点 -->
+  <rect x="40" y="200" width="820" height="140" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="200" width="6" height="140" rx="3" fill="#a855f7"/>
+  
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#a855f7">🎯 核心判断</text>
+  
+  <foreignObject x="70" y="260" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      在AI的"第一性原理"尚不清晰的当下，<span style="color:#ffd166; font-weight:600;">Scaling Law依然有效</span>。大模型有可能通过"涌现"击穿看似饱和的平台期，实现能力的非线性陡增。
+    </div>
+  </foreignObject>
+  
+  <!-- 两条路径 -->
+  <text x="40" y="390" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffffff">📍 未来两条关键路径</text>
+  
+  <!-- 路径1 -->
+  <rect x="40" y="420" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="420" width="6" height="180" rx="3" fill="#ef4444"/>
+  
+  <text x="70" y="460" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#ef4444">路径一：大力出奇迹</text>
+  
+  <foreignObject x="70" y="475" width="760" height="115">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      硅谷巨头准备进行一场<span style="color:#ef4444; font-weight:600;">巨大的豪赌</span>——将算力资源再翻<span style="color:#ffd166; font-weight:600;">10倍甚至100倍</span>，处理极限规模的多模态与物理世界数据，试图撞击下一个"智能涌现"的临界点。这不仅是技术活儿，也是关于<span style="color:#ef4444; font-weight:600;">意志、资源、国力的较量</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 路径2 -->
+  <rect x="40" y="620" width="820" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="620" width="6" height="160" rx="3" fill="#22c55e"/>
+  
+  <text x="70" y="660" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="20" font-weight="600" fill="#22c55e">路径二：实践与效率</text>
+  
+  <foreignObject x="70" y="675" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      大模型发展到今天，几乎成为了一种<span style="color:#22c55e; font-weight:600;">实验科学</span>。基于各个领域或环节的架构创新，都可能带来能力和效率的提升。这条路径更适合大部分企业，<span style="color:#22c55e; font-weight:600;">中国在过去一年贡献了很多开源成果</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 数据策略 -->
+  <rect x="40" y="805" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="805" width="6" height="230" rx="3" fill="#00b4d8"/>
+  
+  <text x="70" y="850" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#00b4d8">💾 数据撞墙？没那么悲观</text>
+  
+  <foreignObject x="70" y="870" width="760" height="155">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.75; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:12px;"><span style="color:#ffd166;">• 合成数据策略：</span>用高性能大模型生成高质量合成数据，"以模型训练模型"</div>
+      <div><span style="color:#ffd166;">• 仿真+真实组合：</span>先在仿真空间大规模预训练，再用真实数据精调对齐。核心逻辑是用大量合成数据构建认知底座，用少量真实数据完成物理对齐</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1130" width="900" height="70" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：高山书院10周年年会访谈</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">@老章mlpy</text>
+</svg>

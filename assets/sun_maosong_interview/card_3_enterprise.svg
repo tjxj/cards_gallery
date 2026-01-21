@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="140" height="36" rx="18" fill="url(#accentGrad)"/>
+  <text x="110" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">企业应用</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">3/5</text>
+  
+  <!-- 主标题 -->
+  <foreignObject x="40" y="100" width="820" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:36px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      必须AI重构吗？需要"过遍脑子"
+    </div>
+  </foreignObject>
+  
+  <!-- 核心判断 -->
+  <rect x="40" y="200" width="820" height="160" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="200" width="6" height="160" rx="3" fill="#14b8a6"/>
+  
+  <text x="70" y="245" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#14b8a6">🎯 核心判断</text>
+  
+  <foreignObject x="70" y="265" width="760" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.65; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      我并不认为大模型必然会带来巨大变化，但<span style="color:#ffd166; font-weight:600;">大多数企业都有可能受益</span>。现在的关键是，需要把业务版图<span style="color:#14b8a6; font-weight:600;">认真梳理一遍</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- "过遍脑子"的含义 -->
+  <rect x="40" y="385" width="820" height="240" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="385" width="6" height="240" rx="3" fill="#ffd166"/>
+  
+  <text x="70" y="430" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#ffd166">🧠 什么叫"过遍脑子"？</text>
+  
+  <foreignObject x="70" y="450" width="760" height="165">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.75; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:12px;"><span style="color:#ffd166;">•</span> 哪些环节有了AI之后能跑得更快、更远？</div>
+      <div style="margin-bottom:12px;"><span style="color:#ffd166;">•</span> 哪些环节是AI基本使不上劲的？</div>
+      <div style="margin-bottom:12px;"><span style="color:#ffd166;">•</span> 请真正有实战经验的AI专家坐在一起，像<span style="color:#14b8a6; font-weight:600;">"问诊"</span>一样认真讨论</div>
+      <div><span style="color:#ffd166;">•</span> 这场景适不适合？能不能干？怎么干？</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 三不原则 -->
+  <text x="40" y="670" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#ffffff">⚠️ 三不原则</text>
+  
+  <rect x="40" y="695" width="260" height="120" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="695" width="260" height="6" rx="3" fill="#ef4444"/>
+  <foreignObject x="55" y="720" width="230" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.6; color:#b8b8cc; text-align:center; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="color:#ef4444; font-weight:600; margin-bottom:6px;">不要盲目跟风</div>
+      不分青红皂白<br/>一哄而上
+    </div>
+  </foreignObject>
+  
+  <rect x="320" y="695" width="260" height="120" rx="12" fill="#1c1c2e"/>
+  <rect x="320" y="695" width="260" height="6" rx="3" fill="#fb923c"/>
+  <foreignObject x="335" y="720" width="230" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.6; color:#b8b8cc; text-align:center; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="color:#fb923c; font-weight:600; margin-bottom:6px;">不要焦虑放弃</div>
+      干脆完全<br/>不理不睬
+    </div>
+  </foreignObject>
+  
+  <rect x="600" y="695" width="260" height="120" rx="12" fill="#1c1c2e"/>
+  <rect x="600" y="695" width="260" height="6" rx="3" fill="#22c55e"/>
+  <foreignObject x="615" y="720" width="230" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.6; color:#b8b8cc; text-align:center; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="color:#22c55e; font-weight:600; margin-bottom:6px;">不要锦上添花</div>
+      AI可能重塑<br/>生产力基本面貌
+    </div>
+  </foreignObject>
+  
+  <!-- 关于幻觉 -->
+  <rect x="40" y="840" width="820" height="170" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="840" width="6" height="170" rx="3" fill="#a855f7"/>
+  
+  <text x="70" y="885" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="22" font-weight="600" fill="#a855f7">🎭 最现实的挑战：幻觉问题</text>
+  
+  <foreignObject x="70" y="905" width="760" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      如何控制大模型<span style="color:#a855f7; font-weight:600;">"一本正经胡说八道"</span>的问题，仍是行业最核心的攻坚战。真正的智能在于判断什么是必须留存的<span style="color:#ffd166;">"金子"</span>，什么是该被过滤的<span style="color:#888;">"沙砾"</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1130" width="900" height="70" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：高山书院10周年年会访谈</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">@老章mlpy</text>
+</svg>

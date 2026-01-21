@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#00b4d8" opacity="0.05"/>
+  <circle cx="850" cy="600" r="100" fill="#1a73e8" opacity="0.06"/>
+  
+  <!-- 顶部标签 -->
+  <rect x="40" y="40" width="140" height="36" rx="18" fill="url(#accentGrad)"/>
+  <text x="110" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="600">深度对话</text>
+  
+  <!-- 页码 -->
+  <text x="860" y="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#666" text-anchor="end">1/5</text>
+  
+  <!-- 主标题区 -->
+  <foreignObject x="40" y="100" width="820" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:38px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      与清华孙茂松深聊：<br/>大模型的非共识结论
+    </div>
+  </foreignObject>
+  
+  <!-- 人物介绍卡片 -->
+  <rect x="40" y="240" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="240" width="6" height="180" rx="3" fill="#1a73e8"/>
+  
+  <text x="70" y="285" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#1a73e8">👤 孙茂松</text>
+  
+  <foreignObject x="70" y="300" width="760" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      清华大学计算机系教授、人工智能研究院常务副院长、欧洲科学院外籍院士。THUNLP学术带头人，打造"学堂在线"和"九歌"诗词系统。学生包括面壁智能刘知远、深言科技岂凡超等。
+    </div>
+  </foreignObject>
+  
+  <!-- 核心观点区块 -->
+  <rect x="40" y="445" width="820" height="520" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="445" width="6" height="520" rx="3" fill="#00b4d8"/>
+  
+  <text x="70" y="490" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="600" fill="#00b4d8">💡 五大非共识结论</text>
+  
+  <foreignObject x="70" y="510" width="760" height="440">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.85; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      <div style="margin-bottom:18px;"><span style="color:#ffd166; font-weight:600;">1. Scaling Law 边际递减？</span><br/>可能只是暂时平台期，存在再次触发"非线性突变"的可能</div>
+      <div style="margin-bottom:18px;"><span style="color:#ffd166; font-weight:600;">2. 数据撞墙？</span><br/>没有想象中悲观，合成数据+仿真策略可破局</div>
+      <div style="margin-bottom:18px;"><span style="color:#ffd166; font-weight:600;">3. 企业必须AI重构？</span><br/>不一定，但必须"过遍脑子"认真评估</div>
+      <div style="margin-bottom:18px;"><span style="color:#ffd166; font-weight:600;">4. 具身智能即将落地？</span><br/>工程难度被严重低估，5年内难规模商用</div>
+      <div><span style="color:#ffd166; font-weight:600;">5. 中国大模型差距大？</span><br/>差距已经不大，但未来分叉路口存在不确定性</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="990" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="990" width="6" height="120" rx="3" fill="#ffd166"/>
+  <text x="70" y="1035" font-size="40" fill="#ffd166" opacity="0.6" font-family="Georgia, serif">"</text>
+  <foreignObject x="95" y="1015" width="730" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;">
+      有时媒体的思考比我们这些专注于技术研究的学者还要快。
+    </div>
+  </foreignObject>
+  <text x="780" y="1085" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16" fill="#888" text-anchor="end">— 孙茂松</text>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1130" width="900" height="70" fill="#15152a"/>
+  <text x="40" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666">来源：高山书院10周年年会访谈</text>
+  <text x="860" y="1165" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14" fill="#666" text-anchor="end">@老章mlpy</text>
+</svg>
