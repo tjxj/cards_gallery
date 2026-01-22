@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow1" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="120" fill="#14b8a6" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="180" fill="#0ea5e9" opacity="0.05"/>
+  <circle cx="750" cy="600" r="200" fill="#14b8a6" opacity="0.03"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad1)" filter="url(#shadow1)"/>
+  <text x="70" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">I. 意义危机</text>
+  <text x="830" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="end">1/6</text>
+  
+  <!-- 副标题 -->
+  <text x="70" y="185" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#0ea5e9">The Meaning Crisis Makes Meaning Worth Paying For</text>
+  
+  <!-- 核心观点区块 -->
+  <rect x="40" y="215" width="820" height="180" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="215" width="6" height="180" rx="3" fill="#14b8a6"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#14b8a6">🌍 意义的历史演化</text>
+  <foreignObject x="70" y="270" width="760" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc; text-align:justify;">
+      现实随时间发展向更高复杂性演化。当事物变得过于复杂或混乱时，必须涌现新的有序结构。意义的获取方式也经历了类似的演化过程。
+    </div>
+  </foreignObject>
+  
+  <!-- 四阶段演化 -->
+  <rect x="40" y="415" width="820" height="280" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="415" width="6" height="280" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="455" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#0ea5e9">📈 意义来源的四次转变</text>
+  
+  <foreignObject x="70" y="475" width="760" height="210">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:8px;"><span style="color:#ffd166; font-weight:600;">前现代</span> → 意义来自<span style="color:#14b8a6;">"天上"</span>：神、长老、经文、国王、牧师</div>
+      <div style="margin-bottom:8px;"><span style="color:#ffd166; font-weight:600;">现代</span> → 意义来自<span style="color:#14b8a6;">"外面"</span>：生产力、进步、理性、科学</div>
+      <div style="margin-bottom:8px;"><span style="color:#ffd166; font-weight:600;">后现代</span> → 意义来自<span style="color:#14b8a6;">"无处"</span>：解构一切、没有特权视角</div>
+      <div><span style="color:#ffd166; font-weight:600;">未来</span> → 意义来自<span style="color:#14b8a6;">"内心"</span>：你必须自己生成意义</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 危机分析 -->
+  <rect x="40" y="715" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="715" width="6" height="200" rx="3" fill="#fb923c"/>
+  <text x="70" y="755" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#fb923c">⚠️ 现代文明出了什么问题？</text>
+  
+  <foreignObject x="70" y="775" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:6px;">① 从出生就被期望成为机器的齿轮</div>
+      <div style="margin-bottom:6px;">② 与部落、村庄、社区断开连接</div>
+      <div style="margin-bottom:6px;">③ 宗教和精神框架被机械宇宙观取代</div>
+      <div>④ 将自主权外包给机构，忘记了自主工作的价值</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="935" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="935" width="6" height="120" rx="3" fill="#ffd166"/>
+  <text x="70" y="975" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="960" width="730" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:18px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      生产力不再是可靠的身份。没人知道该走哪条路或学什么技能。意义处于历史最低点，但确定性和安全感也是如此。
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1075" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1115" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1145" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1130" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">1/6</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#1a73e8" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#00b4d8" opacity="0.05"/>
+  <circle cx="720" cy="620" r="170" fill="#1a73e8" opacity="0.03"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad4)" filter="url(#shadow4)"/>
+  <text x="70" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">IV. 创作者经济</text>
+  <text x="830" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="end">4/6</text>
+  
+  <!-- 副标题 -->
+  <text x="70" y="185" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#00b4d8">The Creator Economy = The Meaning Economy</text>
+  
+  <!-- 核心观点 -->
+  <rect x="40" y="215" width="820" height="140" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="215" width="6" height="140" rx="3" fill="#1a73e8"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#1a73e8">💡 新范式</text>
+  <foreignObject x="70" y="275" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc; text-align:justify;">
+      你追求自己关心的事情，并激励人们也来关心它。<span style="color:#00b4d8; font-weight:600;">注意力</span>成为创作者争夺的稀缺资源。
+    </div>
+  </foreignObject>
+  
+  <!-- 误解澄清 -->
+  <rect x="40" y="375" width="820" height="130" rx="16" fill="#232340"/>
+  <rect x="40" y="375" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="415" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#ffd166">🚫 最大的误解</text>
+  <foreignObject x="70" y="435" width="760" height="65">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc;">
+      创作者经济是赢家通吃的战场？<span style="color:#22c55e; font-weight:600;">完全相反！</span>小众内容创作者可以过得很好，不需要成为网红。
+    </div>
+  </foreignObject>
+  
+  <!-- AI 内容泛滥的反思 -->
+  <rect x="40" y="525" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="525" width="6" height="200" rx="3" fill="#a855f7"/>
+  <text x="70" y="565" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#a855f7">🤔 关于 AI"垃圾内容"的反思</text>
+  <foreignObject x="70" y="590" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:8px;">• 当每个人都能瞬间做到时，它就<span style="color:#fb923c;">瞬间变得毫无价值</span></div>
+      <div style="margin-bottom:8px;">• 你有 ChatGPT，那为什么还在读这篇文章？</div>
+      <div style="margin-bottom:8px;">• 你觉得 ChatGPT 会主动把这篇文章送到你面前吗？</div>
+      <div style="color:#22c55e;">→ 技能正在向上抽象一层</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 技能转变 -->
+  <rect x="40" y="745" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="745" width="6" height="200" rx="3" fill="#00b4d8"/>
+  <text x="70" y="785" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#00b4d8">📈 技能的抽象提升</text>
+  <foreignObject x="70" y="810" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:8px;"><span style="color:#888;">旧时代：</span>营销、写作、编程、设计的手动技能最重要</div>
+      <div style="margin-bottom:8px;"><span style="color:#00b4d8;">新时代：</span>能获得最多成果的人在更高层面运作</div>
+      <div style="color:#ffd166; font-weight:600; font-size:21px;">他们在「人类层面」运作</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 底部结论 -->
+  <rect x="40" y="965" width="820" height="85" rx="16" fill="#232340"/>
+  <foreignObject x="70" y="985" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.6; color:#00b4d8; text-align:center; font-weight:600;">
+      人类视角无法商品化，因此总能获得溢价
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1075" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1115" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1145" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1130" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">4/6</text>
+</svg>

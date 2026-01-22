@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="100" r="150" fill="#a855f7" opacity="0.08"/>
+  <circle cx="50" cy="1100" r="200" fill="#6366f1" opacity="0.05"/>
+  <circle cx="700" cy="700" r="180" fill="#a855f7" opacity="0.03"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad2)" filter="url(#shadow2)"/>
+  <text x="70" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">II. AI 的加速</text>
+  <text x="830" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="end">2/6</text>
+  
+  <!-- 副标题 -->
+  <text x="70" y="185" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#a855f7">The Acceleration of AI (and Meaninglessness)</text>
+  
+  <!-- 核心问题 -->
+  <rect x="40" y="215" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="215" width="6" height="150" rx="3" fill="#a855f7"/>
+  <text x="70" y="255" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#a855f7">🤖 AI 的承诺与悖论</text>
+  <foreignObject x="70" y="275" width="760" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc; text-align:justify;">
+      AI 承诺消除所有劳动，提供生活必需品，让我们不再生活在稀缺中。但它这样做的方式<span style="color:#fb923c; font-weight:600;">只会加剧意义的稀缺</span>。
+    </div>
+  </foreignObject>
+  
+  <!-- 经济循环问题 -->
+  <rect x="40" y="385" width="820" height="200" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="385" width="6" height="200" rx="3" fill="#6366f1"/>
+  <text x="70" y="425" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#6366f1">💰 经济循环的威胁</text>
+  <foreignObject x="70" y="445" width="760" height="130">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:8px; color:#e0e0e0;">传统循环：公司 → 支付工资 → 工人消费 → 公司盈利</div>
+      <div style="margin-bottom:8px; color:#fb923c;">AI 威胁：如果所有人被解雇，没人有钱 → 没人购买 → 经济崩溃</div>
+      <div style="color:#22c55e;">但：这适用于有工作的人，不适用于有公司的人</div>
+    </div>
+  </foreignObject>
+  
+  <!-- Naval 引用 -->
+  <rect x="40" y="605" width="820" height="110" rx="16" fill="#232340"/>
+  <rect x="40" y="605" width="6" height="110" rx="3" fill="#ffd166"/>
+  <text x="70" y="645" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="630" width="730" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:18px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      这个星球上有将近70亿人。我希望有一天，会有将近70亿家公司。
+    </div>
+  </foreignObject>
+  <text x="760" y="695" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888" text-anchor="end">— Naval Ravikant</text>
+  
+  <!-- 可能持续的工作 -->
+  <rect x="40" y="735" width="820" height="220" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="735" width="6" height="220" rx="3" fill="#22c55e"/>
+  <text x="70" y="775" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#22c55e">✅ 即使自动化更优秀，仍会存在的工作</text>
+  <foreignObject x="70" y="800" width="760" height="145">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.85; color:#b8b8cc;">
+      <div style="margin-bottom:6px;">🔒 <span style="color:#14b8a6;">高责任岗位</span>：需要有人承担责任</div>
+      <div style="margin-bottom:6px;">⚖️ <span style="color:#14b8a6;">法定职位</span>：法律要求由人类担任</div>
+      <div style="margin-bottom:6px;">🎭 <span style="color:#14b8a6;">体验经济</span>：调酒师、精品店、艺术</div>
+      <div style="margin-bottom:6px;">🧭 <span style="color:#14b8a6;">意义制造者</span>：帮助人们导航人生</div>
+      <div>🤝 <span style="color:#14b8a6;">关系/信任岗位</span>：销售、外交、谈判</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1075" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1115" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1145" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1130" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">2/6</text>
+</svg>

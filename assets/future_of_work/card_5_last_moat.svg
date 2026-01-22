@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4ade80;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="150" fill="#22c55e" opacity="0.08"/>
+  <circle cx="100" cy="1100" r="200" fill="#4ade80" opacity="0.05"/>
+  
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad5)"/>
+  <text x="70" y="105" font-family="-apple-system, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">V. 最后的护城河</text>
+  <text x="830" y="105" font-family="-apple-system, PingFang SC, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)" text-anchor="end">5/6</text>
+  
+  <text x="70" y="185" font-family="-apple-system, PingFang SC, sans-serif" font-size="22" fill="#4ade80">The Last Defensible Moat Is You</text>
+  
+  <rect x="40" y="215" width="820" height="90" rx="16" fill="#232340"/>
+  <foreignObject x="70" y="235" width="760" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:19px; line-height:1.6; color:#e0e0e0; text-align:center;">
+      AI能复制你的作品吗？<span style="color:#22c55e; font-weight:600;">能，但又不能。</span>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="325" width="820" height="140" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="325" width="6" height="140" rx="3" fill="#fbbf24"/>
+  <text x="70" y="365" font-family="-apple-system, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#fbbf24">🔄 交换测试</text>
+  <foreignObject x="70" y="385" width="760" height="75">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:18px; line-height:1.7; color:#b8b8cc;">
+      <div><span style="color:#ef4444;">✗</span> 创作者可互换而作品价值不变 → AI可替代</div>
+      <div><span style="color:#22c55e;">✓</span> 作品只因你做才有价值 → 这是你的优势</div>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="485" width="820" height="380" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="485" width="6" height="380" rx="3" fill="#22c55e"/>
+  <text x="70" y="525" font-family="-apple-system, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#22c55e">🛡️ AI 无法访问的五件事</text>
+  <foreignObject x="70" y="550" width="760" height="305">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:17px; line-height:1.85; color:#b8b8cc;">
+      <div style="margin-bottom:8px;"><span style="color:#4ade80; font-weight:600;">1. 视角</span> — AI只能思考"关于"你的视角，无法"从"你的视角思考</div>
+      <div style="margin-bottom:8px;"><span style="color:#4ade80; font-weight:600;">2. 能量签名</span> — 无法选择此刻关注什么，以及为什么它对你重要</div>
+      <div style="margin-bottom:8px;"><span style="color:#4ade80; font-weight:600;">3. 意义建构</span> — 无法决定信息意味着什么、什么重要、如何框定</div>
+      <div style="margin-bottom:8px;"><span style="color:#4ade80; font-weight:600;">4. 轨迹</span> — 没有死亡的赌注，时间不是它的压缩算法</div>
+      <div><span style="color:#4ade80; font-weight:600;">5. 演化的品味</span> — 不会回看一年前的作品然后不同意它</div>
+    </div>
+  </foreignObject>
+  
+  <rect x="40" y="885" width="820" height="110" rx="16" fill="#232340"/>
+  <rect x="40" y="885" width="6" height="110" rx="3" fill="#ffd166"/>
+  <text x="70" y="925" font-family="-apple-system, PingFang SC, sans-serif" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="910" width="730" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:17px; line-height:1.5; color:#e0e0e0; font-style:italic;">
+      AI可以复制任何东西，但无法复制「接下来会发生什么」，直到它已经发生。当AI复制你时，你已经前进了。
+    </div>
+  </foreignObject>
+  
+  <rect x="0" y="1075" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1115" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1145" font-family="-apple-system, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1130" font-family="-apple-system, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">5/6</text>
+</svg>

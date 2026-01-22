@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400" width="900" height="1400">
+  <defs>
+    <linearGradient id="headerGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1400" fill="#0f0f1a"/>
+  <circle cx="800" cy="100" r="150" fill="#6366f1" opacity="0.08"/>
+  <circle cx="100" cy="1300" r="200" fill="#ec4899" opacity="0.05"/>
+  
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad6)"/>
+  <text x="70" y="105" font-family="-apple-system, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">VI. 后劳动技能栈</text>
+  <text x="830" y="105" font-family="-apple-system, PingFang SC, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)" text-anchor="end">6/6</text>
+  
+  <text x="70" y="185" font-family="-apple-system, PingFang SC, sans-serif" font-size="22" fill="#a855f7">The Post-Labor Skill Stack</text>
+  
+  <rect x="40" y="215" width="820" height="70" rx="16" fill="#232340"/>
+  <foreignObject x="70" y="230" width="760" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:18px; line-height:1.5; color:#e0e0e0; text-align:center;">
+      未来的技能栈不是职业技能，而是让这些技能变得「人性化」的能力
+    </div>
+  </foreignObject>
+  
+  <!-- 技能1: 能动性 -->
+  <rect x="40" y="305" width="820" height="170" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="305" width="6" height="170" rx="3" fill="#ef4444"/>
+  <text x="70" y="350" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#ef4444">1️⃣ 能动性 Agency</text>
+  <text x="70" y="380" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888">创造值得讲述的故事的元技能</text>
+  <foreignObject x="70" y="395" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      不需要许可或外部提示就能行动的能力。通过<span style="color:#fb923c;">挣扎</span>（刻意选择、拒绝从众）、<span style="color:#fbbf24;">地位</span>（表达能动性的工具）、<span style="color:#22c55e;">好奇心</span>（过滤信号噪声）来实践。
+    </div>
+  </foreignObject>
+  
+  <!-- 技能2: 品味 -->
+  <rect x="40" y="495" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="495" width="6" height="150" rx="3" fill="#fb923c"/>
+  <text x="70" y="540" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#fb923c">2️⃣ 品味 Taste</text>
+  <text x="70" y="570" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888">辨别的技能</text>
+  <foreignObject x="70" y="585" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      AI 创造了<span style="color:#fb923c;">无限图书馆问题</span>——信息没有策展就是噪声。品味 = 辨别什么值得保留。<span style="color:#ffd166;">策展比创作更重要。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 技能3: 视角 -->
+  <rect x="40" y="665" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="665" width="6" height="150" rx="3" fill="#fbbf24"/>
+  <text x="70" y="710" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#fbbf24">3️⃣ 视角 Perspective</text>
+  <text x="70" y="740" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888">提升人类容量</text>
+  <foreignObject x="70" y="755" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      人的心智随发展阶段扩展。允许自己<span style="color:#fbbf24;">被打乱平衡</span>，让它成为新常态。最糟糕的是固守当前视角，封闭成长之门。
+    </div>
+  </foreignObject>
+  
+  <!-- 技能4: 说服力 -->
+  <rect x="40" y="835" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="835" width="6" height="150" rx="3" fill="#22c55e"/>
+  <text x="70" y="880" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#22c55e">4️⃣ 说服力 Persuasion</text>
+  <text x="70" y="910" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888">让人们关心的能力</text>
+  <foreignObject x="70" y="925" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:16px; line-height:1.7; color:#b8b8cc;">
+      你可以有世上最好的作品，但如果不懂<span style="color:#22c55e;">注意力机制</span>（营销、销售、社交媒体），没人会看到或付费。<span style="color:#ffd166;">艺术必须与商业融合。</span>
+    </div>
+  </foreignObject>
+  
+  <!-- 技能5: 技术能力 -->
+  <rect x="40" y="1005" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="1005" width="6" height="130" rx="3" fill="#00b4d8"/>
+  <text x="70" y="1050" font-family="-apple-system, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#00b4d8">5️⃣ 技术能力 Technical Know-How</text>
+  <text x="70" y="1080" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888">利用 AI 和工具</text>
+  <foreignObject x="70" y="1095" width="760" height="35">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:16px; line-height:1.5; color:#b8b8cc;">
+      每个人都会以某种方式与 AI 协作。<span style="color:#00b4d8;">实验、学习、迭代。</span>让 AI 分担不需要人性触感的任务。
+    </div>
+  </foreignObject>
+  
+  <!-- 底部总结 -->
+  <rect x="40" y="1155" width="820" height="100" rx="16" fill="#232340"/>
+  <foreignObject x="70" y="1175" width="760" height="70">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, PingFang SC, sans-serif; font-size:18px; line-height:1.7; color:#e0e0e0; text-align:center;">
+      <span style="color:#a855f7; font-weight:600;">能动性 → 品味 → 视角 → 说服力 → 技术</span><br/>
+      这是一个技能「层级」，而非平行技能栈
+    </div>
+  </foreignObject>
+  
+  <rect x="0" y="1275" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1315" font-family="-apple-system, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1345" font-family="-apple-system, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1330" font-family="-apple-system, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">6/6</text>
+</svg>

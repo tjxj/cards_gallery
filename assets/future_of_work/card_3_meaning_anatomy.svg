@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fb923c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="#0f0f1a"/>
+  
+  <!-- 装饰圆 -->
+  <circle cx="820" cy="120" r="140" fill="#fb923c" opacity="0.08"/>
+  <circle cx="80" cy="1080" r="180" fill="#fbbf24" opacity="0.05"/>
+  <circle cx="750" cy="650" r="160" fill="#fb923c" opacity="0.03"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="820" height="100" rx="20" fill="url(#headerGrad3)" filter="url(#shadow3)"/>
+  <text x="70" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="38" font-weight="700" fill="#ffffff">III. 意义的解剖</text>
+  <text x="830" y="105" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="20" font-weight="500" fill="rgba(255,255,255,0.8)" text-anchor="end">3/6</text>
+  
+  <!-- 副标题 -->
+  <text x="70" y="185" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" fill="#fbbf24">The Evolution and Anatomy of Meaning</text>
+  
+  <!-- 引用框 -->
+  <rect x="40" y="210" width="820" height="140" rx="16" fill="#232340"/>
+  <rect x="40" y="210" width="6" height="140" rx="3" fill="#ffd166"/>
+  <text x="70" y="250" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="36" fill="#ffd166" opacity="0.6">"</text>
+  <foreignObject x="95" y="235" width="730" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:17px; line-height:1.6; color:#e0e0e0; font-style:italic;">
+      未来的优雅不在于人与机器的对立，而在于劳动分工：硅基打磨必需品的粗糙边缘，让碳基得以攀升至意义。我们将废除调酒师，册封厨师。
+    </div>
+  </foreignObject>
+  <text x="760" y="335" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888" text-anchor="end">— Chris Paik</text>
+  
+  <!-- 无意义的根源 -->
+  <rect x="40" y="370" width="820" height="150" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="370" width="6" height="150" rx="3" fill="#ef4444"/>
+  <text x="70" y="410" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#ef4444">❌ 无意义感的两大根源</text>
+  <foreignObject x="70" y="430" width="760" height="85">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.8; color:#b8b8cc;">
+      <div style="margin-bottom:6px;"><span style="color:#ef4444; font-weight:600;">停滞</span>：如果你什么都不做，你不会保持原状，而是慢慢陷入混乱</div>
+      <div><span style="color:#ef4444; font-weight:600;">孤立</span>：没有部落和村庄，我们比以往任何时候都更孤独</div>
+    </div>
+  </foreignObject>
+  
+  <!-- 意义的两大支柱 -->
+  <rect x="40" y="540" width="820" height="120" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="540" width="6" height="120" rx="3" fill="#22c55e"/>
+  <text x="70" y="580" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#22c55e">🏛️ 意义的两大支柱</text>
+  <foreignObject x="70" y="600" width="760" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.7; color:#b8b8cc;">
+      <span style="color:#22c55e; font-weight:600;">进步感</span>：前进的感觉 + <span style="color:#22c55e; font-weight:600;">贡献感</span>：与比自己更大的东西连接
+    </div>
+  </foreignObject>
+  
+  <!-- 意义的三个引擎 -->
+  <rect x="40" y="680" width="820" height="270" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="680" width="6" height="270" rx="3" fill="#fbbf24"/>
+  <text x="70" y="720" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="22" font-weight="600" fill="#fbbf24">⚡ 意义的三大引擎</text>
+  <foreignObject x="70" y="745" width="760" height="195">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:19px; line-height:1.85; color:#b8b8cc;">
+      <div style="margin-bottom:12px;">
+        <span style="color:#fb923c; font-weight:700; font-size:21px;">1. 挣扎 Struggle</span><br/>
+        <span style="color:#888;">进步的引擎。你选择为之奋斗（或关心）的事情就是你的目的。</span>
+      </div>
+      <div style="margin-bottom:12px;">
+        <span style="color:#fbbf24; font-weight:700; font-size:21px;">2. 好奇心 Curiosity</span><br/>
+        <span style="color:#888;">进步的方向。注意力的非线性选择，用于解决问题。</span>
+      </div>
+      <div>
+        <span style="color:#22c55e; font-weight:700; font-size:21px;">3. 地位 Status</span><br/>
+        <span style="color:#888;">贡献的证明。完成循环的认可。</span>
+      </div>
+    </div>
+  </foreignObject>
+  
+  <!-- 底部结论 -->
+  <rect x="40" y="970" width="820" height="80" rx="16" fill="#232340"/>
+  <foreignObject x="70" y="990" width="760" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; font-size:20px; line-height:1.6; color:#fbbf24; text-align:center; font-weight:600;">
+      当你把这些放在一起，你得到的是一个「故事」
+    </div>
+  </foreignObject>
+  
+  <!-- 页脚 -->
+  <rect x="0" y="1075" width="900" height="125" fill="#15152a"/>
+  <text x="70" y="1115" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="16" fill="#888888">The Future of Work When Work Is Meaningless</text>
+  <text x="70" y="1145" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666">by Dan Koe · 老章解读</text>
+  <text x="830" y="1130" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-size="14" fill="#666666" text-anchor="end">3/6</text>
+</svg>
