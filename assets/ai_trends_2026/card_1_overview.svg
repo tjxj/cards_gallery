@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a15;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="900" height="1200" fill="url(#bgGrad)"/>
+
+  <!-- 装饰圆 -->
+  <circle cx="800" cy="80" r="180" fill="#0ea5e9" opacity="0.06"/>
+  <circle cx="100" cy="1100" r="200" fill="#14b8a6" opacity="0.05"/>
+  <circle cx="450" cy="600" r="300" fill="#0ea5e9" opacity="0.02"/>
+
+  <!-- 顶部渐变条 -->
+  <rect x="0" y="0" width="900" height="6" fill="url(#headerGrad)"/>
+
+  <!-- 来源标签 -->
+  <rect x="40" y="30" width="160" height="32" rx="16" fill="#0ea5e9" opacity="0.15"/>
+  <text x="120" y="52" font-size="14" fill="#0ea5e9" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">📝 公众号精华</text>
+
+  <!-- 作者 -->
+  <text x="860" y="52" font-size="14" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Kenny 肯尼 · 2026.02.24</text>
+
+  <!-- 主标题 -->
+  <foreignObject x="40" y="80" width="820" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:38px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      2026年AI趋势观察：<br/>模型飞轮、应用爆发与个人发展
+    </div>
+  </foreignObject>
+
+  <!-- 引言区块 -->
+  <rect x="40" y="220" width="820" height="130" rx="16" fill="#1c1c2e"/>
+  <rect x="40" y="220" width="6" height="130" rx="3" fill="#ffd166"/>
+  <text x="70" y="255" font-size="36" fill="#ffd166" opacity="0.5" font-family="serif">"</text>
+  <foreignObject x="90" y="240" width="740" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.6; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      有点像坐在一辆不断加速的火箭上——推背感不是开始的瞬间，而是越来越强，快到让你有点恐惧。
+    </div>
+  </foreignObject>
+
+  <!-- 核心观点 -->
+  <text x="40" y="395" font-size="22" fill="#0ea5e9" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">💡 核心洞察</text>
+
+  <foreignObject x="40" y="410" width="820" height="110">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      一边是铺天盖地的"炸裂"、"震惊"、"颠覆"；另一边日常工作和生活中AI作用依然有限。大家感受出奇一致——<span style="color:#0ea5e9; font-weight:600;">强烈的割裂感</span>。如果25年是AI应用层元年，到了26年，AI应用<span style="color:#0ea5e9; font-weight:600;">真的爆发了</span>。
+    </div>
+  </foreignObject>
+
+  <!-- 文章结构导览 -->
+  <text x="40" y="565" font-size="22" fill="#0ea5e9" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">📋 全文结构</text>
+
+  <!-- 第一部分 -->
+  <rect x="40" y="585" width="820" height="85" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="585" width="6" height="85" rx="3" fill="#0ea5e9"/>
+  <text x="70" y="618" font-size="20" fill="#0ea5e9" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">一、模型进化：两条线，一个飞轮</text>
+  <foreignObject x="70" y="625" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      智力线三节点 → 模型与脚手架循环 → 数据飞轮 → 多模态生成线
+    </div>
+  </foreignObject>
+
+  <!-- 第二部分 -->
+  <rect x="40" y="690" width="820" height="85" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="690" width="6" height="85" rx="3" fill="#a855f7"/>
+  <text x="70" y="723" font-size="20" fill="#a855f7" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">二、应用层的机会地图</text>
+  <foreignObject x="70" y="730" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      生产力Agent → AI互动平台 → AI硬件 → 行业差距极大
+    </div>
+  </foreignObject>
+
+  <!-- 第三部分 -->
+  <rect x="40" y="795" width="820" height="85" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="795" width="6" height="85" rx="3" fill="#fb923c"/>
+  <text x="70" y="828" font-size="20" fill="#fb923c" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">三、个人在这个时代如何不掉队</text>
+  <foreignObject x="70" y="835" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      大厂 → AI初创公司 → 融资 → 一人公司：小而美的可能
+    </div>
+  </foreignObject>
+
+  <!-- 第四部分 -->
+  <rect x="40" y="900" width="820" height="85" rx="12" fill="#1c1c2e"/>
+  <rect x="40" y="900" width="6" height="85" rx="3" fill="#22c55e"/>
+  <text x="70" y="933" font-size="20" fill="#22c55e" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">四、能力转型</text>
+  <foreignObject x="70" y="940" width="760" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      Build能力 + 模型理解 + 用户需求洞察 + 行业趋势把握
+    </div>
+  </foreignObject>
+
+  <!-- 底部标签 -->
+  <rect x="40" y="1020" width="820" height="50" rx="12" fill="#14b8a6" opacity="0.1"/>
+  <foreignObject x="60" y="1028" width="780" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.5; color:#14b8a6; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; text-align:center;">
+      🔑 AI在吞噬工具，也在吞噬工具人。构建自己的认知框架，比追逐每一个热点更有价值。
+    </div>
+  </foreignObject>
+
+  <!-- 分隔线 -->
+  <line x1="40" y1="1100" x2="860" y2="1100" stroke="#1c1c2e" stroke-width="1"/>
+
+  <!-- 页脚 -->
+  <rect x="0" y="1110" width="900" height="90" fill="#15152a"/>
+  <text x="40" y="1145" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">来源：Kenny肯尼 公众号 · 全文约13,200字</text>
+  <text x="40" y="1170" font-size="13" fill="#555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">本文源于一次飞书会议分享会</text>
+  <text x="860" y="1155" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">1/5</text>
+</svg>

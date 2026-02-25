@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a73e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a15;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1600" fill="url(#bgGrad)"/>
+  <circle cx="820" cy="60" r="160" fill="#1a73e8" opacity="0.06"/>
+  <circle cx="80" cy="1500" r="200" fill="#00b4d8" opacity="0.04"/>
+  <rect x="0" y="0" width="900" height="6" fill="url(#headerGrad)"/>
+
+  <!-- 来源标签 -->
+  <rect x="40" y="25" width="200" height="32" rx="16" fill="#1a73e8" opacity="0.15"/>
+  <text x="140" y="47" font-size="14" fill="#1a73e8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">🧠 模型进化·智力线</text>
+
+  <!-- 标题 -->
+  <foreignObject x="40" y="70" width="820" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:36px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      大语言模型的智力线：三个关键节点
+    </div>
+  </foreignObject>
+
+  <foreignObject x="40" y="150" width="820" height="55">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      模型发展两条线：智力线 + 多模态生成线。背后逻辑相通——<span style="color:#1a73e8; font-weight:600;">数据飞轮驱动模型持续变强</span>，技术门槛不断内化到模型中。
+    </div>
+  </foreignObject>
+
+  <!-- 节点1 -->
+  <rect x="40" y="225" width="820" height="220" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="225" width="6" height="220" rx="3" fill="#1a73e8"/>
+  <!-- 序号圆 -->
+  <circle cx="80" cy="265" r="18" fill="#1a73e8" opacity="0.2"/>
+  <text x="80" y="272" font-size="18" fill="#1a73e8" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">1</text>
+  <text x="110" y="272" font-size="22" fill="#1a73e8" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">推理模型的突破</text>
+  <foreignObject x="70" y="285" width="760" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      24年9月OpenAI的o1出来，让模型在回答问题之前先自己<span style="color:#00b4d8; font-weight:600;">想一想</span>，即思维链CoT。然后是25年1月DeepSeek R1、Claude 3.7、Gemini 2.5。推理模型催生了第一批agent产品——Manus、Genspark、Lovart等，这是<span style="color:#00b4d8; font-weight:600;">AI native应用层的起点</span>。
+    </div>
+  </foreignObject>
+
+  <!-- 节点2 -->
+  <rect x="40" y="465" width="820" height="250" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="465" width="6" height="250" rx="3" fill="#a855f7"/>
+  <circle cx="80" cy="505" r="18" fill="#a855f7" opacity="0.2"/>
+  <text x="80" y="512" font-size="18" fill="#a855f7" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">2</text>
+  <text x="110" y="512" font-size="22" fill="#a855f7" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Agentic 能力的提升</text>
+  <foreignObject x="70" y="525" width="760" height="180">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      25年11月Claude 4.5出来后，vibe coding人群大增。再加上Codex 5.2、Gemini 3，AI coding开始进入更大众的人群。<span style="color:#a855f7; font-weight:600;">模型的agent能力开始起来了</span>。<br/><br/>之前的推理模型催生了agent产品，agent在生产环境中跑，又产生了宝贵的训练数据——用户的prompt、思考过程、工具调用、用户纠正……<span style="color:#a855f7; font-weight:600;">这就是在生产环境里产生高质量数据</span>。
+    </div>
+  </foreignObject>
+
+  <!-- 节点3 -->
+  <rect x="40" y="735" width="820" height="220" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="735" width="6" height="220" rx="3" fill="#14b8a6"/>
+  <circle cx="80" cy="775" r="18" fill="#14b8a6" opacity="0.2"/>
+  <text x="80" y="782" font-size="18" fill="#14b8a6" text-anchor="middle" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">3</text>
+  <text x="110" y="782" font-size="22" fill="#14b8a6" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Multi Agent 内化到模型</text>
+  <foreignObject x="70" y="795" width="760" height="150">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:19px; line-height:1.7; color:#b8b8cc; text-align:justify; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      Claude 4.6、Codex 5.3、o3这些模型，<span style="color:#14b8a6; font-weight:600;">把multi agent架构内化到模型里面去了</span>。之前脚手架是人为界定的，现在模型基于具体任务和context，自主判断是否要建子agent，子agent间的交流变得更加自然，<span style="color:#14b8a6; font-weight:600;">真的很像人一样在协作</span>。
+    </div>
+  </foreignObject>
+
+  <!-- 核心规律 -->
+  <rect x="40" y="980" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="980" width="820" height="3" rx="1" fill="url(#headerGrad)"/>
+  <foreignObject x="60" y="995" width="780" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#e0e0e0; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; text-align:center;">
+      🔄 <span style="font-weight:700; color:#ffffff;">核心规律：模型与脚手架是一个循环</span><br/>
+      <span style="color:#1a73e8;">Model</span> → <span style="color:#a855f7;">Agent</span> → <span style="color:#14b8a6;">Multi-Agent</span> → <span style="color:#fb923c;">Agent Team</span> → 内化回 <span style="color:#1a73e8;">Model</span>
+    </div>
+  </foreignObject>
+
+  <!-- 数据飞轮 -->
+  <text x="40" y="1145" font-size="22" fill="#00b4d8" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🔄 数据飞轮：模型自我进化的引擎</text>
+
+  <rect x="40" y="1165" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <foreignObject x="60" y="1180" width="780" height="205">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.7; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <div style="display:flex; align-items:center; margin-bottom:8px;">
+        <span style="color:#1a73e8; font-weight:700; margin-right:8px;">Model</span>
+        <span style="color:#666;">→ 更强的模型出来</span>
+      </div>
+      <div style="display:flex; align-items:center; margin-bottom:8px;">
+        <span style="color:#a855f7; font-weight:700; margin-right:8px;">Agent</span>
+        <span style="color:#666;">→ 做更强的agent、完成更复杂的任务</span>
+      </div>
+      <div style="display:flex; align-items:center; margin-bottom:8px;">
+        <span style="color:#14b8a6; font-weight:700; margin-right:8px;">Environment</span>
+        <span style="color:#666;">→ 在真实环境中交互，拿到更多样的数据</span>
+      </div>
+      <div style="display:flex; align-items:center; margin-bottom:8px;">
+        <span style="color:#fb923c; font-weight:700; margin-right:8px;">Data</span>
+        <span style="color:#666;">→ 基于这些数据再训练模型</span>
+      </div>
+      <div style="margin-top:10px; padding:8px 12px; background:#232340; border-radius:8px; color:#ffd166; font-weight:600;">
+        ⚡ AI的自我迭代已经开始了：Claude Code用Claude Code自己去迭代，AI coding占比已达99%以上
+      </div>
+    </div>
+  </foreignObject>
+
+  <!-- 分隔线 -->
+  <line x1="40" y1="1425" x2="860" y2="1425" stroke="#1c1c2e" stroke-width="1"/>
+
+  <!-- Token消耗提示 -->
+  <rect x="40" y="1440" width="820" height="60" rx="12" fill="#ef4444" opacity="0.08"/>
+  <foreignObject x="60" y="1448" width="780" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.5; color:#ef4444; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; text-align:center;">
+      📈 Agent带来token消耗指数级增长——有团队人均一天token消耗10亿，非常恐怖
+    </div>
+  </foreignObject>
+
+  <!-- 页脚 -->
+  <rect x="0" y="1520" width="900" height="80" fill="#15152a"/>
+  <text x="40" y="1555" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">来源：Kenny肯尼 · 2026年AI趋势观察</text>
+  <text x="860" y="1555" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">2/5</text>
+</svg>

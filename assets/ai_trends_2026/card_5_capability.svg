@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a15;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#bgGrad)"/>
+  <circle cx="800" cy="80" r="180" fill="#22c55e" opacity="0.05"/>
+  <circle cx="100" cy="1100" r="200" fill="#14b8a6" opacity="0.04"/>
+  <rect x="0" y="0" width="900" height="6" fill="url(#headerGrad)"/>
+
+  <rect x="40" y="25" width="180" height="32" rx="16" fill="#22c55e" opacity="0.15"/>
+  <text x="130" y="47" font-size="14" fill="#22c55e" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif" font-weight="500">🎯 能力转型·总结</text>
+
+  <foreignObject x="40" y="70" width="820" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:36px; line-height:1.3; color:#ffffff; font-weight:700; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      能力转型：四项核心能力
+    </div>
+  </foreignObject>
+
+  <foreignObject x="40" y="145" width="820" height="45">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.5; color:#888; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      无论什么岗位，都要有这四项核心能力
+    </div>
+  </foreignObject>
+
+  <!-- 能力1：Build -->
+  <rect x="40" y="200" width="395" height="160" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="200" width="395" height="4" rx="2" fill="#1a73e8"/>
+  <text x="60" y="240" font-size="36" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🔨</text>
+  <text x="105" y="240" font-size="20" fill="#1a73e8" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">Build 能力</text>
+  <foreignObject x="60" y="255" width="355" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      Vibe coding + 工程化是必须掌握的基本技能。能把想法变成产品。
+    </div>
+  </foreignObject>
+
+  <!-- 能力2：模型理解 -->
+  <rect x="465" y="200" width="395" height="160" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="465" y="200" width="395" height="4" rx="2" fill="#a855f7"/>
+  <text x="485" y="240" font-size="36" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">🧠</text>
+  <text x="530" y="240" font-size="20" fill="#a855f7" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">模型理解</text>
+  <foreignObject x="485" y="255" width="355" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      理解模型的能力边界，知道什么能做、什么不能做、怎么做最好。
+    </div>
+  </foreignObject>
+
+  <!-- 能力3：用户需求 -->
+  <rect x="40" y="380" width="395" height="160" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="40" y="380" width="395" height="4" rx="2" fill="#fb923c"/>
+  <text x="60" y="420" font-size="36" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">👥</text>
+  <text x="105" y="420" font-size="20" fill="#fb923c" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">用户需求理解</text>
+  <foreignObject x="60" y="435" width="355" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      技术门槛消失后，考验的是你到底要拍什么、给谁看。审美、创意、故事。
+    </div>
+  </foreignObject>
+
+  <!-- 能力4：行业趋势 -->
+  <rect x="465" y="380" width="395" height="160" rx="16" fill="#1c1c2e" filter="url(#shadow)"/>
+  <rect x="465" y="380" width="395" height="4" rx="2" fill="#22c55e"/>
+  <text x="485" y="420" font-size="36" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">📈</text>
+  <text x="530" y="420" font-size="20" fill="#22c55e" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">行业趋势把握</text>
+  <foreignObject x="485" y="435" width="355" height="95">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:16px; line-height:1.6; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      构建认知框架，看看哪些是噪声、哪些是对你来说真正重要的信号。
+    </div>
+  </foreignObject>
+
+  <!-- 管理者建议 -->
+  <rect x="40" y="565" width="820" height="80" rx="12" fill="#22c55e" opacity="0.08"/>
+  <foreignObject x="60" y="575" width="780" height="60">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:18px; line-height:1.6; color:#22c55e; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif; text-align:center; font-weight:600;">
+      🏢 管理者想让团队用上AI？最好的方式非常简单——给想用AI的人无限量的token，就够了。
+    </div>
+  </foreignObject>
+
+  <!-- 总结要点 -->
+  <text x="40" y="690" font-size="22" fill="#ffd166" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">✨ 全文总结</text>
+
+  <rect x="40" y="710" width="820" height="230" rx="16" fill="#1c1c2e"/>
+  <foreignObject x="60" y="720" width="780" height="210">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:17px; line-height:1.8; color:#b8b8cc; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      <div style="margin-bottom:6px;">• 在大厂，找到<span style="color:#1a73e8;">核心业务</span>，做side project提升认知</div>
+      <div style="margin-bottom:6px;">• 去AI初创，看它是不是<span style="color:#a855f7;">真正AI native</span></div>
+      <div style="margin-bottom:6px;">• 融资<span style="color:#22c55e;">一定要出海</span>，能拿美元拿美元</div>
+      <div style="margin-bottom:6px;">• 如果做一人公司，<span style="color:#fb923c;">build能力是必须</span>的，品牌和自媒体是杠杆</div>
+      <div>• 无论什么岗位，都要有<span style="color:#ffd166;">build能力、模型理解、用户需求理解、行业趋势把握</span></div>
+    </div>
+  </foreignObject>
+
+  <!-- 结尾金句 -->
+  <rect x="40" y="965" width="820" height="120" rx="16" fill="#232340"/>
+  <rect x="40" y="965" width="6" height="120" rx="3" fill="#ffd166"/>
+  <text x="70" y="1000" font-size="36" fill="#ffd166" opacity="0.5" font-family="serif">"</text>
+  <foreignObject x="90" y="985" width="740" height="90">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size:20px; line-height:1.7; color:#e0e0e0; font-style:italic; font-family:-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif;">
+      接受过去的工作会被淘汰，然后继续往前走，这本身就是一种能力。奇点临近，浪潮已来。<span style="color:#ffd166; font-weight:600;">吃好喝好，活下去最重要。</span>
+    </div>
+  </foreignObject>
+
+  <!-- 页脚 -->
+  <rect x="0" y="1110" width="900" height="90" fill="#15152a"/>
+  <text x="40" y="1145" font-size="14" fill="#666" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">来源：Kenny肯尼 · 2026年AI趋势观察</text>
+  <text x="40" y="1170" font-size="13" fill="#555" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">作者提示：个人观点，仅供参考</text>
+  <text x="860" y="1155" font-size="16" fill="#666" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, PingFang SC, sans-serif">5/5</text>
+</svg>
